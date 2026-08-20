@@ -6,10 +6,15 @@ Feitos**: social media, AdSense/Ads e demais frentes.
 ## Estrutura
 
 ```
-contexto/           Material de referência sobre o produto (features, planos, roadmap)
-  produto.md         Visão geral do produto — base para qualquer peça de marketing
+contexto/           Material de referência sobre o produto e o mercado (base para qualquer peça de marketing)
+  produto.md         Visão geral do produto — features, planos, roadmap
   site.md            Conteúdo extraído do site institucional (copy, planos, CTAs)
-  trevin.md           Guia central: Trevin (IA/mascote) como protagonista de todo conteúdo
+  trevin.md          Guia central: Trevin (IA/mascote) como protagonista de todo conteúdo
+  pesquisa-mercado/  Pesquisa de mercado e concorrência (20/08/2026)
+    analise-estrategica.md   Síntese: concorrência, SWOT, posicionamento, roadmap, riscos
+    concorrentes.md           Pesquisa bruta: 21 concorrentes mapeados em detalhe
+    jtbd-consumidor.md        Pesquisa bruta: dores do consumidor e 12 Jobs To Be Done
+    tam-sam-som.md            Pesquisa bruta: TAM/SAM/SOM, SEO, riscos regulatórios
 
 planejamento/
   adsense/            Planejamento de campanhas de Ads (Google Ads, Meta Ads, etc.)
