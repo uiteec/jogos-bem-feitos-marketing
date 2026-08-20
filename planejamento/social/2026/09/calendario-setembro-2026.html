@@ -1,0 +1,966 @@
+<title>Setembro com o Trevin</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+  :root{
+    color-scheme: light;
+    --bg: #F4F5FA;
+    --bg-grad: radial-gradient(1100px 520px at 12% -10%, #E4F7F0 0%, transparent 55%), radial-gradient(900px 500px at 100% 0%, #EFEAFB 0%, transparent 50%);
+    --surface: #FFFFFF;
+    --surface-2: #EEF0F7;
+    --surface-3: #E4E7F2;
+    --border: #DBDFEC;
+    --text: #14172A;
+    --text-dim: #5B6180;
+    --text-faint: #9096B3;
+    --accent: #0E9C82;
+    --accent-ink: #FFFFFF;
+    --ch1: #0E9C82; --ch1-soft: color-mix(in srgb, #0E9C82 14%, white);
+    --ch2: #B36A00; --ch2-soft: color-mix(in srgb, #B36A00 14%, white);
+    --ch3: #6D57E0; --ch3-soft: color-mix(in srgb, #6D57E0 14%, white);
+    --ch4: #1E86BF; --ch4-soft: color-mix(in srgb, #1E86BF 14%, white);
+    --ch5: #C93F68; --ch5-soft: color-mix(in srgb, #C93F68 14%, white);
+    --topo: #2F7FD1;
+    --meio: #7A5CE0;
+    --fundo: #D1592F;
+    --shadow: 0 1px 2px rgba(20,23,42,.04), 0 12px 32px -16px rgba(20,23,42,.18);
+    --radius-lg: 20px;
+    --radius-md: 14px;
+    --radius-sm: 9px;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      color-scheme: dark;
+      --bg: #0A0D17;
+      --bg-grad: radial-gradient(1100px 520px at 12% -10%, #0E241F 0%, transparent 55%), radial-gradient(900px 500px at 100% 0%, #1B1533 0%, transparent 50%);
+      --surface: #12162A;
+      --surface-2: #171C33;
+      --surface-3: #202742;
+      --border: #2A3152;
+      --text: #EEF0FA;
+      --text-dim: #A6ACC9;
+      --text-faint: #6E7495;
+      --accent: #35E8BC;
+      --accent-ink: #06231C;
+      --ch1: #35E8BC; --ch1-soft: color-mix(in srgb, #35E8BC 16%, #12162A);
+      --ch2: #FFB020; --ch2-soft: color-mix(in srgb, #FFB020 16%, #12162A);
+      --ch3: #A78BFA; --ch3-soft: color-mix(in srgb, #A78BFA 16%, #12162A);
+      --ch4: #4FC3F7; --ch4-soft: color-mix(in srgb, #4FC3F7 16%, #12162A);
+      --ch5: #FF6F97; --ch5-soft: color-mix(in srgb, #FF6F97 16%, #12162A);
+      --topo: #6AA9F2; --meio: #B6A3FF; --fundo: #FF9166;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 20px 44px -20px rgba(0,0,0,.6);
+    }
+  }
+  :root[data-theme="dark"]{
+    color-scheme: dark;
+    --bg: #0A0D17;
+    --bg-grad: radial-gradient(1100px 520px at 12% -10%, #0E241F 0%, transparent 55%), radial-gradient(900px 500px at 100% 0%, #1B1533 0%, transparent 50%);
+    --surface: #12162A;
+    --surface-2: #171C33;
+    --surface-3: #202742;
+    --border: #2A3152;
+    --text: #EEF0FA;
+    --text-dim: #A6ACC9;
+    --text-faint: #6E7495;
+    --accent: #35E8BC;
+    --accent-ink: #06231C;
+    --ch1: #35E8BC; --ch1-soft: color-mix(in srgb, #35E8BC 16%, #12162A);
+    --ch2: #FFB020; --ch2-soft: color-mix(in srgb, #FFB020 16%, #12162A);
+    --ch3: #A78BFA; --ch3-soft: color-mix(in srgb, #A78BFA 16%, #12162A);
+    --ch4: #4FC3F7; --ch4-soft: color-mix(in srgb, #4FC3F7 16%, #12162A);
+    --ch5: #FF6F97; --ch5-soft: color-mix(in srgb, #FF6F97 16%, #12162A);
+    --topo: #6AA9F2; --meio: #B6A3FF; --fundo: #FF9166;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 20px 44px -20px rgba(0,0,0,.6);
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background: var(--bg-grad), var(--bg);
+    color: var(--text);
+    font-family: 'Manrope', ui-sans-serif, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+  }
+  ::selection{ background: var(--accent); color: var(--accent-ink); }
+  a{ color: inherit; }
+  .mono{ font-family:'IBM Plex Mono', ui-monospace, monospace; }
+
+  .page{ max-width: 1180px; margin: 0 auto; padding: 28px 20px 90px; }
+
+  /* ---------- HERO ---------- */
+  .hero{
+    display:flex; flex-direction:column; gap:18px;
+    padding: 36px clamp(20px,4vw,44px) 34px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow);
+    position: relative; overflow:hidden;
+  }
+  .hero::after{
+    content:""; position:absolute; inset:0; pointer-events:none;
+    background: radial-gradient(480px 220px at 92% -10%, color-mix(in srgb, var(--accent) 20%, transparent), transparent 70%);
+  }
+  .eyebrow{
+    display:inline-flex; align-items:center; gap:8px; width:fit-content;
+    font-family:'IBM Plex Mono'; font-size:12px; letter-spacing:.08em; text-transform:uppercase;
+    color: var(--accent); background: color-mix(in srgb, var(--accent) 12%, transparent);
+    padding:6px 12px; border-radius: 999px; border:1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+  }
+  .eyebrow .dot{ width:6px; height:6px; border-radius:50%; background: var(--accent); }
+  h1.title{
+    font-family:'Unbounded'; font-weight:800; font-size: clamp(34px, 5.4vw, 58px);
+    line-height: 1.02; margin: 4px 0 0; text-wrap: balance; letter-spacing: -0.01em;
+  }
+  h1.title span{ color: var(--accent); }
+  .subtitle{ max-width: 620px; color: var(--text-dim); font-size: 16.5px; margin:0; }
+  .thesis{
+    margin-top: 6px; padding: 14px 18px; border-radius: var(--radius-md);
+    background: var(--surface-2); border:1px solid var(--border);
+    font-size: 14.5px; color: var(--text-dim); max-width: 720px;
+  }
+  .thesis b{ color: var(--text); }
+
+  .hero-stats{ display:flex; flex-wrap:wrap; gap: 28px; margin-top: 8px; }
+  .stat{ min-width: 120px; }
+  .stat .num{ font-family:'Unbounded'; font-weight:800; font-size: 26px; }
+  .stat .lbl{ font-size: 12px; color: var(--text-faint); text-transform:uppercase; letter-spacing:.06em; font-family:'IBM Plex Mono'; }
+
+  .funnel-bar{ margin-top: 4px; max-width: 520px; }
+  .funnel-bar .track{ display:flex; height: 12px; border-radius: 999px; overflow:hidden; border:1px solid var(--border); }
+  .funnel-bar .topo{ background: var(--topo); }
+  .funnel-bar .meio{ background: var(--meio); }
+  .funnel-bar .fundo{ background: var(--fundo); }
+  .funnel-legend{ display:flex; gap:16px; margin-top:8px; font-size:12.5px; color:var(--text-dim); flex-wrap:wrap; }
+  .funnel-legend span{ display:inline-flex; align-items:center; gap:6px; }
+  .funnel-legend i{ width:9px; height:9px; border-radius:50%; display:inline-block; }
+
+  /* ---------- NAV ---------- */
+  .tabs{
+    display:flex; gap:8px; margin: 22px 0 26px; flex-wrap:wrap;
+    position: sticky; top: 12px; z-index: 20;
+  }
+  .tabs a{
+    text-decoration:none; font-family:'IBM Plex Mono'; font-size: 13px;
+    padding: 9px 16px; border-radius: 999px; background: var(--surface);
+    border:1px solid var(--border); color: var(--text-dim); box-shadow: var(--shadow);
+    transition: color .15s ease, border-color .15s ease, transform .15s ease;
+  }
+  .tabs a:hover{ color: var(--text); border-color: color-mix(in srgb, var(--accent) 50%, var(--border)); transform: translateY(-1px); }
+
+  section{ scroll-margin-top: 70px; }
+  .section-head{ display:flex; align-items:baseline; justify-content:space-between; gap:12px; margin: 46px 0 18px; flex-wrap:wrap; }
+  .section-head h2{ font-family:'Unbounded'; font-size: 24px; margin:0; }
+  .section-head p{ margin:0; color: var(--text-faint); font-size: 13.5px; max-width: 420px; }
+
+  /* ---------- CHAPTERS ---------- */
+  .chapters{ display:grid; grid-template-columns: repeat(5, 1fr); gap: 12px; }
+  .chapter-card{
+    background: var(--surface); border:1px solid var(--border); border-radius: var(--radius-md);
+    padding: 16px 16px 18px; box-shadow: var(--shadow); position:relative; overflow:hidden;
+  }
+  .chapter-card::before{
+    content:""; position:absolute; left:0; top:0; bottom:0; width:4px; background: var(--ch-color);
+  }
+  .chapter-card .n{ font-family:'IBM Plex Mono'; font-size:11px; color: var(--ch-color); letter-spacing:.08em; }
+  .chapter-card h3{ font-family:'Unbounded'; font-size: 15.5px; margin: 6px 0 4px; line-height:1.25; }
+  .chapter-card .range{ font-family:'IBM Plex Mono'; font-size: 11.5px; color: var(--text-faint); margin-bottom:8px; }
+  .chapter-card p{ font-size: 13px; color: var(--text-dim); margin:0; }
+
+  /* ---------- CALENDAR ---------- */
+  .cal-legend{ display:flex; flex-wrap:wrap; gap:18px; align-items:center; margin-bottom: 16px; font-size: 12.5px; color: var(--text-dim); }
+  .cal-legend .item{ display:flex; align-items:center; gap:7px; }
+  .cal-legend .swatch{ width:11px; height:11px; border-radius:4px; }
+  .cal-legend .icon-demo{ width:18px; height:18px; display:inline-flex; align-items:center; justify-content:center; color:var(--text-dim); }
+
+  .weekday-row{ display:grid; grid-template-columns: repeat(7,1fr); gap: 8px; margin-bottom: 8px; }
+  .weekday-row div{ font-family:'IBM Plex Mono'; font-size:11.5px; text-align:center; color: var(--text-faint); text-transform:uppercase; letter-spacing:.05em; padding-bottom:4px; }
+
+  .cal-grid{ display:grid; grid-template-columns: repeat(7,1fr); gap: 8px; }
+  .day{
+    background: var(--surface); border:1px solid var(--border); border-radius: var(--radius-sm);
+    min-height: 108px; padding: 8px; display:flex; flex-direction:column; gap:6px;
+    position:relative;
+  }
+  .day.out{ background: transparent; border-style:dashed; opacity:.45; }
+  .day .date{ font-family:'Unbounded'; font-size: 14px; display:flex; justify-content:space-between; align-items:center; }
+  .day .holiday{ font-family:'IBM Plex Mono'; font-size: 9.5px; color: var(--text-faint); text-transform:uppercase; }
+  .day .story-dot{ width:6px; height:6px; border-radius:50%; background: var(--text-faint); flex-shrink:0; }
+
+  .post-btn{
+    all: unset; cursor: pointer; display:flex; flex-direction:column; gap:5px;
+    background: var(--ch-soft); border:1px solid color-mix(in srgb, var(--ch-color) 45%, transparent);
+    border-radius: 10px; padding: 8px 9px; flex:1; transition: transform .15s ease, box-shadow .15s ease;
+  }
+  .post-btn:hover, .post-btn:focus-visible{ transform: translateY(-2px); box-shadow: 0 8px 18px -10px color-mix(in srgb, var(--ch-color) 60%, transparent); outline: 2px solid var(--ch-color); outline-offset: 2px; }
+  .post-btn .fmt{ display:flex; align-items:center; gap:6px; color: var(--ch-color); }
+  .post-btn .fmt svg{ width:14px; height:14px; }
+  .post-btn .fmt-label{ font-family:'IBM Plex Mono'; font-size:10px; text-transform:uppercase; letter-spacing:.05em; }
+  .post-btn .title{ font-size: 12px; font-weight:700; color: var(--text); line-height:1.25; }
+  .post-btn .funil-pill{
+    align-self:flex-start; font-family:'IBM Plex Mono'; font-size: 9.5px; text-transform:uppercase;
+    padding: 2px 7px; border-radius:999px; color: white; margin-top:auto;
+  }
+
+  /* ---------- DIALOG ---------- */
+  dialog{
+    border:none; border-radius: var(--radius-lg); padding:0; max-width: 640px; width: min(92vw, 640px);
+    max-height: 86vh; background: var(--surface); color: var(--text); box-shadow: 0 30px 80px -20px rgba(0,0,0,.5);
+  }
+  dialog::backdrop{ background: rgba(6,8,16,.6); backdrop-filter: blur(2px); }
+  .dlg-inner{ overflow-y:auto; max-height: 86vh; padding: 26px 26px 30px; }
+  .dlg-head{ display:flex; justify-content:space-between; align-items:flex-start; gap:12px; }
+  .dlg-tag{ display:inline-flex; align-items:center; gap:7px; font-family:'IBM Plex Mono'; font-size:11px; text-transform:uppercase; letter-spacing:.06em; color: var(--ch-color); }
+  .dlg-close{
+    all:unset; cursor:pointer; width:30px; height:30px; border-radius:50%; display:flex; align-items:center; justify-content:center;
+    background: var(--surface-2); border:1px solid var(--border); flex-shrink:0;
+  }
+  .dlg-close:hover{ background: var(--surface-3); }
+  .dlg-title{ font-family:'Unbounded'; font-size: 21px; margin: 10px 0 4px; line-height:1.2; }
+  .dlg-meta{ display:grid; grid-template-columns: repeat(2,1fr); gap: 8px 18px; margin: 16px 0; padding: 14px; background: var(--surface-2); border-radius: var(--radius-sm); border:1px solid var(--border); }
+  .dlg-meta div{ font-size:12.5px; }
+  .dlg-meta b{ display:block; font-family:'IBM Plex Mono'; font-size:10px; text-transform:uppercase; color: var(--text-faint); letter-spacing:.05em; margin-bottom:2px; }
+  .hook{
+    font-family:'Unbounded'; font-weight:600; font-size: 16.5px; line-height:1.4;
+    padding: 14px 16px; border-left: 3px solid var(--ch-color); background: var(--ch-soft); border-radius: 0 10px 10px 0; margin: 18px 0;
+  }
+  .dlg-inner h4{ font-family:'IBM Plex Mono'; font-size:11.5px; text-transform:uppercase; letter-spacing:.06em; color: var(--text-faint); margin: 22px 0 10px; }
+  ol.scenes{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:10px; }
+  ol.scenes li{ display:grid; grid-template-columns: 68px 1fr; gap:12px; font-size:13.5px; }
+  ol.scenes li .t{ font-family:'IBM Plex Mono'; font-size:11px; color: var(--ch-color); padding-top:1px; }
+  ol.slides{ margin:0; padding-left: 20px; display:flex; flex-direction:column; gap:9px; font-size: 13.5px; }
+  ol.slides li::marker{ color: var(--ch-color); font-family:'IBM Plex Mono'; font-size:12px; }
+  p.copy{ font-size: 13.5px; color: var(--text-dim); margin: 0; }
+  .legenda-box{ font-size: 13.5px; font-style: italic; color: var(--text-dim); padding: 12px 14px; background: var(--surface-2); border-radius: 10px; margin-top:6px; }
+  .cta-row{ display:flex; justify-content:space-between; align-items:center; margin-top: 18px; flex-wrap:wrap; gap:10px; }
+  .cta-pill{ font-family:'IBM Plex Mono'; font-size:11.5px; padding:7px 13px; border-radius:999px; background: var(--ch-color); color:#08110E; font-weight:600; }
+  .hashtags{ font-family:'IBM Plex Mono'; font-size:11.5px; color: var(--text-faint); }
+  .warn{
+    margin-top:18px; padding: 12px 14px; border-radius:10px; font-size:12.5px; line-height:1.5;
+    background: color-mix(in srgb, var(--fundo) 12%, var(--surface-2)); border:1px solid color-mix(in srgb, var(--fundo) 35%, var(--border));
+    color: var(--text-dim);
+  }
+  .warn b{ color: var(--text); }
+
+  /* ---------- STORIES ---------- */
+  .stories-table{ width:100%; border-collapse: collapse; background: var(--surface); border:1px solid var(--border); border-radius: var(--radius-md); overflow:hidden; box-shadow: var(--shadow); }
+  .stories-table th, .stories-table td{ text-align:left; padding: 12px 14px; border-bottom: 1px solid var(--border); font-size: 13.5px; vertical-align: top; }
+  .stories-table th{ font-family:'IBM Plex Mono'; font-size:11px; text-transform:uppercase; letter-spacing:.05em; color: var(--text-faint); background: var(--surface-2); }
+  .stories-table tr:last-child td{ border-bottom:none; }
+  .stories-table td.day{ font-weight:700; font-family:'Unbounded'; font-size:12.5px; white-space:nowrap; }
+  .stories-table td.type{ color: var(--accent); font-family:'IBM Plex Mono'; font-size:11.5px; white-space:nowrap; }
+
+  .adjust-grid{ display:grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap:12px; margin-top:16px; }
+  .adjust-card{ background: var(--surface); border:1px solid var(--border); border-radius: var(--radius-sm); padding: 14px 16px; box-shadow: var(--shadow); }
+  .adjust-card .n{ font-family:'IBM Plex Mono'; font-size:10.5px; color: var(--ch-color); text-transform:uppercase; letter-spacing:.05em; }
+  .adjust-card p{ font-size:13px; color: var(--text-dim); margin: 6px 0 0; }
+
+  /* ---------- METRICS ---------- */
+  .metrics-grid{ display:grid; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); gap:14px; }
+  .metric-card{ background: var(--surface); border:1px solid var(--border); border-radius: var(--radius-md); padding: 18px 20px; box-shadow: var(--shadow); }
+  .metric-card h3{ font-family:'Unbounded'; font-size:15px; margin:0 0 8px; color: var(--ch-color); }
+  .metric-card p{ font-size:13.5px; color: var(--text-dim); margin:0; }
+  .note{ margin-top:22px; padding: 16px 20px; border-radius: var(--radius-md); background: var(--surface-2); border:1px solid var(--border); font-size: 13.5px; color: var(--text-dim); }
+
+  footer{ margin-top: 60px; padding-top: 20px; border-top:1px solid var(--border); font-size:12px; color: var(--text-faint); display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; }
+
+  @media (max-width: 880px){
+    .chapters{ grid-template-columns: repeat(2,1fr); }
+  }
+  @media (max-width: 720px){
+    .cal-grid, .weekday-row{ grid-template-columns: repeat(7,minmax(70px,1fr)); }
+    .day{ min-height: 92px; }
+    .post-btn .title{ display:none; }
+    .dlg-meta{ grid-template-columns: 1fr; }
+  }
+  @media (max-width: 560px){
+    .chapters{ grid-template-columns: 1fr 1fr; }
+    .cal-grid, .weekday-row{ overflow-x:auto; }
+  }
+</style>
+
+<div class="page">
+
+  <header class="hero">
+    <span class="eyebrow"><span class="dot"></span>Jogos Bem Feitos · Social Media</span>
+    <h1 class="title">Setembro com o <span>Trevin</span></h1>
+    <p class="subtitle">Um mês, cinco capítulos: o Trevin apresenta, de perto, tudo que já faz por quem joga — extensão, gerador de IA, agrupamento e bolão. Calendário completo de feed e stories.</p>
+    <p class="thesis"><b>Tese do mês:</b> tour de funcionalidades guiado pelo Trevin, sempre narrado em 1ª pessoa. Extensão hoje cobre só <b>Lotofácil</b>. Nenhuma estratégia promete acerto ou previsão de resultado.</p>
+
+    <div class="hero-stats">
+      <div class="stat"><div class="num">13</div><div class="lbl">Peças no feed</div></div>
+      <div class="stat"><div class="num">9</div><div class="lbl">Reels</div></div>
+      <div class="stat"><div class="num">4</div><div class="lbl">Carrosséis</div></div>
+      <div class="stat"><div class="num">5</div><div class="lbl">Capítulos</div></div>
+    </div>
+
+    <div class="funnel-bar">
+      <div class="track">
+        <div class="topo" style="width:8%"></div>
+        <div class="meio" style="width:38%"></div>
+        <div class="fundo" style="width:54%"></div>
+      </div>
+      <div class="funnel-legend">
+        <span><i style="background:var(--topo)"></i>Topo — 8%</span>
+        <span><i style="background:var(--meio)"></i>Meio — 38%</span>
+        <span><i style="background:var(--fundo)"></i>Fundo — 54%</span>
+        <span style="color:var(--text-faint)">mês de produto — mais fundo de funil que o padrão de referência (50/30/20); o topo fica com os stories</span>
+      </div>
+    </div>
+  </header>
+
+  <nav class="tabs">
+    <a href="#capitulos">Capítulos</a>
+    <a href="#calendario">Calendário</a>
+    <a href="#stories">Stories</a>
+    <a href="#metricas">Métricas</a>
+  </nav>
+
+  <!-- ================= CAPÍTULOS ================= -->
+  <section id="capitulos">
+    <div class="section-head">
+      <h2>Os 5 capítulos do mês</h2>
+      <p>Cada semana aprofunda uma função do Trevin, do primeiro reel ao fechamento.</p>
+    </div>
+    <div class="chapters">
+      <div class="chapter-card" style="--ch-color:var(--ch1)">
+        <div class="n">Capítulo 01</div>
+        <h3>Trevin</h3>
+        <div class="range">01–03 SET</div>
+        <p>Quem é o Trevin e o que ele faz por você — o teaser do mês inteiro.</p>
+      </div>
+      <div class="chapter-card" style="--ch-color:var(--ch2)">
+        <div class="n">Capítulo 02</div>
+        <h3>Extensão</h3>
+        <div class="range">05–10 SET</div>
+        <p>Inserir jogos automaticamente, resgatar valores e criar jogos/apostas — hoje, na Lotofácil.</p>
+      </div>
+      <div class="chapter-card" style="--ch-color:var(--ch3)">
+        <div class="n">Capítulo 03</div>
+        <h3>Gerador de IA</h3>
+        <div class="range">12–19 SET</div>
+        <p>O gerador e as 5 estratégias disponíveis, com destaque pra duas delas.</p>
+      </div>
+      <div class="chapter-card" style="--ch-color:var(--ch4)">
+        <div class="n">Capítulo 04</div>
+        <h3>Agrupamento</h3>
+        <div class="range">22 SET</div>
+        <p>Organizar jogos do seu jeito — por campanha, estratégia ou grupo.</p>
+      </div>
+      <div class="chapter-card" style="--ch-color:var(--ch5)">
+        <div class="n">Capítulo 05</div>
+        <h3>Bolões</h3>
+        <div class="range">24–29 SET</div>
+        <p>Gerenciar jogadores, apostas e saldo com os amigos — fechando o mês.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CALENDÁRIO ================= -->
+  <section id="calendario">
+    <div class="section-head">
+      <h2>Calendário — Setembro 2026</h2>
+      <p>Clique num dia com conteúdo pra ver o roteiro completo.</p>
+    </div>
+
+    <div class="cal-legend">
+      <span class="item"><span class="icon-demo">
+        <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6"/><path d="M10 8.5L15.5 12L10 15.5V8.5Z" fill="currentColor"/></svg>
+      </span> Reel</span>
+      <span class="item"><span class="icon-demo">
+        <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="13" height="14" rx="3" stroke="currentColor" stroke-width="1.6"/><path d="M18 8V17a2 2 0 0 1-2 2H8" stroke="currentColor" stroke-width="1.6"/></svg>
+      </span> Carrossel</span>
+      <span class="item"><span class="swatch" style="background:var(--ch1)"></span>Trevin</span>
+      <span class="item"><span class="swatch" style="background:var(--ch2)"></span>Extensão</span>
+      <span class="item"><span class="swatch" style="background:var(--ch3)"></span>Gerador IA</span>
+      <span class="item"><span class="swatch" style="background:var(--ch4)"></span>Agrupamento</span>
+      <span class="item"><span class="swatch" style="background:var(--ch5)"></span>Bolões</span>
+      <span class="item"><span class="story-dot"></span>Story do dia (ver plano semanal)</span>
+    </div>
+
+    <div class="weekday-row">
+      <div>Seg</div><div>Ter</div><div>Qua</div><div>Qui</div><div>Sex</div><div>Sáb</div><div>Dom</div>
+    </div>
+
+    <div class="cal-grid" id="cal-grid"><!-- gerado por JS --></div>
+  </section>
+
+  <!-- ================= STORIES ================= -->
+  <section id="stories">
+    <div class="section-head">
+      <h2>Plano de Stories</h2>
+      <p>Estrutura semanal recorrente — carrega o topo de funil que o feed não cobre este mês.</p>
+    </div>
+
+    <table class="stories-table">
+      <thead><tr><th>Dia</th><th>Tipo</th><th>Conteúdo</th></tr></thead>
+      <tbody>
+        <tr><td class="day">Segunda</td><td class="type">Pergunta</td><td>Enquete simples ligada ao capítulo da semana (ex.: "Você já perdeu prazo de resgatar um prêmio? Sim/Não")</td></tr>
+        <tr><td class="day">Terça</td><td class="type">Bastidor</td><td>Reforço do post do feed publicado no dia — um "por trás" da produção</td></tr>
+        <tr><td class="day">Quarta</td><td class="type">Quiz</td><td>Pergunta de múltipla escolha sobre o capítulo da semana (ex.: "Quantas estratégias tem o gerador?")</td></tr>
+        <tr><td class="day">Quinta</td><td class="type">Repost/prova</td><td>Reshare de comentário ou dúvida de usuário respondida em vídeo curto</td></tr>
+        <tr><td class="day">Sexta</td><td class="type">Entretenimento</td><td>Meme ou situação leve ligada ao tema da semana, sem produto explícito — único ponto do mês reservado a puro alcance</td></tr>
+        <tr><td class="day">Sábado</td><td class="type">Novidade</td><td>Reforço do post do feed publicado no dia</td></tr>
+        <tr><td class="day">Domingo</td><td class="type">Comunidade</td><td>Pergunta aberta puxando comentários — respostas alimentam decisão de produto</td></tr>
+      </tbody>
+    </table>
+
+    <div class="adjust-grid">
+      <div class="adjust-card" style="--ch-color:var(--ch1)"><div class="n">Capítulo 01 · 01–05 set</div><p>Segunda e quarta apresentam o Trevin como personagem antes do primeiro reel, criando expectativa.</p></div>
+      <div class="adjust-card" style="--ch-color:var(--ch2)"><div class="n">Capítulo 02 · 05–12 set</div><p>Sexta vira "confie ou desconfie" — enquete sobre medo de instalar extensão que mexe no site da Caixa, reforçando segurança e confirmação manual.</p></div>
+      <div class="adjust-card" style="--ch-color:var(--ch3)"><div class="n">Capítulo 03 · 12–19 set</div><p>Quarta faz uma pergunta por semana sobre uma das 5 estratégias, virando uma mini "prova" ao longo do capítulo.</p></div>
+      <div class="adjust-card" style="--ch-color:var(--ch4)"><div class="n">Capítulo 04 · 22 set</div><p>Semana curta — reforçar com 2–3 stories extras mostrando exemplos reais de nomes de grupo.</p></div>
+      <div class="adjust-card" style="--ch-color:var(--ch5)"><div class="n">Capítulo 05 · 24–29 set</div><p>Domingo 27/09 é o ponto alto do pilar comunidade: pergunta aberta sobre como cada um organiza bolão hoje.</p></div>
+    </div>
+  </section>
+
+  <!-- ================= MÉTRICAS ================= -->
+  <section id="metricas">
+    <div class="section-head">
+      <h2>Como medir o mês</h2>
+      <p>Métrica principal por capítulo — não avaliar tudo só por curtida.</p>
+    </div>
+    <div class="metrics-grid">
+      <div class="metric-card" style="--ch-color:var(--ch1)"><h3>Trevin</h3><p>Interesse: cliques no link, salvamentos, seguidores novos.</p></div>
+      <div class="metric-card" style="--ch-color:var(--ch2)"><h3>Extensão</h3><p>Cliques no link + instalações. Maior potencial de conversão direta e maior sensibilidade — evitar linguagem que sugira "aposta automática sem confirmação".</p></div>
+      <div class="metric-card" style="--ch-color:var(--ch3)"><h3>Gerador &amp; Estratégias</h3><p>Salvamentos (conteúdo educativo) + cadastros nos posts de teaser.</p></div>
+      <div class="metric-card" style="--ch-color:var(--ch4)"><h3>Agrupamento</h3><p>Cliques e cadastros — recurso pouco comunicado até hoje.</p></div>
+      <div class="metric-card" style="--ch-color:var(--ch5)"><h3>Bolões</h3><p>Cliques e cadastros — alinhado à tese de "copiloto que organiza a vida do apostador em grupo".</p></div>
+    </div>
+    <div class="note">Ao final do mês, comparar desempenho entre capítulos pra decidir se outubro aprofunda algum deles (ex.: série dedicada só a bolão) ou volta a um mix mais de topo de funil.</div>
+  </section>
+
+  <footer>
+    <span>Jogos Bem Feitos — planejamento/social/2026/09</span>
+    <span class="mono">Setembro 2026</span>
+  </footer>
+</div>
+
+<!-- ================= DIALOGS ================= -->
+
+<dialog id="dlg-0901">
+  <div class="dlg-inner" style="--ch-color:var(--ch1)">
+    <div class="dlg-head">
+      <div>
+        <span class="dlg-tag">● Capítulo 01 · Trevin</span>
+        <h2 class="dlg-title">Eu sou o Trevin</h2>
+      </div>
+      <button class="dlg-close" onclick="this.closest('dialog').close()" aria-label="Fechar">✕</button>
+    </div>
+    <div class="dlg-meta">
+      <div><b>Data</b>Terça, 01/09</div>
+      <div><b>Rede</b>Instagram / TikTok</div>
+      <div><b>Formato</b>Reel</div>
+      <div><b>Funil</b>Topo</div>
+      <div><b>Objetivo</b>Branding</div>
+      <div><b>Métrica principal</b>Seguidores novos / interesse</div>
+    </div>
+    <p class="copy">Abre o mês com o Trevin se apresentando e anunciando, como teaser, tudo que vai ser mostrado nas próximas semanas — o "episódio piloto" da série de setembro.</p>
+    <div class="hook">"Eu sou o Trevin. Esse mês eu vou te mostrar tudo que eu faço."</div>
+    <h4>Roteiro</h4>
+    <ol class="scenes">
+      <li><span class="t">0–3s</span><span>Tela do app com o avatar do Trevin em destaque. Texto: "Eu sou o Trevin."</span></li>
+      <li><span class="t">3–9s</span><span>Voz/legenda em 1ª pessoa: "Eu gero seus jogos, insiro na Caixa, organizo tudo em grupos e ainda ajudo você a tocar o bolão com os seus amigos."</span></li>
+      <li><span class="t">9–14s</span><span>Flash de 0,5s de 4 telas do produto: gerador rodando, extensão preenchendo, "Meus Jogos" agrupada, jogadores/saldo — um recorte de cada capítulo que vem por aí.</span></li>
+      <li><span class="t">14–18s</span><span>Texto: "Esse mês eu vou te mostrar cada uma dessas coisas de perto."</span></li>
+      <li><span class="t">18–20s</span><span>Logo + CTA: "Segue aqui pra acompanhar."</span></li>
+    </ol>
+    <h4>Direção visual</h4>
+    <p class="copy">Ritmo ágil, quase um "trailer" do mês — os 4 flashes devem ser recortes reais das telas que aparecem nos próximos posts (reaproveitar depois de gravados). Trilha tecnológica discreta. Tom confiante, não infantil.</p>
+    <h4>Legenda</h4>
+    <div class="legenda-box">"Esse mês é sobre o Trevin. Vou mostrar aqui, um capítulo por semana: extensão, gerador com IA, agrupamento e bolão. Segue pra não perder nenhum."</div>
+    <div class="cta-row"><span class="cta-pill">Seguir o perfil</span><span class="hashtags">#Trevin #JogosBemFeitos</span></div>
+    <div class="warn"><b>Cuidado editorial —</b> o Trevin narra o fluxo das telas do produto; não encenar uma conversa de chat livre. O Chat Inteligente com tool-calling ainda está em testes internos.</div>
+  </div>
+</dialog>
+
+<dialog id="dlg-0903">
+  <div class="dlg-inner" style="--ch-color:var(--ch1)">
+    <div class="dlg-head">
+      <div>
+        <span class="dlg-tag">● Capítulo 01 · Trevin</span>
+        <h2 class="dlg-title">As 4 coisas que o Trevin faz por você</h2>
+      </div>
+      <button class="dlg-close" onclick="this.closest('dialog').close()" aria-label="Fechar">✕</button>
+    </div>
+    <div class="dlg-meta">
+      <div><b>Data</b>Quinta, 03/09</div>
+      <div><b>Rede</b>Instagram</div>
+      <div><b>Formato</b>Carrossel · 6 slides</div>
+      <div><b>Funil</b>Meio</div>
+      <div><b>Objetivo</b>Educação / Salvamentos</div>
+      <div><b>Métrica principal</b>Salvamentos</div>
+    </div>
+    <p class="copy">Consolida em formato de "cartão de apresentação" as 4 funções centrais do Trevin — funciona como resumo/índice dos capítulos que vêm nas próximas semanas.</p>
+    <h4>Slides</h4>
+    <ol class="slides">
+      <li>"As 4 coisas que o Trevin faz por você."</li>
+      <li>"Gero seus jogos. Crio combinações com IA em segundos, na estratégia que você escolher."</li>
+      <li>"Monto suas apostas. Organizo, filtro e preparo suas apostas do seu jeito — sozinho ou em bolão."</li>
+      <li>"Insiro na Caixa. Levo suas apostas até o site da Caixa automaticamente, hoje na Lotofácil."</li>
+      <li>"Analiso resultados. Acompanho seus jogos, identifico premiações e aponto padrões de desempenho."</li>
+      <li>"Esse mês eu vou mostrar cada uma dessas coisas de perto, uma por semana." — CTA: salvar o post.</li>
+    </ol>
+    <h4>Direção visual</h4>
+    <p class="copy">Um ícone simples e consistente por função (gerar / montar / inserir / analisar), mesma família de template do reel de 01/09 pra reforçar que fazem parte da mesma abertura de mês.</p>
+    <h4>Legenda</h4>
+    <div class="legenda-box">"Esse é o resumo. As próximas semanas eu mostro cada uma dessas 4 coisas com calma, começando pela extensão. Salva esse post como o 'índice' do mês."</div>
+    <div class="cta-row"><span class="cta-pill">Salvar o post</span><span class="hashtags">#Trevin #JogosBemFeitos</span></div>
+  </div>
+</dialog>
+
+<dialog id="dlg-0905">
+  <div class="dlg-inner" style="--ch-color:var(--ch2)">
+    <div class="dlg-head">
+      <div>
+        <span class="dlg-tag">● Capítulo 02 · Extensão</span>
+        <h2 class="dlg-title">30 jogos. Um por um. Ou não.</h2>
+      </div>
+      <button class="dlg-close" onclick="this.closest('dialog').close()" aria-label="Fechar">✕</button>
+    </div>
+    <div class="dlg-meta">
+      <div><b>Data</b>Sábado, 05/09</div>
+      <div><b>Rede</b>Instagram / TikTok</div>
+      <div><b>Formato</b>Reel</div>
+      <div><b>Funil</b>Fundo</div>
+      <div><b>Objetivo</b>Cliques / Instalações</div>
+      <div><b>Métrica principal</b>Cliques no link / instalações</div>
+    </div>
+    <p class="copy">Primeira função da extensão mostrada em detalhe — inserção automática de jogos na Caixa — com demonstração real de antes/depois.</p>
+    <div class="hook">"30 jogos. Cada um com 15 números. Agora imagina digitar isso tudo manualmente."</div>
+    <h4>Roteiro</h4>
+    <ol class="scenes">
+      <li><span class="t">0–5s</span><span>Site da Caixa, cursor clicando número por número em velocidade real (mostrando o tédio) — depois acelerado 4x pra reforçar o tempo perdido.</span></li>
+      <li><span class="t">5–8s</span><span>Texto: "Isso, 30 vezes."</span></li>
+      <li><span class="t">8–14s</span><span>Corte para a extensão preenchendo automaticamente, em velocidade real. Texto: "Eu insiro os seus jogos direto no site da Caixa."</span></li>
+      <li><span class="t">14–18s</span><span>Texto: "Hoje, isso funciona pra Lotofácil."</span></li>
+      <li><span class="t">18–20s</span><span>CTA: "Extensão gratuita — link na bio."</span></li>
+    </ol>
+    <h4>Direção visual</h4>
+    <p class="copy">Tela real de navegador, sem edição que pareça exagero — a credibilidade vem de mostrar o processo real. Contraste de velocidade (manual x automático) é o efeito principal.</p>
+    <h4>Legenda</h4>
+    <div class="legenda-box">"Hoje a extensão cobre a Lotofácil — é onde mais gente monta jogo em grupo, e onde esse tempo economizado mais pesa. Testa e comenta quanto tempo isso te poupou."</div>
+    <div class="cta-row"><span class="cta-pill">Instalar a extensão</span><span class="hashtags">#Extensão #Lotofácil</span></div>
+    <div class="warn"><b>Cuidado editorial —</b> não sugerir cobertura de outras modalidades. Enquadrar sempre como preenchimento assistido — a confirmação final da aposta continua no site oficial da Caixa, sob controle do usuário.</div>
+  </div>
+</dialog>
+
+<dialog id="dlg-0908">
+  <div class="dlg-inner" style="--ch-color:var(--ch2)">
+    <div class="dlg-head">
+      <div>
+        <span class="dlg-tag">● Capítulo 02 · Extensão</span>
+        <h2 class="dlg-title">Você lembra de resgatar TODOS os seus prêmios?</h2>
+      </div>
+      <button class="dlg-close" onclick="this.closest('dialog').close()" aria-label="Fechar">✕</button>
+    </div>
+    <div class="dlg-meta">
+      <div><b>Data</b>Terça, 08/09</div>
+      <div><b>Rede</b>Instagram / TikTok</div>
+      <div><b>Formato</b>Reel</div>
+      <div><b>Funil</b>Fundo</div>
+      <div><b>Objetivo</b>Cliques / Instalações</div>
+      <div><b>Métrica principal</b>Cliques no link / instalações</div>
+    </div>
+    <p class="copy">Segunda função da extensão — identificar premiações e automatizar o resgate — puxando pela dor real e validada de esquecer o prazo de resgate de um prêmio.</p>
+    <div class="hook">"Você lembra de resgatar TODOS os seus prêmios? Nem os pequenos?"</div>
+    <h4>Roteiro</h4>
+    <ol class="scenes">
+      <li><span class="t">0–4s</span><span>Texto de abertura: "Prêmio de loteria tem prazo de resgate. Depois disso, o dinheiro simplesmente some."</span></li>
+      <li><span class="t">4–9s</span><span>Alguém achando um bilhete antigo numa gaveta/bolso, olhando confuso — humor leve, situação reconhecível.</span></li>
+      <li><span class="t">9–15s</span><span>Corte pra tela da extensão: identificação automática de jogos premiados, com selo/alerta de premiação.</span></li>
+      <li><span class="t">15–19s</span><span>Texto: "Eu acompanho seus jogos, identifico os premiados e automatizo o resgate."</span></li>
+      <li><span class="t">19–20s</span><span>CTA: "Extensão gratuita — link na bio."</span></li>
+    </ol>
+    <h4>Direção visual</h4>
+    <p class="copy">Cena 2 é o momento de humor/identificação — o resto é demonstração direta de tela real. Manter o mesmo estilo visual do reel de 05/09 pra reforçar que são "capítulos" da mesma série.</p>
+    <h4>Legenda</h4>
+    <div class="legenda-box">"Prêmio esquecido é dinheiro que já era. A extensão acompanha seus jogos de Lotofácil e cuida disso pra você — inclusive os prêmios pequenos que a gente costuma nem checar."</div>
+    <div class="cta-row"><span class="cta-pill">Instalar a extensão</span><span class="hashtags">#Extensão #Lotofácil</span></div>
+    <div class="warn"><b>Cuidado editorial —</b> usar a formulação oficial ("automatiza resgate de valores") sem sugerir que dinheiro é movimentado sem o usuário perceber ou confirmar. Válido hoje só para Lotofácil.</div>
+  </div>
+</dialog>
+
+<dialog id="dlg-0910">
+  <div class="dlg-inner" style="--ch-color:var(--ch2)">
+    <div class="dlg-head">
+      <div>
+        <span class="dlg-tag">● Capítulo 02 · Extensão</span>
+        <h2 class="dlg-title">Você nem precisa sair da extensão pra montar um jogo novo</h2>
+      </div>
+      <button class="dlg-close" onclick="this.closest('dialog').close()" aria-label="Fechar">✕</button>
+    </div>
+    <div class="dlg-meta">
+      <div><b>Data</b>Quinta, 10/09</div>
+      <div><b>Rede</b>Instagram</div>
+      <div><b>Formato</b>Carrossel · 5 slides</div>
+      <div><b>Funil</b>Fundo</div>
+      <div><b>Objetivo</b>Cliques / Instalações</div>
+      <div><b>Métrica principal</b>Cliques no link / instalações</div>
+    </div>
+    <p class="copy">Terceira e última função da extensão — criar jogos e apostas direto por dentro dela, sem precisar alternar pro site/app.</p>
+    <h4>Slides</h4>
+    <ol class="slides">
+      <li>"Você nem precisa sair da extensão pra montar um jogo novo."</li>
+      <li>Print: abas da extensão — Apostas, Jogos, Jogadores, Chat — réplica das principais telas do produto, direto no navegador.</li>
+      <li>"Criar jogo novo, gerar por IA, montar uma aposta pro bolão: tudo isso dá pra fazer sem trocar de aba."</li>
+      <li>"E quando o jogo tá pronto, é a mesma extensão que insere ele na Caixa."</li>
+      <li>"Extensão gratuita, disponível hoje pra Lotofácil." — CTA: instalar.</li>
+    </ol>
+    <h4>Direção visual</h4>
+    <p class="copy">Prints reais da extensão (não mockup), com destaque nas abas de navegação internas — é o elemento que prova que ela é mais do que "só preenche formulário".</p>
+    <h4>Legenda</h4>
+    <div class="legenda-box">"A extensão não serve só pra inserir aposta pronta — dá pra criar jogo, gerar por IA e montar aposta de bolão sem sair dela. Um fluxo só, do início ao fim."</div>
+    <div class="cta-row"><span class="cta-pill">Instalar a extensão</span><span class="hashtags">#Extensão #Lotofácil</span></div>
+    <div class="warn"><b>Cuidado editorial —</b> deixar claro que a criação de jogos/apostas pela extensão é hoje voltada à Lotofácil, mesmo escopo das demais funções.</div>
+  </div>
+</dialog>
+
+<dialog id="dlg-0912">
+  <div class="dlg-inner" style="--ch-color:var(--ch3)">
+    <div class="dlg-head">
+      <div>
+        <span class="dlg-tag">● Capítulo 03 · Gerador de IA</span>
+        <h2 class="dlg-title">5 jeitos diferentes de montar um jogo</h2>
+      </div>
+      <button class="dlg-close" onclick="this.closest('dialog').close()" aria-label="Fechar">✕</button>
+    </div>
+    <div class="dlg-meta">
+      <div><b>Data</b>Sábado, 12/09</div>
+      <div><b>Rede</b>Instagram / TikTok</div>
+      <div><b>Formato</b>Reel</div>
+      <div><b>Funil</b>Meio</div>
+      <div><b>Objetivo</b>Educação / Cadastros</div>
+      <div><b>Métrica principal</b>Salvamentos e cliques no link</div>
+    </div>
+    <p class="copy">Abre o capítulo do gerador com um teaser rápido das 5 estratégias disponíveis, sem entrar no detalhe de cada uma — isso fica pro carrossel de 15/09 e pros reels de 17/09 e 19/09.</p>
+    <div class="hook">"Todo gerador de jogo é igual? Não é bem assim."</div>
+    <h4>Roteiro</h4>
+    <ol class="scenes">
+      <li><span class="t">0–4s</span><span>Tela do gerador com o seletor de estratégia em destaque, mostrando as 5 opções em lista.</span></li>
+      <li><span class="t">4–14s</span><span>Texto rápido, uma estratégia por 2s, ícone simples pra cada uma: Aleatório Equilibrado. Equilíbrio Estatístico. Repetição Equilibrada. Tendência Histórica. Similaridade Histórica.</span></li>
+      <li><span class="t">14–18s</span><span>Texto: "Cada uma organiza o jogo com uma lógica diferente. Nenhuma prevê o resultado — isso ninguém consegue."</span></li>
+      <li><span class="t">18–20s</span><span>CTA: "Testa as 5 — link na bio."</span></li>
+    </ol>
+    <h4>Direção visual</h4>
+    <p class="copy">Ritmo de "menu"/catálogo, cortes secos e uniformes (mesma duração pra cada estratégia). Deixar claro visualmente que o carrossel da semana vai explicar cada uma.</p>
+    <h4>Legenda</h4>
+    <div class="legenda-box">"5 estratégias, 5 jeitos diferentes de organizar um jogo — nenhuma delas promete acerto, todas te dão um critério em vez de escolher número no chute. Essa semana eu explico cada uma aqui no feed."</div>
+    <div class="cta-row"><span class="cta-pill">Testar o gerador</span><span class="hashtags">sem hashtags</span></div>
+    <div class="warn"><b>Cuidado editorial —</b> reforço obrigatório: estratégias organizam o jogo, não preveem nem aumentam chance de prêmio.</div>
+  </div>
+</dialog>
+
+<dialog id="dlg-0915">
+  <div class="dlg-inner" style="--ch-color:var(--ch3)">
+    <div class="dlg-head">
+      <div>
+        <span class="dlg-tag">● Capítulo 03 · Gerador de IA</span>
+        <h2 class="dlg-title">As 5 estratégias do gerador, em uma frase cada</h2>
+      </div>
+      <button class="dlg-close" onclick="this.closest('dialog').close()" aria-label="Fechar">✕</button>
+    </div>
+    <div class="dlg-meta">
+      <div><b>Data</b>Terça, 15/09</div>
+      <div><b>Rede</b>Instagram</div>
+      <div><b>Formato</b>Carrossel · 7 slides</div>
+      <div><b>Funil</b>Meio</div>
+      <div><b>Objetivo</b>Educação / Salvamentos</div>
+      <div><b>Métrica principal</b>Salvamentos</div>
+    </div>
+    <p class="copy">Carrossel de referência com as 5 estratégias explicadas de forma curta e direta — pensado pra ser salvo e reaproveitado como "consulta rápida".</p>
+    <h4>Slides</h4>
+    <ol class="slides">
+      <li>"As 5 estratégias do gerador, em uma frase cada."</li>
+      <li><b>Aleatório Equilibrado</b> — jogos livres, sem se basear em concursos passados, buscando equilíbrio básico entre pares/ímpares, faixas e soma.</li>
+      <li><b>Equilíbrio Estatístico</b> — você define o perfil: pares/ímpares, primos, consecutivos, soma e média, e o jogo é montado dentro desses critérios.</li>
+      <li><b>Repetição Equilibrada</b> — reproduz uma técnica real de fechamento, repetindo de 7 a 11 números do último concurso.</li>
+      <li><b>Tendência Histórica</b> — classifica as dezenas em quentes, neutras, atrasadas e frias, e monta o jogo numa proporção equilibrada entre elas.</li>
+      <li><b>Similaridade Histórica</b> — analisa os últimos 100 concursos, identifica os padrões estruturais mais recorrentes e distribui os jogos com base neles.</li>
+      <li>"Nenhuma delas prevê o resultado. Todas te dão um critério em vez de escolher no chute." — CTA: testar as 5.</li>
+    </ol>
+    <h4>Direção visual</h4>
+    <p class="copy">Template de "carta de baralho" — um cartão por estratégia, nome em destaque e ícone simples. Consistência visual forte pra funcionar como peça de referência/consulta.</p>
+    <h4>Legenda</h4>
+    <div class="legenda-box">"Guarda esse post: é o resumo das 5 estratégias que você encontra no gerador. Cada uma organiza o jogo com uma lógica diferente — a escolha de qual usar é sua."</div>
+    <div class="cta-row"><span class="cta-pill">Testar o gerador</span><span class="hashtags">#JogosBemFeitos #Estratégia</span></div>
+    <div class="warn"><b>Cuidado editorial —</b> o slide 7 é obrigatório em qualquer peça que liste as estratégias: reforço de que nenhuma prevê ou garante resultado.</div>
+  </div>
+</dialog>
+
+<dialog id="dlg-0917">
+  <div class="dlg-inner" style="--ch-color:var(--ch3)">
+    <div class="dlg-head">
+      <div>
+        <span class="dlg-tag">● Capítulo 03 · Gerador de IA</span>
+        <h2 class="dlg-title">Quentes, neutras, atrasadas e frias</h2>
+      </div>
+      <button class="dlg-close" onclick="this.closest('dialog').close()" aria-label="Fechar">✕</button>
+    </div>
+    <div class="dlg-meta">
+      <div><b>Data</b>Quinta, 17/09</div>
+      <div><b>Rede</b>Instagram / TikTok</div>
+      <div><b>Formato</b>Reel</div>
+      <div><b>Funil</b>Meio</div>
+      <div><b>Objetivo</b>Educação / Cadastros</div>
+      <div><b>Métrica principal</b>Salvamentos e cliques no link</div>
+    </div>
+    <p class="copy">Aprofunda a estratégia "Tendência Histórica" — a mais visual e fácil de explicar em vídeo — mostrando como ela classifica as dezenas.</p>
+    <div class="hook">"Quentes, neutras, atrasadas e frias. Não é chute, é classificação."</div>
+    <h4>Roteiro</h4>
+    <ol class="scenes">
+      <li><span class="t">0–4s</span><span>Texto: "A estratégia Tendência Histórica separa as dezenas em 4 grupos, com base na frequência recente delas."</span></li>
+      <li><span class="t">4–12s</span><span>Tela do app com as dezenas coloridas por classificação — visual limpo, tipo mapa de calor.</span></li>
+      <li><span class="t">12–16s</span><span>Texto: "O gerador monta o jogo numa proporção equilibrada entre esses grupos."</span></li>
+      <li><span class="t">16–19s</span><span>Texto: "Isso não prevê o próximo sorteio. Mostra só o comportamento até aqui."</span></li>
+      <li><span class="t">19–20s</span><span>CTA: "Testa essa estratégia — link na bio."</span></li>
+    </ol>
+    <h4>Direção visual</h4>
+    <p class="copy">O mapa de calor das dezenas é o elemento visual central — vale investir num visual bonito e legível aqui. Cores consistentes com a identidade da marca (evitar paleta de cassino/dourado).</p>
+    <h4>Legenda</h4>
+    <div class="legenda-box">"Quente, atrasada, fria — são só formas de organizar o que já aconteceu, não um palpite sobre o que vai acontecer. É uma das 5 estratégias do gerador, testa e me conta o que achou."</div>
+    <div class="cta-row"><span class="cta-pill">Testar essa estratégia</span><span class="hashtags">#Lotofácil #Estratégia</span></div>
+    <div class="warn"><b>Cuidado editorial —</b> reforçar sempre: classificação de comportamento passado, não previsão de resultado futuro.</div>
+  </div>
+</dialog>
+
+<dialog id="dlg-0919">
+  <div class="dlg-inner" style="--ch-color:var(--ch3)">
+    <div class="dlg-head">
+      <div>
+        <span class="dlg-tag">● Capítulo 03 · Gerador de IA</span>
+        <h2 class="dlg-title">Por que repetir dezenas não é chute</h2>
+      </div>
+      <button class="dlg-close" onclick="this.closest('dialog').close()" aria-label="Fechar">✕</button>
+    </div>
+    <div class="dlg-meta">
+      <div><b>Data</b>Sábado, 19/09</div>
+      <div><b>Rede</b>Instagram / TikTok</div>
+      <div><b>Formato</b>Reel</div>
+      <div><b>Funil</b>Meio</div>
+      <div><b>Objetivo</b>Educação / Cadastros</div>
+      <div><b>Métrica principal</b>Salvamentos e cliques no link</div>
+    </div>
+    <p class="copy">Segunda estratégia em destaque — "Repetição Equilibrada" — mostrando a lógica de fechamento por trás dela.</p>
+    <div class="hook">"Por que repetir dezenas do concurso anterior não é chute."</div>
+    <h4>Roteiro</h4>
+    <ol class="scenes">
+      <li><span class="t">0–4s</span><span>Texto: "Repetição Equilibrada reproduz uma técnica de fechamento real."</span></li>
+      <li><span class="t">4–10s</span><span>Tela do app: dezenas do concurso anterior em destaque, reaproveitadas em parte no novo jogo (de 7 a 11 números do último concurso).</span></li>
+      <li><span class="t">10–15s</span><span>Texto: "Cobertura de dezenas e soma dentro de faixas testadas estatisticamente — não é escolher os números que 'parecem certos'."</span></li>
+      <li><span class="t">15–19s</span><span>Texto: "Isso não aumenta a chance de ganhar. Sorteio continua sendo aleatório."</span></li>
+      <li><span class="t">19–20s</span><span>CTA: "Testa essa estratégia — link na bio."</span></li>
+    </ol>
+    <h4>Direção visual</h4>
+    <p class="copy">Reaproveitar a mesma linguagem visual do reel de Tendência Histórica (17/09), criando uma dupla reconhecível de "estratégias em destaque" dentro do capítulo do gerador.</p>
+    <h4>Legenda</h4>
+    <div class="legenda-box">"Estratégia não é sobre prever o sorteio. É sobre montar o jogo com lógica em vez de achismo. Testa essa e me conta se fez sentido pra você."</div>
+    <div class="cta-row"><span class="cta-pill">Testar essa estratégia</span><span class="hashtags">#Lotofácil #Estratégia</span></div>
+    <div class="warn"><b>Cuidado editorial —</b> reforço obrigatório: nunca afirmar que a repetição aumenta a chance de acerto.</div>
+  </div>
+</dialog>
+
+<dialog id="dlg-0922">
+  <div class="dlg-inner" style="--ch-color:var(--ch4)">
+    <div class="dlg-head">
+      <div>
+        <span class="dlg-tag">● Capítulo 04 · Agrupamento</span>
+        <h2 class="dlg-title">Agrupe seus jogos do seu jeito</h2>
+      </div>
+      <button class="dlg-close" onclick="this.closest('dialog').close()" aria-label="Fechar">✕</button>
+    </div>
+    <div class="dlg-meta">
+      <div><b>Data</b>Terça, 22/09</div>
+      <div><b>Rede</b>Instagram / TikTok</div>
+      <div><b>Formato</b>Reel</div>
+      <div><b>Funil</b>Fundo</div>
+      <div><b>Objetivo</b>Conversão</div>
+      <div><b>Métrica principal</b>Cliques no link / uso do recurso</div>
+    </div>
+    <p class="copy">Apresenta o recurso de agrupamento de jogos como resposta direta à dor de ter muitos jogos salvos sem critério de uso.</p>
+    <div class="hook">"80 jogos salvos não é organização. É bagunça com nome bonito."</div>
+    <h4>Roteiro</h4>
+    <ol class="scenes">
+      <li><span class="t">0–4s</span><span>Tela de celular rolando uma lista longa de jogos sem nenhuma separação visível.</span></li>
+      <li><span class="t">4–8s</span><span>Texto: "Ter muitos jogos não é o problema. Não ter como separar o que é o quê, é."</span></li>
+      <li><span class="t">8–15s</span><span>Corte para "Meus Jogos" com agrupamento: grupos nomeados pelo usuário (ex.: "Jogos da sorte", "Fechamento do mês", "Bolão do trabalho").</span></li>
+      <li><span class="t">15–19s</span><span>Texto: "Eu agrupo do jeito que fizer sentido pra você. Por campanha, por estratégia, por time."</span></li>
+      <li><span class="t">19–20s</span><span>CTA: "Organiza os seus — link na bio."</span></li>
+    </ol>
+    <h4>Direção visual</h4>
+    <p class="copy">Contraste direto entre "lista solta" e "grupos nomeados" — o nome de cada grupo na tela deve parecer real e específico, não genérico, reforçando a ideia de personalização.</p>
+    <h4>Legenda</h4>
+    <div class="legenda-box">"Quantidade de jogo salvo não resolve nada se você não consegue separar o que é o quê na hora de apostar. Agrupa do seu jeito — por campanha, por estratégia, por grupo de amigos."</div>
+    <div class="cta-row"><span class="cta-pill">Agrupar jogos no app</span><span class="hashtags">sem hashtags</span></div>
+  </div>
+</dialog>
+
+<dialog id="dlg-0924">
+  <div class="dlg-inner" style="--ch-color:var(--ch5)">
+    <div class="dlg-head">
+      <div>
+        <span class="dlg-tag">● Capítulo 05 · Bolões</span>
+        <h2 class="dlg-title">Quem organiza o bolão do seu grupo hoje?</h2>
+      </div>
+      <button class="dlg-close" onclick="this.closest('dialog').close()" aria-label="Fechar">✕</button>
+    </div>
+    <div class="dlg-meta">
+      <div><b>Data</b>Quinta, 24/09</div>
+      <div><b>Rede</b>Instagram / TikTok</div>
+      <div><b>Formato</b>Reel</div>
+      <div><b>Funil</b>Fundo</div>
+      <div><b>Objetivo</b>Conversão</div>
+      <div><b>Métrica principal</b>Cliques no link / bolões criados</div>
+    </div>
+    <p class="copy">Abre o capítulo de bolões mostrando a dor de organizar jogadores e apostas em grupo manualmente, puxando pra funcionalidade de jogadores.</p>
+    <div class="hook">"Quem organiza o bolão do seu grupo hoje? Ainda é você, no braço?"</div>
+    <h4>Roteiro</h4>
+    <ol class="scenes">
+      <li><span class="t">0–5s</span><span>Print estilizado de um grupo de WhatsApp caótico: "já paguei", "quem falta", "bora fechar os números" espalhados sem ordem.</span></li>
+      <li><span class="t">5–9s</span><span>Texto: "Organizar bolão em grupo de WhatsApp funciona até dar errado uma vez."</span></li>
+      <li><span class="t">9–15s</span><span>Corte pra tela de "Jogadores": participantes cadastrados, jogos vinculados a cada aposta, tudo num só lugar.</span></li>
+      <li><span class="t">15–19s</span><span>Texto: "Eu organizo os jogadores, os jogos e as apostas do seu bolão num lugar só."</span></li>
+      <li><span class="t">19–20s</span><span>CTA: "Cria seu bolão — link na bio."</span></li>
+    </ol>
+    <h4>Direção visual</h4>
+    <p class="copy">A cena 1 precisa parecer genuinamente caótica (várias mensagens sobrepostas) pra criar contraste forte com a cena 3, limpa e organizada.</p>
+    <h4>Legenda</h4>
+    <div class="legenda-box">"Bolão de amigo ou de trabalho sempre esbarra na mesma parte: organizar quem tá dentro e o que cada um já resolveu. Isso sai do grupo de WhatsApp e vai pro lugar certo."</div>
+    <div class="cta-row"><span class="cta-pill">Criar um bolão</span><span class="hashtags">sem hashtags</span></div>
+  </div>
+</dialog>
+
+<dialog id="dlg-0926">
+  <div class="dlg-inner" style="--ch-color:var(--ch5)">
+    <div class="dlg-head">
+      <div>
+        <span class="dlg-tag">● Capítulo 05 · Bolões</span>
+        <h2 class="dlg-title">Quem já pagou. Quem ainda deve.</h2>
+      </div>
+      <button class="dlg-close" onclick="this.closest('dialog').close()" aria-label="Fechar">✕</button>
+    </div>
+    <div class="dlg-meta">
+      <div><b>Data</b>Sábado, 26/09</div>
+      <div><b>Rede</b>Instagram</div>
+      <div><b>Formato</b>Carrossel · 5 slides</div>
+      <div><b>Funil</b>Fundo</div>
+      <div><b>Objetivo</b>Cadastros</div>
+      <div><b>Métrica principal</b>Cliques e cadastros</div>
+    </div>
+    <p class="copy">Aprofunda o recurso de jogadores/saldo mostrado no reel de 24/09, detalhando como o controle de valores por participante funciona.</p>
+    <h4>Slides</h4>
+    <ol class="slides">
+      <li>"Quem já pagou. Quem ainda deve. Sem grupo de WhatsApp pra isso."</li>
+      <li>Print: tela de "Jogadores" com a lista de participantes do bolão, cada um com seu saldo.</li>
+      <li>"Cada jogador tem um saldo próprio, vinculado às apostas que entrou."</li>
+      <li>"Convite por e-mail, controle de quem tá dentro de qual aposta, e o saldo sempre visível pra quem organiza."</li>
+      <li>"O bolão sai da cabeça de uma pessoa só e vai pro lugar certo." — CTA: criar um bolão.</li>
+    </ol>
+    <h4>Direção visual</h4>
+    <p class="copy">Print real da tela de jogadores é o elemento central — nomes fictícios genéricos (nunca dados reais de usuário) e valores de exemplo simples, sem parecer promessa de ganho.</p>
+    <h4>Legenda</h4>
+    <div class="legenda-box">"Todo bolão de amigo ou de trabalho tem aquele momento de 'quem já pagou mesmo?'. Isso fica registrado, com saldo por jogador, sem depender da memória de ninguém."</div>
+    <div class="cta-row"><span class="cta-pill">Criar um bolão</span><span class="hashtags">#JogosBemFeitos</span></div>
+    <div class="warn"><b>Cuidado editorial —</b> usar valores de exemplo como contribuição/rateio do bolão, nunca como estimativa de prêmio — evita qualquer leitura de promessa financeira.</div>
+  </div>
+</dialog>
+
+<dialog id="dlg-0929">
+  <div class="dlg-inner" style="--ch-color:var(--ch1)">
+    <div class="dlg-head">
+      <div>
+        <span class="dlg-tag">● Fechamento · Trevin</span>
+        <h2 class="dlg-title">Eu organizo, eu gero, eu insiro, eu resgato</h2>
+      </div>
+      <button class="dlg-close" onclick="this.closest('dialog').close()" aria-label="Fechar">✕</button>
+    </div>
+    <div class="dlg-meta">
+      <div><b>Data</b>Terça, 29/09</div>
+      <div><b>Rede</b>Instagram / TikTok</div>
+      <div><b>Formato</b>Reel</div>
+      <div><b>Funil</b>Fundo</div>
+      <div><b>Objetivo</b>Conversão</div>
+      <div><b>Métrica principal</b>Cadastros</div>
+    </div>
+    <p class="copy">Fecha o mês com o Trevin recapitulando, em 1ª pessoa, os 5 capítulos mostrados em setembro, amarrando tudo num CTA final de conta grátis.</p>
+    <div class="hook">"Setembro foi sobre isso. Recapitulando."</div>
+    <h4>Roteiro</h4>
+    <ol class="scenes">
+      <li><span class="t">0–3s</span><span>Avatar do Trevin em destaque. Texto: "Recapitulando setembro."</span></li>
+      <li><span class="t">3–14s</span><span>Sequência rápida (~2s cada) reaproveitando prints reais já usados no mês: extensão inserindo jogo → identificando prêmio → gerador com as 5 estratégias → agrupamento → jogadores/saldo do bolão.</span></li>
+      <li><span class="t">14–18s</span><span>Texto (voz do Trevin): "Eu organizo. Eu gero. Eu insiro. Eu resgato. Você decide."</span></li>
+      <li><span class="t">18–20s</span><span>Logo + CTA forte: "Cria sua conta grátis e começa outubro com tudo isso já rodando."</span></li>
+    </ol>
+    <h4>Direção visual</h4>
+    <p class="copy">Funciona como um "recap"/trailer de encerramento — reaproveitar literalmente os clipes gravados ao longo do mês em vez de gravar cenas novas, reforçando que é o fechamento de uma série.</p>
+    <h4>Legenda</h4>
+    <div class="legenda-box">"Um mês, cinco capítulos, um assistente só cuidando de tudo isso pra você. Cria sua conta grátis e deixa outubro começar organizado."</div>
+    <div class="cta-row"><span class="cta-pill">Criar conta grátis</span><span class="hashtags">#Trevin #JogosBemFeitos</span></div>
+  </div>
+</dialog>
+
+<script>
+(function(){
+  var REEL_ICON = '<svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6"/><path d="M10 8.5L15.5 12L10 15.5V8.5Z" fill="currentColor"/></svg>';
+  var CAROUSEL_ICON = '<svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="13" height="14" rx="3" stroke="currentColor" stroke-width="1.6"/><path d="M18 8V17a2 2 0 0 1-2 2H8" stroke="currentColor" stroke-width="1.6"/></svg>';
+
+  // month=8 (September, 0-indexed) year=2026
+  var firstDay = new Date(2026, 8, 1);
+  var lastDay = new Date(2026, 8, 30);
+  var startOffset = (firstDay.getDay() + 6) % 7; // Monday=0
+  var totalCells = Math.ceil((startOffset + 30) / 7) * 7;
+
+  var posts = {
+    1:  {id:'dlg-0901', ch:'ch1', fmt:'reel', funil:'topo', title:'Eu sou o Trevin'},
+    3:  {id:'dlg-0903', ch:'ch1', fmt:'carousel', funil:'meio', title:'As 4 coisas que o Trevin faz'},
+    5:  {id:'dlg-0905', ch:'ch2', fmt:'reel', funil:'fundo', title:'Insere jogos automaticamente'},
+    8:  {id:'dlg-0908', ch:'ch2', fmt:'reel', funil:'fundo', title:'Resgate automático de valores'},
+    10: {id:'dlg-0910', ch:'ch2', fmt:'carousel', funil:'fundo', title:'Crie jogos e apostas na extensão'},
+    12: {id:'dlg-0912', ch:'ch3', fmt:'reel', funil:'meio', title:'5 estratégias, 1 gerador'},
+    15: {id:'dlg-0915', ch:'ch3', fmt:'carousel', funil:'meio', title:'As 5 estratégias explicadas'},
+    17: {id:'dlg-0917', ch:'ch3', fmt:'reel', funil:'meio', title:'Estratégia: Tendência Histórica'},
+    19: {id:'dlg-0919', ch:'ch3', fmt:'reel', funil:'meio', title:'Estratégia: Repetição Equilibrada'},
+    22: {id:'dlg-0922', ch:'ch4', fmt:'reel', funil:'fundo', title:'Agrupe seus jogos'},
+    24: {id:'dlg-0924', ch:'ch5', fmt:'reel', funil:'fundo', title:'Gerencie seu bolão'},
+    26: {id:'dlg-0926', ch:'ch5', fmt:'carousel', funil:'fundo', title:'Saldo por jogador'},
+    29: {id:'dlg-0929', ch:'ch1', fmt:'reel', funil:'fundo', title:'Trevin resume o mês'}
+  };
+  var holidays = { 7: 'Independência do Brasil' };
+  var funilLabel = { topo:'Topo', meio:'Meio', fundo:'Fundo' };
+
+  var grid = document.getElementById('cal-grid');
+  var html = '';
+  for (var i = 0; i < totalCells; i++){
+    var dayNum = i - startOffset + 1;
+    if (dayNum < 1 || dayNum > 30){
+      html += '<div class="day out"></div>';
+      continue;
+    }
+    var post = posts[dayNum];
+    var holiday = holidays[dayNum];
+    html += '<div class="day">';
+    html += '<div class="date"><span>' + dayNum + '</span>' + (holiday ? '' : (post ? '' : '<span class="story-dot" title="Story do dia"></span>')) + '</div>';
+    if (holiday) html += '<div class="holiday">' + holiday + '</div>';
+    if (post){
+      var icon = post.fmt === 'reel' ? REEL_ICON : CAROUSEL_ICON;
+      var fmtLabel = post.fmt === 'reel' ? 'Reel' : 'Carrossel';
+      html += '<button class="post-btn" style="--ch-color:var(--' + post.ch + ');--ch-soft:var(--' + post.ch + '-soft)" onclick="document.getElementById(\'' + post.id + '\').showModal()">';
+      html += '<span class="fmt">' + icon + '<span class="fmt-label">' + fmtLabel + '</span></span>';
+      html += '<span class="title">' + post.title + '</span>';
+      html += '<span class="funil-pill" style="background:var(--' + post.funil + ')">' + funilLabel[post.funil] + '</span>';
+      html += '</button>';
+    }
+    html += '</div>';
+  }
+  grid.innerHTML = html;
+
+  document.querySelectorAll('dialog').forEach(function(dlg){
+    dlg.addEventListener('click', function(e){
+      var rect = dlg.querySelector('.dlg-inner').getBoundingClientRect();
+      var inRect = e.clientX >= rect.left && e.clientX <= rect.right && e.clientY >= rect.top && e.clientY <= rect.bottom;
+      if (!inRect) dlg.close();
+    });
+  });
+})();
+</script>
