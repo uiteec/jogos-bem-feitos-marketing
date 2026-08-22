@@ -44,6 +44,8 @@ Não reinterprete seu design.
 
 **USE E PRESERVE O PERSONAGEM FORNECIDO.**
 
+**A cor do Trevin não pode ser alterada em nenhuma cena.** Manter exatamente as mesmas cores da imagem de referência do início ao fim do vídeo, mesmo com mudanças de iluminação, cena ou fundo.
+
 A aparência do Trevin durante todo o vídeo deve permanecer visualmente consistente com a imagem anexada.
 
 Preservar fielmente:
@@ -94,6 +96,28 @@ Exemplos permitidos:
 A animação deve partir da identidade visual existente.
 
 **A imagem fornecida representa o personagem final, e não um conceito a ser reinterpretado.**
+
+---
+
+# 2.1 REGRA CRÍTICA — TELAS DO SISTEMA
+
+**Não gerar nenhuma tela, interface ou elemento de produto que não tenha sido fornecido como imagem de referência.**
+
+Somente as telas anexadas como imagem podem aparecer no vídeo.
+
+Não inventar:
+
+* telas do gerador;
+* telas de "Meus Jogos";
+* telas de jogadores/bolão;
+* painel da extensão;
+* qualquer outra tela do Jogos Bem Feitos que não tenha sido explicitamente enviada como referência visual.
+
+Se uma cena descrever uma funcionalidade (gerador, extensão, Meus Jogos, bolão etc.) e a tela correspondente **não** tiver sido fornecida como imagem, não criar uma versão fictícia dessa interface.
+
+Nesse caso, resolver a cena sem mostrar tela de produto: usar Trevin, texto na tela, elementos gráficos simples ou composição abstrata — nunca uma interface inventada.
+
+**Toda tela do sistema que aparecer no vídeo precisa ter origem em uma imagem fornecida por mim.**
 
 ---
 
@@ -161,7 +185,9 @@ Todo o áudio falado deve ser exclusivamente em:
 
 # PORTUGUÊS BRASILEIRO — PT-BR
 
-Voz masculina brasileira jovem-adulta.
+Voz masculina brasileira, com timbre de **personagem/assistente de IA** — não uma voz humana genérica de locução ou narração publicitária comum.
+
+A voz deve ter uma leve textura tecnológica/sintética perceptível no timbre (não um efeito robótico exagerado, mas algo que deixe claro que quem fala é um assistente de IA, não um narrador humano comum).
 
 A voz deve transmitir:
 
@@ -171,22 +197,23 @@ A voz deve transmitir:
 * domínio do produto;
 * tecnologia;
 * praticidade;
-* leve descontração.
+* leve descontração;
+* identidade única de personagem (reconhecível, não intercambiável com qualquer voz masculina genérica).
 
-Trevin deve soar como um **assistente inteligente que sabe o que está fazendo**.
+Trevin deve soar como um **assistente inteligente que sabe o que está fazendo**, com um timbre que remeta à sua natureza de IA/mascote da marca.
 
-A voz deve ser natural e conversacional.
+A voz deve ser natural e conversacional dentro dessa identidade — não robotizada ao ponto de soar sintetizada de forma grotesca, mas também não uma voz humana comum de locutor.
 
 Evitar interpretação excessivamente publicitária.
 
 ## NÃO USAR:
 
+* voz humana genérica de locutor/narrador, sem nenhuma característica de personagem;
 * voz infantil;
 * voz de desenho animado;
 * voz excessivamente fofa;
-* voz robótica;
+* voz robótica exagerada/caricata (tipo robô de filme antigo);
 * voz caricata;
-* voz de locutor tradicional;
 * sotaque estrangeiro;
 * pronúncia inglesa;
 * entusiasmo exagerado.
@@ -412,6 +439,8 @@ Transmitir:
 
 Caso sejam fornecidas imagens ou vídeos das telas reais do **Jogos Bem Feitos**, essas referências devem ser utilizadas como **fonte visual principal**.
 
+**Nenhuma tela sem imagem de referência fornecida pode ser gerada** (ver regra 2.1). Se uma cena pede uma tela que não foi enviada, resolver a cena sem mostrar interface do produto.
+
 Não reinterpretar completamente a interface.
 
 Preservar:
@@ -490,6 +519,8 @@ Mostrar:
 Trevin permanece exatamente com a identidade visual da imagem de referência.
 
 Entrada elegante do logotipo.
+
+**Não incluir nenhum ícone/logo de rede social (Instagram, TikTok ou qualquer outra) na composição.** O CTA "Segue aqui pra acompanhar" deve ser comunicado só por texto e fala, sem ícones de plataforma.
 
 ### ÁUDIO:
 
@@ -656,6 +687,8 @@ Não fazer promessas de ganhos.
 
 Não sugerir aumento garantido das chances de ganhar.
 
+Não incluir ícones ou logotipos de redes sociais (Instagram, TikTok ou qualquer outra) em nenhuma cena do vídeo.
+
 ---
 
 # 16. FALAS EXATAS
@@ -696,15 +729,17 @@ Pronúncia:
 
 Antes de gerar o resultado, garantir:
 
-1. O personagem utilizado é visualmente consistente com a imagem do Trevin fornecida.
+1. O personagem utilizado é visualmente consistente com a imagem do Trevin fornecida, incluindo as mesmas cores, sem nenhuma alteração.
 2. Nenhum novo mascote foi criado.
-3. O nome Trevin é pronunciado **tre-VIN**, com força na última sílaba.
-4. Todo o áudio está em português brasileiro.
-5. Trevin possui voz masculina jovem-adulta, natural e inteligente.
-6. O produto aparece mais do que o mascote.
-7. A extensão aparece como extensão dentro do site, e não como celular.
-8. Não existe conversa de chatbot.
-9. O vídeo possui aparência profissional de campanha de SaaS.
-10. O vídeo permanece clean e não fica visualmente poluído.
-11. As interfaces fornecidas como referência são preservadas.
-12. O vídeo termina com Trevin, Jogos Bem Feitos e o CTA para seguir.
+3. Nenhuma tela do sistema aparece sem ter sido fornecida como imagem de referência (ver regra 2.1).
+4. O nome Trevin é pronunciado **tre-VIN**, com força na última sílaba.
+5. Todo o áudio está em português brasileiro.
+6. Trevin possui voz masculina jovem-adulta, natural e inteligente.
+7. O produto aparece mais do que o mascote.
+8. A extensão aparece como extensão dentro do site, e não como celular.
+9. Não existe conversa de chatbot.
+10. O vídeo possui aparência profissional de campanha de SaaS.
+11. O vídeo permanece clean e não fica visualmente poluído.
+12. As interfaces fornecidas como referência são preservadas.
+13. O vídeo termina com Trevin, Jogos Bem Feitos e o CTA para seguir.
+14. Nenhum ícone ou logotipo de rede social aparece em qualquer cena.
