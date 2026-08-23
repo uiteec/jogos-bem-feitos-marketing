@@ -6,6 +6,39 @@ O vídeo funciona como um **teaser/trailer de abertura de uma série de conteúd
 
 ---
 
+# 0. COMO GERAR ISSO NO VEO 3 / FLOW (LEIA ANTES DE GERAR)
+
+**Texto sozinho não garante consistência de personagem nem de tela.** O modelo não "lembra" de uma imagem só porque ela foi descrita ou anexada uma vez lá no início — a cada geração ele desenha o personagem e as interfaces do zero a partir da descrição em texto, por isso o rosto muda e as telas são inventadas mesmo com as regras 2, 2.1 e 9 escritas no prompt.
+
+## 0.1 Não gerar o vídeo inteiro de uma vez
+
+Gerar **cena por cena** (ver instruções em cada cena abaixo sobre qual imagem anexar), depois editar os pedaços juntos em CapCut/Premiere para montar o corte final — não esperar que o Veo entregue o vídeo inteiro pronto num prompt só.
+
+## 0.2 "Anexar imagem de referência" ≠ "usar como primeiro frame" — use a segunda opção
+
+Existem dois jeitos de dar uma imagem pro Veo/Flow, e eles têm força bem diferente:
+
+* **Imagem de referência/estilo ("Ingredients to Video"):** o modelo só se *inspira* nela. É fraco — ele ainda "redesenha" o personagem/tela com liberdade, e é exatamente aí que ele troca o rosto do Trevin ou inventa uma interface de video game.
+* **Imagem como frame inicial ("Image to Video" / "Frames to Video"):** o modelo começa literalmente daqueles pixels e anima a partir dali. É muito mais forte para manter identidade, porque ele não tem liberdade de redesenhar o quadro de abertura — só de animar o que já está na imagem.
+
+**Sempre que o Flow oferecer a opção, usar a imagem como frame inicial (image-to-video), não só como referência de estilo.** Quando usar frame inicial, escrever o texto do prompt só com a ação/câmera (ex: "aproximação sutil de câmera, Trevin pisca") e **não redescrever a aparência do personagem ou da tela** — a imagem já carrega isso; texto competindo com a imagem é o que causa a deriva.
+
+Se a cena exigir um enquadramento que a imagem de referência ainda não tem (ex: Trevin integrado a uma interface específica), primeiro editar/compor essa imagem exata em uma ferramenta de imagem (Nano Banana, Photoshop, o próprio editor de imagem do Flow) partindo da referência original, e só then usar essa nova imagem estática como frame inicial do vídeo. Nunca pedir pro modelo de vídeo compor a cena inteira a partir do zero via texto.
+
+## 0.3 Cada geração do Veo 3 sai com ~8 segundos, sem exceção
+
+Não dá para pedir uma cena de 3s ou de 0,5s diretamente — cada geração vai sair com a duração fixa do modelo (por volta de 8s). O jeito de usar isso:
+
+* Gerar cada trecho como um clipe cheio de ~8s (com a imagem certa como frame inicial e o movimento de câmera descrito).
+* No editor, **cortar apenas o pedaço necessário** daquele clipe (ex: da Cena 1, usar só os 3 primeiros segundos; do Flash 1, usar só ~0,5–1s onde o gerador aparece funcionando).
+* Isso significa gerar bem mais clipes do que cenas no roteiro — cada trecho com imagem de referência diferente (Cena 1, cada parte da Cena 2, cada flash da Cena 3, Cena 4, Cena 5) é uma geração de ~8s própria, depois cortada no tamanho certo.
+
+## 0.4 "Jogos" = apostas de loteria, nunca video game
+
+Toda vez que o prompt disser "jogos", "gerador de jogos" ou similar, isso significa **combinações numéricas de apostas de loteria** (grades de números, como nas telas reais anexadas) — nunca jogos eletrônicos, consoles, controles, pixel art ou telas de arcade. Se o Veo gerar qualquer coisa parecida com video game, é sinal de que ele não recebeu a screenshot real como frame inicial (ver 0.2) — regenerar anexando a imagem certa.
+
+---
+
 # 1. FORMATO DO VÍDEO
 
 * Formato vertical **9:16**
@@ -17,7 +50,7 @@ O vídeo funciona como um **teaser/trailer de abertura de uma série de conteúd
 * Motion design clean
 * Interface do produto como protagonista
 * Poucos elementos simultâneos
-* Textos grandes e legíveis
+* Nenhum texto ou legenda na tela
 * Visual tecnológico sem exageros
 
 O resultado deve parecer uma peça produzida profissionalmente para lançamento de um produto digital brasileiro.
@@ -115,9 +148,13 @@ Não inventar:
 
 Se uma cena descrever uma funcionalidade (gerador, extensão, Meus Jogos, bolão etc.) e a tela correspondente **não** tiver sido fornecida como imagem, não criar uma versão fictícia dessa interface.
 
-Nesse caso, resolver a cena sem mostrar tela de produto: usar Trevin, texto na tela, elementos gráficos simples ou composição abstrata — nunca uma interface inventada.
+Nesse caso, resolver a cena sem mostrar tela de produto: usar Trevin, elementos gráficos simples ou composição abstrata — nunca uma interface inventada.
 
 **Toda tela do sistema que aparecer no vídeo precisa ter origem em uma imagem fornecida por mim.**
+
+Essa regra vale também para **sites e marcas de terceiros**, incluindo o site das Loterias Caixa: **não recriar, reconstruir ou inventar a aparência real de nenhum site que não tenha sido fornecido como imagem de referência.**
+
+Sempre que uma cena mencionar "o site da Caixa" e nenhuma imagem de referência do site da Caixa tiver sido fornecida, não gerar essa interface. Representar a ação de forma abstrata (ex: a extensão do Jogos Bem Feitos preenchendo campos genéricos, sem replicar o layout, cores, logotipo ou identidade visual reais de nenhum site externo).
 
 ---
 
@@ -169,17 +206,15 @@ a fala deve soar naturalmente em português brasileiro como:
 
 **"Eu sou o tre-VIN."**
 
-A escrita visual, entretanto, deve continuar sendo:
+A representação fonética serve SOMENTE como instrução para geração do áudio. Nunca escrever "tre-VIN" em lugar nenhum.
 
-**Trevin**
-
-Nunca escrever "tre-VIN" na tela.
-
-A representação fonética serve SOMENTE como instrução para geração do áudio.
+**Não gerar nenhum texto, título, legenda ou closed caption na tela, de nenhum tipo, automático ou não.** O vídeo deve ficar totalmente livre de textos sobrepostos. O áudio é o único veículo das falas.
 
 ---
 
 # 4. VOZ DO TREVIN
+
+**Aviso prático:** o Veo 3 usa vozes fixas do Google (ex: Puck) e não permite escolher/desenhar um timbre customizado por texto — a descrição abaixo não vai mudar qual voz sai, só serve pra guiar a entonação/emoção dentro da voz que o modelo já usa (Puck tende a soar mais neutra/jovem, então funciona relativamente bem para um assistente de IA, mas não é garantido bater 100% com o descrito). Se a identidade sonora do Trevin precisar ser exata e consistente entre vídeos, a alternativa é gerar o vídeo sem depender da voz do Veo e **dublar por cima em pós-produção** com uma ferramenta de TTS que permita clonar/fixar uma voz própria (ex: ElevenLabs), sincronizando com a boca/movimento do Trevin.
 
 Todo o áudio falado deve ser exclusivamente em:
 
@@ -258,6 +293,8 @@ A voz do Trevin deve permanecer perfeitamente clara.
 
 ## Duração: 0–3 segundos
 
+**IMAGEM A USAR COMO FRAME INICIAL NESTA GERAÇÃO: foto do Trevin** (ver 0.2 — image-to-video, não só "referência"; não redescrever a aparência do personagem no texto).
+
 Começar imediatamente com uma composição visual forte.
 
 Mostrar a interface do **Jogos Bem Feitos** em um enquadramento elegante.
@@ -277,10 +314,6 @@ A abertura deve ser extremamente clean.
 Poucos elementos.
 
 Grande espaço visual.
-
-### TEXTO GRANDE NA TELA:
-
-**EU SOU O TREVIN.**
 
 ### ÁUDIO:
 
@@ -305,6 +338,16 @@ Os primeiros segundos precisam funcionar como um hook.
 # 7. CENA 2 — O QUE EU FAÇO
 
 ## Duração: 3–9 segundos
+
+Esta cena mistura falas de Trevin com telas do produto — gerar em partes separadas (uma geração por trecho abaixo), cada uma com a imagem de referência indicada.
+
+**"Eu gero seus jogos" → usar a screenshot real da tela do Gerador como frame inicial (ver 0.2). São combinações numéricas de loteria (grades de números), nunca video game (ver 0.4).**
+
+**"insiro na Caixa" → sem screenshot real do site da Caixa fornecida; não usar imagem de site de terceiro, resolver de forma abstrata (ver regra 2.1).**
+
+**"organizo tudo em grupos" → usar a screenshot real da tela de Meus Jogos como frame inicial (ver 0.2).**
+
+**"tocar o bolão com seus amigos" → usar a screenshot real da tela de Jogadores/Apostas como frame inicial (ver 0.2).**
 
 Começar uma sequência fluida mostrando diferentes funcionalidades do produto.
 
@@ -336,13 +379,15 @@ Combinações sendo geradas dentro da interface.
 
 **"insiro na Caixa"**
 
-Mostrar a extensão do Jogos Bem Feitos funcionando dentro do site das Loterias Caixa.
+Mostrar a extensão do Jogos Bem Feitos em ação, preenchendo/inserindo jogos.
 
 Mostrar visualmente jogos sendo inseridos/preenchidos.
 
 IMPORTANTE:
 
-A extensão aparece **dentro do site**, como uma extensão/painel lateral.
+A extensão aparece **dentro de um site**, como uma extensão/painel lateral.
+
+**Só recriar a aparência real do site das Loterias Caixa se uma imagem de referência dele tiver sido fornecida** (ver regra 2.1). Sem essa referência, representar o site de forma genérica/abstrata, sem replicar layout, cores ou marca reais da Caixa.
 
 Não representar como aplicativo de celular.
 
@@ -393,6 +438,8 @@ As transições devem ser rápidas, mas permitir compreender o que está acontec
 
 ## FLASH 1 — GERADOR COM IA
 
+**IMAGEM A USAR COMO FRAME INICIAL: screenshot real da tela do Gerador (ver 0.2).** São combinações numéricas de loteria, nunca video game (ver 0.4).
+
 Mostrar o gerador funcionando.
 
 Jogos aparecem sendo gerados.
@@ -403,9 +450,9 @@ A interface deve parecer rápida, inteligente e simples.
 
 ## FLASH 2 — EXTENSÃO / CAIXA
 
-Mostrar o site das Loterias Caixa.
+Mostrar o painel lateral da extensão do Jogos Bem Feitos em ação.
 
-Mostrar o painel lateral da extensão do Jogos Bem Feitos.
+Só recriar a aparência real do site das Loterias Caixa se uma imagem de referência dele tiver sido fornecida (ver regra 2.1); sem essa referência, usar um site genérico/abstrato ao fundo.
 
 Mostrar a extensão realizando a inserção dos jogos.
 
@@ -417,6 +464,8 @@ Não criar um aplicativo separado.
 
 ## FLASH 3 — MEUS JOGOS
 
+**IMAGEM A USAR COMO FRAME INICIAL: screenshot real da tela de Meus Jogos (ver 0.2).**
+
 Mostrar a tela **Meus Jogos**.
 
 Vários jogos organizados visualmente.
@@ -426,6 +475,8 @@ Mostrar agrupamento de forma clara.
 ---
 
 ## FLASH 4 — JOGADORES / BOLÃO
+
+**IMAGEM A USAR COMO FRAME INICIAL: screenshot real da tela de Apostas/Jogadores (ver 0.2).**
 
 Mostrar jogadores e informações financeiras/saldos relacionados ao bolão.
 
@@ -470,6 +521,8 @@ As telas devem parecer o **produto real em funcionamento**.
 
 ## Duração: 14–18 segundos
 
+**IMAGEM A USAR COMO FRAME INICIAL NESTA GERAÇÃO: foto do Trevin (ver 0.2).**
+
 Depois da sequência rápida, diminuir ligeiramente o ritmo.
 
 Voltar para uma composição clean.
@@ -492,12 +545,6 @@ Trevin fala:
 
 Tom confiante e convidativo.
 
-### TEXTO GRANDE NA TELA:
-
-**ESSE MÊS, EU VOU TE MOSTRAR TUDO.**
-
-Pouquíssimo texto adicional.
-
 Essa cena deve transmitir claramente:
 
 **"isso é apenas o começo."**
@@ -507,6 +554,8 @@ Essa cena deve transmitir claramente:
 # 11. CENA 5 — ENCERRAMENTO
 
 ## Duração: 18–20 segundos
+
+**IMAGEM A USAR COMO FRAME INICIAL NESTA GERAÇÃO: foto do Trevin (ver 0.2).** (Foi a única cena em que o Veo acertou o personagem — provavelmente por já ter "convergido" ao longo da geração longa. Anexar a imagem aqui também garante o acerto de forma consistente, sem depender de sorte.)
 
 Finalizar com uma composição extremamente limpa.
 
@@ -520,17 +569,13 @@ Trevin permanece exatamente com a identidade visual da imagem de referência.
 
 Entrada elegante do logotipo.
 
-**Não incluir nenhum ícone/logo de rede social (Instagram, TikTok ou qualquer outra) na composição.** O CTA "Segue aqui pra acompanhar" deve ser comunicado só por texto e fala, sem ícones de plataforma.
+**Não incluir nenhum ícone/logo de rede social (Instagram, TikTok ou qualquer outra) na composição.** O CTA "Segue aqui pra acompanhar" deve ser comunicado somente pela fala, sem ícones de plataforma ou qualquer texto na tela.
 
 ### ÁUDIO:
 
 Trevin fala:
 
 **"Segue aqui pra acompanhar."**
-
-### TEXTO GRANDE NA TELA:
-
-**SEGUE PRA ACOMPANHAR.**
 
 Adicionar apenas uma animação extremamente sutil relacionada à ação de seguir.
 
@@ -599,25 +644,7 @@ O vídeo precisa respirar.
 
 # 14. TEXTOS NA TELA
 
-Usar poucos textos.
-
-Textos grandes.
-
-Legíveis imediatamente em smartphone.
-
-Não criar parágrafos.
-
-Não adicionar explicações pequenas.
-
-Priorizar somente:
-
-**EU SOU O TREVIN.**
-
-**ESSE MÊS, EU VOU TE MOSTRAR TUDO.**
-
-**SEGUE PRA ACOMPANHAR.**
-
-Não adicionar textos extras desnecessários.
+**Nenhum.** O vídeo não deve conter nenhum texto, título, legenda ou closed caption em momento algum — nem mesmo o nome do personagem. Toda a comunicação acontece por imagem, música e pela voz do Trevin.
 
 ---
 
@@ -661,6 +688,8 @@ Não usar excesso de partículas.
 
 Não usar números de loteria voando pela tela.
 
+Não representar "jogos" como video game, console, controle, pixel art ou tela de arcade — "jogos" é sempre combinação numérica de aposta de loteria (ver 0.4).
+
 Não usar bolas de loteria flutuando.
 
 Não usar moedas voando.
@@ -688,6 +717,8 @@ Não fazer promessas de ganhos.
 Não sugerir aumento garantido das chances de ganhar.
 
 Não incluir ícones ou logotipos de redes sociais (Instagram, TikTok ou qualquer outra) em nenhuma cena do vídeo.
+
+Não adicionar nenhum texto, título, legenda ou closed caption na tela.
 
 ---
 
@@ -734,7 +765,7 @@ Antes de gerar o resultado, garantir:
 3. Nenhuma tela do sistema aparece sem ter sido fornecida como imagem de referência (ver regra 2.1).
 4. O nome Trevin é pronunciado **tre-VIN**, com força na última sílaba.
 5. Todo o áudio está em português brasileiro.
-6. Trevin possui voz masculina jovem-adulta, natural e inteligente.
+6. Trevin possui voz com timbre de personagem/assistente de IA — não uma voz humana genérica de locutor (ver seção 4).
 7. O produto aparece mais do que o mascote.
 8. A extensão aparece como extensão dentro do site, e não como celular.
 9. Não existe conversa de chatbot.
@@ -743,3 +774,7 @@ Antes de gerar o resultado, garantir:
 12. As interfaces fornecidas como referência são preservadas.
 13. O vídeo termina com Trevin, Jogos Bem Feitos e o CTA para seguir.
 14. Nenhum ícone ou logotipo de rede social aparece em qualquer cena.
+15. Nenhum site ou marca de terceiros (incluindo Caixa) foi recriado sem imagem de referência fornecida.
+16. Não existe absolutamente nenhum texto, título, legenda ou closed caption na tela em nenhum momento do vídeo.
+17. Cada cena/trecho foi gerado usando a imagem certa (Trevin ou screenshot) como frame inicial (ver 0.2), nunca só como referência de estilo.
+18. Nenhuma tela mostra jogos eletrônicos, consoles, controles ou pixel art — "jogos" aparece sempre como combinações numéricas de loteria (ver 0.4).
