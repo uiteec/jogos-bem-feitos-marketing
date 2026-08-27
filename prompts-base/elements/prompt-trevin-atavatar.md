@@ -1,4 +1,4 @@
-# CHARACTER LOCK — TREVIN
+# CHARACTER LOCK: TREVIN
 
 O personagem principal é **Trevin**, mascote e assistente virtual de inteligência artificial da marca Jogos Bem Feitos.
 

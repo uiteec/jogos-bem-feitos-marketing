@@ -1,4 +1,4 @@
-# Descrição da postagem — Reel 05/09 — "30 jogos. Um por um. Ou não."
+# Descrição da postagem: Reel 05/09, "30 jogos. Um por um. Ou não."
 
 ## Texto pronto (copiar tudo de uma vez)
 
@@ -14,4 +14,4 @@ Extensão gratuita - link na bio.
 
 ## Cuidado editorial
 
-Enquadrar sempre como preenchimento assistido — a confirmação final da aposta continua no site oficial da Caixa, sob controle do usuário. A extensão já cobre todas as loterias da Caixa (atualizado em 26/08/2026 — não restringir a fala à Lotofácil).
+Enquadrar sempre como preenchimento assistido, pois a confirmação final da aposta continua no site oficial da Caixa, sob controle do usuário. A extensão já cobre todas as loterias da Caixa (atualizado em 26/08/2026, não restringir a fala à Lotofácil).

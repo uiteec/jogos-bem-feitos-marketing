@@ -1,4 +1,4 @@
-# CRIAÇÃO DE SLIDE — CARROSSEL JOGOS BEM FEITOS
+# CRIAÇÃO DE SLIDE, CARROSSEL JOGOS BEM FEITOS
 
 Crie **apenas 1 slide** de um carrossel para Instagram da marca **Jogos Bem Feitos**.
 
@@ -175,9 +175,9 @@ A composição deve ser predominantemente escura.
 
 Como referência visual:
 
-**60% — tons escuros**
-**25% — azul/ciano**
-**15% — verde**
+**60% de tons escuros**
+**25% de azul/ciano**
+**15% de verde**
 
 Não precisa seguir matematicamente esses percentuais.
 
@@ -536,7 +536,7 @@ A sensação deve ser:
 
 ## Tema
 
-"As 4 coisas que o Trevin faz por você" — carrossel de abertura da campanha de setembro, apresentando em formato de cartão de apresentação as 4 funções centrais do Trevin: gerar jogos, montar apostas, inserir na Caixa e analisar resultados. Serve como resumo/índice para os capítulos que serão detalhados nas semanas seguintes.
+"As 4 coisas que o Trevin faz por você", carrossel de abertura da campanha de setembro, apresentando em formato de cartão de apresentação as 4 funções centrais do Trevin: gerar jogos, montar apostas, inserir na Caixa e analisar resultados. Serve como resumo/índice para os capítulos que serão detalhados nas semanas seguintes.
 
 ## Objetivo
 
@@ -556,7 +556,7 @@ Monto suas apostas.
 
 ## Texto complementar
 
-Organizo, filtro e preparo suas apostas do seu jeito — sozinho ou em bolão.
+Organizo, filtro e preparo suas apostas do seu jeito, sozinho ou em bolão.
 
 Utilizar exatamente essas informações.
 
@@ -644,7 +644,7 @@ Não exagerar gestos ou emoções.
 
 # 26. CONTEXTO DA PÁGINA ANTERIOR
 
-Slide 2 apresenta a 1ª função: "Gero seus jogos" — geração de combinações com IA.
+Slide 2 apresenta a 1ª função: "Gero seus jogos", geração de combinações com IA.
 
 Utilize essa informação apenas para compreender a narrativa.
 
@@ -654,7 +654,7 @@ Não precisa reproduzi-la no slide.
 
 # 27. CONTEXTO DA PRÓXIMA PÁGINA
 
-O slide 4 apresenta a 3ª função: "Insiro na Caixa" — inserção automática das apostas no site da Caixa.
+O slide 4 apresenta a 3ª função: "Insiro na Caixa", inserção automática das apostas no site da Caixa.
 
 Quando possível, utilizar composição, direção do olhar, posicionamento ou elementos gráficos para criar uma sensação sutil de continuidade.
 

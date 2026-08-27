@@ -1,4 +1,4 @@
-# Carrossel — 03/09 — "As 4 coisas que o Trevin faz por você"
+# Carrossel de 03/09: "As 4 coisas que o Trevin faz por você"
 
 | Campo | Valor |
 |---|---|
@@ -22,7 +22,7 @@ Crio combinações com IA em segundos, na estratégia que você escolher."
 
 **Slide 3**
 "Monto suas apostas.
-Organizo, filtro e preparo suas apostas do seu jeito — sozinho ou em bolão."
+Organizo, filtro e preparo suas apostas do seu jeito, sozinho ou em bolão."
 
 **Slide 4**
 "Insiro na Caixa.

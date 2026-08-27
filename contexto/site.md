@@ -1,4 +1,4 @@
-# Site institucional — jogosbemfeitos.com.br
+# Site institucional: jogosbemfeitos.com.br
 
 > Conteúdo extraído da landing page em 2026-08-20. Base para copy de social media,
 > anúncios e qualquer material que precise refletir o discurso oficial já publicado.
@@ -16,20 +16,20 @@
 - "Mais organização e controle"
 - "Mais inteligência nas suas escolhas"
 
-## Trevin — assistente de IA (posicionamento no site)
+## Trevin: assistente de IA (posicionamento no site)
 
 O site apresenta o assistente de IA com nome próprio, **Trevin**, e humaniza as
 funcionalidades em primeira pessoa:
 
-- **Gero seus jogos** — "Crio combinações inteligentes para você em segundos"
-- **Monto suas apostas** — "Organizo, filtro e preparo suas apostas do seu jeito"
-- **Insiro na Caixa** — "Levo suas apostas até o site da Caixa automaticamente"
+- **Gero seus jogos**: "Crio combinações inteligentes para você em segundos"
+- **Monto suas apostas**: "Organizo, filtro e preparo suas apostas do seu jeito"
+- **Insiro na Caixa**: "Levo suas apostas até o site da Caixa automaticamente"
 - **Analiso resultados e encontro padrões**
 - **Sugiro melhorias para melhorar desempenho**
 
 > Nota: no `contexto/produto.md` o Trevin aparece como o Chat Inteligente (área "vem
 > por aí"). No site ele já é apresentado como o rosto/mascote de toda a proposta de
-> automação — vale manter esse nome como padrão em qualquer peça de marketing.
+> automação, vale manter esse nome como padrão em qualquer peça de marketing.
 
 ## Extensão Chrome
 
@@ -37,7 +37,7 @@ funcionalidades em primeira pessoa:
 - Acompanha jogos realizados e identifica premiações.
 - Automatiza resgate de valores.
 - **Disponível para todas as modalidades suportadas pela plataforma** (não é mais
-  restrita à Lotofácil — atualizado em 2026-08-26; conteúdo antigo que falava em
+  restrita à Lotofácil, atualizado em 2026-08-26; conteúdo antigo que falava em
   "hoje só Lotofácil" está desatualizado).
 
 ## Modalidades suportadas
@@ -49,12 +49,12 @@ Sete, +Milionária.
 
 | Plano   | Preço         | Jogos salvos | Apostas/dia | Gerações IA/dia | Jogadores |
 |---------|---------------|--------------|-------------|------------------|-----------|
-| Free    | Grátis        | até 50       | 1/dia       | até 10/dia       | —         |
+| Free    | Grátis        | até 50       | 1/dia       | até 10/dia       | N/A       |
 | Basic   | R$ 29,90/mês  | até 1.000    | 1/dia       | até 50/dia       | até 5     |
 | Premium | R$ 69,90/mês  | até 50.000   | ilimitadas  | até 1.000/dia    | ilimitado |
 
 > ⚠️ Divergência com `contexto/produto.md`: lá o Basic aparece com "até 50/dia" de
-> gerações IA e o texto de visão geral do produto cita os mesmos números do site — os
+> gerações IA e o texto de visão geral do produto cita os mesmos números do site, os
 > valores batem. O ponto de atenção real é o **limite de apostas/dia** (1/dia no Free
 > e Basic, ilimitado no Premium), que não estava detalhado no documento de produto.
 > Confirmar antes de usar em copy paga.
@@ -78,7 +78,7 @@ conta
 > Econômica Federal."
 
 Isso é uma informação sensível para compliance de anúncios (Google/Meta Ads costumam
-exigir disclaimers claros quando o produto se relaciona a loterias/apostas) — manter
+exigir disclaimers claros quando o produto se relaciona a loterias/apostas), manter
 esse disclaimer visível em qualquer peça paga que mencione a Caixa.
 
 ## Lacunas identificadas no site (útil para planejar conteúdo)

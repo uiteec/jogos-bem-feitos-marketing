@@ -1,4 +1,4 @@
-# Reel — 24/09 — "Quem organiza o bolão do seu grupo hoje?"
+# Reel 24/09: "Quem organiza o bolão do seu grupo hoje?"
 
 | Campo | Valor |
 |---|---|
@@ -15,20 +15,20 @@
 
 ## Roteiro
 
-**Cena 1 — 0–5s**
+**Cena 1: 0–5s**
 Print estilizado de um grupo de WhatsApp caótico: mensagens tipo "já paguei", "quem falta", "bora fechar os números" espalhadas sem ordem.
 
-**Cena 2 — 5–9s**
+**Cena 2: 5–9s**
 Texto: "Organizar bolão em grupo de WhatsApp funciona até dar errado uma vez."
 
-**Cena 3 — 9–15s**
+**Cena 3: 9–15s**
 Corte pra tela de "Jogadores" do app: participantes cadastrados, jogos vinculados a cada aposta, tudo num só lugar.
 
-**Cena 4 — 15–19s**
+**Cena 4: 15–19s**
 Texto: "Eu organizo os jogadores, os jogos e as apostas do seu bolão num lugar só."
 
-**Cena 5 — 19–20s**
-CTA: "Cria seu bolão — link na bio."
+**Cena 5: 19–20s**
+CTA: "Cria seu bolão, link na bio."
 
 ## Direção visual
 

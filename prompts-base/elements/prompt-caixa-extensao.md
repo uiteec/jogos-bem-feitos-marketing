@@ -1,10 +1,10 @@
-## CENÁRIO FIXO — LOTERIAS CAIXA + EXTENSÃO JOGOS BEM FEITOS
+## CENÁRIO FIXO: LOTERIAS CAIXA + EXTENSÃO JOGOS BEM FEITOS
 
 A cena acontece em um **monitor de computador desktop**, mostrando um navegador aberto no portal brasileiro **Loterias Online da CAIXA**, com a extensão **Jogos Bem Feitos** aberta como um painel lateral integrado ao navegador no lado direito.
 
 A interface deve parecer um **software real em funcionamento**, moderno e profissional. Não transformar a tela em uma interface futurista, holográfica ou conceitual. Não inventar dashboards. Manter aparência de um site e uma extensão reais.
 
-### ÁREA PRINCIPAL — SITE LOTERIAS CAIXA
+### ÁREA PRINCIPAL: SITE LOTERIAS CAIXA
 
 O site ocupa aproximadamente **76% da largura da tela**, da borda esquerda até o início da extensão lateral.
 
@@ -40,16 +40,16 @@ seguida por cards verticais de modalidades de loteria.
 
 Os cards possuem cabeçalhos coloridos e valores grandes de prêmios. Entre eles aparecem modalidades como:
 
-* Lotofácil da Independência — roxo
-* Mega-Sena — verde
-* Lotofácil — roxo
-* Quina — azul
+* Lotofácil da Independência, roxo
+* Mega-Sena, verde
+* Lotofácil, roxo
+* Quina, azul
 
 A interface deve parecer um portal brasileiro real de apostas, limpo, organizado e funcional.
 
 ---
 
-## PAINEL LATERAL — EXTENSÃO JOGOS BEM FEITOS
+## PAINEL LATERAL: EXTENSÃO JOGOS BEM FEITOS
 
 No lado direito do navegador existe uma extensão aberta permanentemente como um **painel lateral vertical**, ocupando aproximadamente **24% da largura total da tela e 100% da altura visível**.
 

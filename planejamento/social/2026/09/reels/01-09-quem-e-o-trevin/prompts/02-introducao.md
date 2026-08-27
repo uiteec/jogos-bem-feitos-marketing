@@ -1,22 +1,22 @@
-# PROMPT VEO — CLIPE 2/7 — "INTRODUÇÃO"
+# PROMPT VEO: CLIPE 2/7: "INTRODUÇÃO"
 
-Reel "Eu sou o Trevin" (01/09). Este é o **clipe 2 de 7** que formam o vídeo final — gerar sozinho, sem depender de nenhum outro prompt, e depois cortar/editar junto com os outros 6 em CapCut/Premiere. Corresponde à **Parte 2 (3–12s)** do roteiro.
+Reel "Eu sou o Trevin" (01/09). Este é o **clipe 2 de 7** que formam o vídeo final. Gerar sozinho, sem depender de nenhum outro prompt, e depois cortar/editar junto com os outros 6 em CapCut/Premiere. Corresponde à **Parte 2 (3–12s)** do roteiro.
 
-Vídeo publicitário vertical (9:16) para Instagram Reels/TikTok, apresentando **Trevin**, o assistente inteligente da plataforma **Jogos Bem Feitos**. Neste clipe, Trevin se apresenta pelo nome e contextualiza o problema de quem aposta na loteria da Caixa — ritmo calmo, didático, uma ideia de cada vez.
+Vídeo publicitário vertical (9:16) para Instagram Reels/TikTok, apresentando **Trevin**, o assistente inteligente da plataforma **Jogos Bem Feitos**. Neste clipe, Trevin se apresenta pelo nome e contextualiza o problema de quem aposta na loteria da Caixa, em ritmo calmo, didático, uma ideia de cada vez.
 
 ---
 
 ## GERAÇÃO SEM IMAGEM DE REFERÊNCIA DO PERSONAGEM
 
-**Nenhuma foto do Trevin será anexada nesta geração.** A consistência do personagem vem inteiramente da descrição textual do CHARACTER LOCK abaixo — incluir esse bloco **literalmente, por completo**, no prompt enviado ao Veo.
+**Nenhuma foto do Trevin será anexada nesta geração.** A consistência do personagem vem inteiramente da descrição textual do CHARACTER LOCK abaixo: incluir esse bloco **literalmente, por completo**, no prompt enviado ao Veo.
 
-Se fizer sentido visualmente, compor Trevin com um fundo simples sugerindo "bagunça de apostador" (bilhetes, anotações) — mas **sem inventar nenhuma tela de produto aqui**; essa parte é sobre o problema, não sobre a solução.
+Se fizer sentido visualmente, compor Trevin com um fundo simples sugerindo "bagunça de apostador" (bilhetes, anotações), mas **sem inventar nenhuma tela de produto aqui**; essa parte é sobre o problema, não sobre a solução.
 
 Cada geração do Veo 3 sai com ~8 segundos fixos. Gerar o clipe inteiro e, na edição, usar o trecho necessário (até ~9 segundos de conteúdo útil; se sobrar, cortar do final).
 
 ---
 
-## CHARACTER LOCK — TREVIN
+## CHARACTER LOCK: TREVIN
 
 O personagem principal é **Trevin**, mascote e assistente virtual de inteligência artificial da marca Jogos Bem Feitos.
 
@@ -76,15 +76,15 @@ Trevin deve parecer **o mesmo personagem recorrente de uma série**, e não uma 
 
 Animação permitida apenas como microanimação compatível com essa descrição.
 
-## REGRA CRÍTICA — TELAS DO SISTEMA
+## REGRA CRÍTICA: TELAS DO SISTEMA
 
-**Não gerar nenhuma tela, interface ou elemento de produto que não tenha sido fornecido como imagem de referência.** Este clipe é sobre Trevin e o "problema" do apostador — resolver com Trevin e elementos gráficos simples/abstratos, nunca com uma interface inventada do Jogos Bem Feitos.
+**Não gerar nenhuma tela, interface ou elemento de produto que não tenha sido fornecido como imagem de referência.** Este clipe é sobre Trevin e o "problema" do apostador: resolver com Trevin e elementos gráficos simples/abstratos, nunca com uma interface inventada do Jogos Bem Feitos.
 
 ---
 
 ## CENA
 
-Trevin é o narrador. Ele NÃO está conversando com o usuário nem respondendo perguntas — está explicando, olhando "para a câmera", com uma expressão tranquila e confiante. Composição clean, ritmo calmo, sem cortes rápidos.
+Trevin é o narrador. Ele NÃO está conversando com o usuário nem respondendo perguntas, está explicando, olhando "para a câmera", com uma expressão tranquila e confiante. Composição clean, ritmo calmo, sem cortes rápidos.
 
 ---
 
@@ -94,23 +94,23 @@ Trevin fala:
 
 **"Eu sou o Trevin. Se você aposta na Mega-Sena, na Lotofácil ou em qualquer jogo da Caixa, sabe como é chato ficar montando jogo, conferindo número por número e organizando tudo na mão."**
 
-### Pronúncia obrigatória — "Trevin"
+### Pronúncia obrigatória: "Trevin"
 
-O nome escrito é **Trevin**, mas a pronúncia correta em português brasileiro tem a força na última sílaba: **tre-VIN** (vem de "Trevinho" → tre-VIN-ho). Nunca pronunciar como nome inglês (errado: TRÉ-vin), nunca com sotaque estrangeiro. A frase "Eu sou o Trevin" deve soar como "Eu sou o tre-VIN". Essa grafia fonética é só instrução de áudio — nunca escrever "tre-VIN" na tela ou em qualquer texto do vídeo.
+O nome escrito é **Trevin**, mas a pronúncia correta em português brasileiro tem a força na última sílaba: **tre-VIN** (vem de "Trevinho" → tre-VIN-ho). Nunca pronunciar como nome inglês (errado: TRÉ-vin), nunca com sotaque estrangeiro. A frase "Eu sou o Trevin" deve soar como "Eu sou o tre-VIN". Essa grafia fonética é só instrução de áudio, nunca escrever "tre-VIN" na tela ou em qualquer texto do vídeo.
 
-Falar em ritmo pausado, com uma pequena pausa depois de "Eu sou o tre-VIN" antes de emendar o resto da frase — dar tempo da apresentação "grudar".
+Falar em ritmo pausado, com uma pequena pausa depois de "Eu sou o tre-VIN" antes de emendar o resto da frase, para dar tempo da apresentação "grudar".
 
 ### Voz do Trevin
 
-Português brasileiro (pt-BR). Voz masculina brasileira com timbre de **personagem/assistente de IA** — não uma voz humana genérica de locutor. Leve textura tecnológica/sintética perceptível, sem ser um efeito robótico exagerado. Deve transmitir inteligência, confiança, simpatia, domínio do produto, tecnologia, praticidade, leve descontração, identidade única de personagem.
+Português brasileiro (pt-BR). Voz masculina brasileira com timbre de **personagem/assistente de IA**, e não uma voz humana genérica de locutor. Leve textura tecnológica/sintética perceptível, sem ser um efeito robótico exagerado. Deve transmitir inteligência, confiança, simpatia, domínio do produto, tecnologia, praticidade, leve descontração, identidade única de personagem.
 
-Ritmo de fala **pausado e claro**, nunca apressado — esta frase é mais longa, então precisa de tempo pra caber com folga; não acelerar a locução para caber tudo.
+Ritmo de fala **pausado e claro**, nunca apressado: esta frase é mais longa, então precisa de tempo pra caber com folga; não acelerar a locução para caber tudo.
 
 **Não usar:** voz humana genérica de narrador, voz infantil, voz de desenho animado, voz excessivamente fofa, voz robótica caricata, sotaque estrangeiro, pronúncia inglesa, entusiasmo exagerado, fala apressada.
 
 ### Trilha
 
-Instrumental tecnológica, moderna, minimalista, sofisticada, discreta — nunca competindo com a voz, especialmente por essa frase ser mais longa. Não usar música épica, infantil, trilha de videogame, sons futuristas exagerados, cyberpunk ou efeitos excessivos.
+Instrumental tecnológica, moderna, minimalista, sofisticada, discreta, nunca competindo com a voz, especialmente por essa frase ser mais longa. Não usar música épica, infantil, trilha de videogame, sons futuristas exagerados, cyberpunk ou efeitos excessivos.
 
 ---
 

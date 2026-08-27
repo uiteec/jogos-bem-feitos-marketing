@@ -1,4 +1,4 @@
-# Reel — 29/09 — "Eu organizo, eu gero, eu insiro, eu resgato"
+# Reel 29/09: "Eu organizo, eu gero, eu insiro, eu resgato"
 
 | Campo | Valor |
 |---|---|
@@ -15,21 +15,21 @@
 
 ## Roteiro
 
-**Cena 1 — 0–3s**
+**Cena 1: 0–3s**
 Avatar do Trevin em destaque. Texto: "Recapitulando setembro."
 
-**Cena 2 — 3–14s**
+**Cena 2: 3–14s**
 Sequência rápida (~2s cada) reaproveitando prints reais já usados no mês: extensão inserindo jogo → extensão identificando prêmio → gerador com as 5 estratégias → tela de agrupamento → tela de jogadores/saldo do bolão.
 
-**Cena 3 — 14–18s**
+**Cena 3: 14–18s**
 Texto (voz do Trevin): "Eu organizo. Eu gero. Eu insiro. Eu resgato. Você decide."
 
-**Cena 4 — 18–20s**
+**Cena 4: 18–20s**
 Logo + CTA forte: "Cria sua conta grátis e começa outubro com tudo isso já rodando."
 
 ## Direção visual
 
-Funciona como um "recap"/trailer de encerramento — reaproveitar literalmente os clipes gravados ao longo do mês (05/09, 08/09, 12–19/09, 22/09, 24–26/09) em vez de gravar cenas novas, reforçando que é o fechamento de uma série, não um post avulso.
+Funciona como um "recap"/trailer de encerramento: reaproveitar literalmente os clipes gravados ao longo do mês (05/09, 08/09, 12–19/09, 22/09, 24–26/09) em vez de gravar cenas novas, reforçando que é o fechamento de uma série, não um post avulso.
 
 ## Legenda
 

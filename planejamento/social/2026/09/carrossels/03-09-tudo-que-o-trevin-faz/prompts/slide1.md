@@ -1,8 +1,8 @@
-# CRIAR 1 SLIDE DE CARROSSEL — JOGOS BEM FEITOS
+# CRIAR 1 SLIDE DE CARROSSEL, JOGOS BEM FEITOS
 
 Crie **somente UM slide** de um carrossel para Instagram.
 
-**Formato:** vertical 4:5 — 1080 × 1350 px
+**Formato:** vertical 4:5, 1080 × 1350 px
 **Slide:** 1 de 6
 
 IMPORTANTE: isto é um **carrossel editorial para Instagram**, NÃO é banner publicitário, landing page, infográfico, dashboard ou apresentação comercial.
@@ -47,7 +47,7 @@ O texto fornecido acima deve ser respeitado.
 
 Este slide comunica:
 
-A apresentação do Trevin como protagonista, abrindo a campanha do mês. Ainda não mostra nenhuma das 4 funções — é a capa que antecede a explicação de cada uma delas.
+A apresentação do Trevin como protagonista, abrindo a campanha do mês. Ainda não mostra nenhuma das 4 funções: é a capa que antecede a explicação de cada uma delas.
 
 Representar essa ideia com **UMA única cena principal**.
 
@@ -257,7 +257,7 @@ As 4 coisas que o Trevin faz por você.
 Trevin centralizado, em pose confiante e acolhedora, como quem está se apresentando. Sem nenhum elemento extra ao seu redor.
 
 **Cena/elemento visual:**
-A apresentação do Trevin como protagonista, abrindo a campanha do mês. Ainda não mostra nenhuma das 4 funções — é a capa que antecede a explicação de cada uma delas.
+A apresentação do Trevin como protagonista, abrindo a campanha do mês. Ainda não mostra nenhuma das 4 funções: é a capa que antecede a explicação de cada uma delas.
 
 **Principal destaque visual:**
 O título "As 4 coisas que o Trevin faz por você."

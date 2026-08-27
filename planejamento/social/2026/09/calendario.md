@@ -1,14 +1,14 @@
-# Calendário Editorial — Setembro/2026 — Jogos Bem Feitos
+# Calendário Editorial de Setembro/2026 (Jogos Bem Feitos)
 
 > Base: `contexto/trevin.md`, `contexto/produto.md`, `contexto/site.md`, `contexto/pesquisa-mercado/analise-estrategica.md`.
 > **Formato do mês:** tour de funcionalidades guiado pelo Trevin, na sequência definida: (1) quem é o Trevin, (2) extensão, (3) gerador de IA + estratégias, (4) agrupamento, (5) bolões/jogadores/saldo. Cada bloco é um "capítulo" do mês, sempre narrado em 1ª pessoa pelo Trevin.
-> **Restrições que valem para todo o mês:** a extensão já insere/resgata automaticamente em **todas as loterias da Caixa** (atualizado em 26/08/2026 — não é mais restrita à Lotofácil); nenhuma estratégia é apresentada como forma de aumentar chance de ganhar ou prever resultado; o Trevin narra o fluxo das telas do produto — não encenar um chat conversacional livre, já que o Chat Inteligente com tool-calling ainda está em testes internos.
+> **Restrições que valem para todo o mês:** a extensão já insere/resgata automaticamente em **todas as loterias da Caixa** (atualizado em 26/08/2026, não é mais restrita à Lotofácil); nenhuma estratégia é apresentada como forma de aumentar chance de ganhar ou prever resultado; o Trevin narra o fluxo das telas do produto, sem encenar um chat conversacional livre, já que o Chat Inteligente com tool-calling ainda está em testes internos.
 
 ## Estrutura das pautas
 
 ```
 planejamento/social/2026/09/
-  calendario.md          Este arquivo — visão geral, tabela resumo, mensuração
+  calendario.md          Este arquivo: visão geral, tabela resumo, mensuração
   reels/                 9 roteiros de Reels
   carrosseis/             4 carrosséis
   stories/                Plano semanal de stories (carrega o topo de funil que o feed não cobre este mês)
@@ -18,15 +18,15 @@ planejamento/social/2026/09/
 
 | Capítulo | Semana | O que mostra |
 |---|---|---|
-| 1 — Trevin | 01–05/09 | Quem é o Trevin e o que ele faz por você, como teaser do mês inteiro |
-| 2 — Extensão | 05–12/09 | Inserir jogos automaticamente, resgatar valores, criar jogos/apostas sem sair da extensão |
-| 3 — Gerador de IA | 12–19/09 | O gerador e as 5 estratégias disponíveis, com destaque pra duas delas |
-| 4 — Agrupamento | 22/09 | Organizar jogos do seu jeito |
-| 5 — Bolões e saldo | 24–29/09 | Gerenciar jogadores/bolões com amigos e controle de saldo, fechando o mês |
+| 1: Trevin | 01–05/09 | Quem é o Trevin e o que ele faz por você, como teaser do mês inteiro |
+| 2: Extensão | 05–12/09 | Inserir jogos automaticamente, resgatar valores, criar jogos/apostas sem sair da extensão |
+| 3: Gerador de IA | 12–19/09 | O gerador e as 5 estratégias disponíveis, com destaque pra duas delas |
+| 4: Agrupamento | 22/09 | Organizar jogos do seu jeito |
+| 5: Bolões e saldo | 24–29/09 | Gerenciar jogadores/bolões com amigos e controle de saldo, fechando o mês |
 
 ## Nota sobre o mix de funil deste mês
 
-Este calendário é deliberadamente mais **fundo de funil** que o padrão de referência (50/30/20) — é um mês de apresentação de produto, não de captação de audiência nova. Cheguei perto de ~8% Topo / 38% Meio / 54% Fundo no feed. Pra não transformar o perfil só em vitrine de propaganda, o **plano de stories** (`stories/plano-semanal.md`) foi ajustado pra carregar o topo de funil (perguntas, bastidor, entretenimento) que o feed não cobre este mês. Se outubro precisar reequilibrar pra mais alcance, é só recuperar os pilares de dor/curiosidade/entretenimento que ficaram de fora aqui.
+Este calendário é deliberadamente mais **fundo de funil** que o padrão de referência (50/30/20): é um mês de apresentação de produto, não de captação de audiência nova. Cheguei perto de ~8% Topo / 38% Meio / 54% Fundo no feed. Pra não transformar o perfil só em vitrine de propaganda, o **plano de stories** (`stories/plano-semanal.md`) foi ajustado pra carregar o topo de funil (perguntas, bastidor, entretenimento) que o feed não cobre este mês. Se outubro precisar reequilibrar pra mais alcance, é só recuperar os pilares de dor/curiosidade/entretenimento que ficaram de fora aqui.
 
 ## Tabela resumo
 
@@ -48,13 +48,13 @@ Este calendário é deliberadamente mais **fundo de funil** que o padrão de ref
 
 ## Stories
 
-Plano semanal recorrente, ajustado pra carregar o topo de funil que o feed não cobre este mês — ver [stories/plano-semanal.md](stories/plano-semanal.md).
+Plano semanal recorrente, ajustado pra carregar o topo de funil que o feed não cobre este mês, ver [stories/plano-semanal.md](stories/plano-semanal.md).
 
 ## Notas de mensuração
 
 - **Capítulo Trevin:** interesse (cliques no link, salvamentos, seguidores novos).
-- **Capítulo Extensão:** cliques no link + instalações — é o capítulo com maior potencial de conversão direta e também o de maior sensibilidade (ver `contexto/pesquisa-mercado/analise-estrategica.md`, risco de política da Chrome Web Store); evitar qualquer linguagem que sugira "aposta automática sem confirmação".
+- **Capítulo Extensão:** cliques no link + instalações; é o capítulo com maior potencial de conversão direta e também o de maior sensibilidade (ver `contexto/pesquisa-mercado/analise-estrategica.md`, risco de política da Chrome Web Store); evitar qualquer linguagem que sugira "aposta automática sem confirmação".
 - **Capítulo Gerador/Estratégias:** salvamentos (conteúdo educativo) + cadastros nos posts de teaser.
-- **Capítulos Agrupamento e Bolões:** cliques e cadastros — são os dois recursos menos comunicados até hoje e mais alinhados à tese de "copiloto que organiza a vida do apostador em grupo" (achado central da pesquisa de mercado).
+- **Capítulos Agrupamento e Bolões:** cliques e cadastros; são os dois recursos menos comunicados até hoje e mais alinhados à tese de "copiloto que organiza a vida do apostador em grupo" (achado central da pesquisa de mercado).
 
 Ao final do mês, comparar desempenho entre capítulos pra decidir se outubro aprofunda algum deles (ex.: série dedicada só a bolão) ou volta a um mix mais de topo de funil.

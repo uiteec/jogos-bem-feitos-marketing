@@ -1,6 +1,6 @@
-# PROMPT VEO — CLIPE 1/7 — "GANCHO"
+# PROMPT VEO: CLIPE 1/7: "GANCHO"
 
-Reel "Eu sou o Trevin" (01/09). Este é o **clipe 1 de 7** que formam o vídeo final — gerar sozinho, sem depender de nenhum outro prompt, e depois cortar/editar junto com os outros 6 em CapCut/Premiere. Corresponde à **Parte 1 (0–3s)** do roteiro.
+Reel "Eu sou o Trevin" (01/09). Este é o **clipe 1 de 7** que formam o vídeo final. Gerar sozinho, sem depender de nenhum outro prompt, e depois cortar/editar junto com os outros 6 em CapCut/Premiere. Corresponde à **Parte 1 (0–3s)** do roteiro.
 
 Vídeo publicitário vertical (9:16) para Instagram Reels/TikTok, apresentando **Trevin**, o assistente inteligente da plataforma **Jogos Bem Feitos**. Este clipe é a abertura: precisa segurar quem está passando o dedo, em 3 segundos, antes de qualquer explicação.
 
@@ -8,13 +8,13 @@ Vídeo publicitário vertical (9:16) para Instagram Reels/TikTok, apresentando *
 
 ## GERAÇÃO SEM IMAGEM DE REFERÊNCIA DO PERSONAGEM
 
-**Nenhuma foto do Trevin será anexada nesta geração.** A consistência do personagem vem inteiramente da descrição textual do CHARACTER LOCK abaixo — incluir esse bloco **literalmente, por completo**, no prompt enviado ao Veo, em toda geração que mostrar o Trevin.
+**Nenhuma foto do Trevin será anexada nesta geração.** A consistência do personagem vem inteiramente da descrição textual do CHARACTER LOCK abaixo: incluir esse bloco **literalmente, por completo**, no prompt enviado ao Veo, em toda geração que mostrar o Trevin.
 
 Cada geração do Veo 3 sai com ~8 segundos fixos. Gerar o clipe inteiro e, na edição, usar apenas os 3 primeiros segundos.
 
 ---
 
-## CHARACTER LOCK — TREVIN
+## CHARACTER LOCK: TREVIN
 
 O personagem principal é **Trevin**, mascote e assistente virtual de inteligência artificial da marca Jogos Bem Feitos.
 
@@ -80,7 +80,7 @@ Animação permitida apenas como microanimação compatível com essa descriçã
 
 Começar imediatamente com uma composição visual forte, sem enrolação. Mostrar a interface do Jogos Bem Feitos em um enquadramento elegante, com Trevin em destaque integrado à interface. Realizar uma aproximação muito sutil da câmera. Trevin pode piscar ou fazer uma microanimação natural. Abertura extremamente clean, poucos elementos, grande espaço visual.
 
-**Não gerar nenhuma outra tela de produto neste clipe** além do enquadramento com Trevin — se não houver imagem de referência de uma tela específica, não inventar uma.
+**Não gerar nenhuma outra tela de produto neste clipe** além do enquadramento com Trevin, se não houver imagem de referência de uma tela específica, não inventar uma.
 
 ---
 
@@ -90,19 +90,19 @@ Trevin fala:
 
 **"Se você joga na loteria da Caixa, isso aqui vai te poupar um tempão."**
 
-Tom direto, sem pressa — mesmo sendo o gancho, a frase não deve soar apressada. Dar uma pequena pausa no final.
+Tom direto, sem pressa (mesmo sendo o gancho, a frase não deve soar apressada). Dar uma pequena pausa no final.
 
 ### Voz do Trevin
 
-Português brasileiro (pt-BR). Voz masculina brasileira com timbre de **personagem/assistente de IA** — não uma voz humana genérica de locutor. Leve textura tecnológica/sintética perceptível, sem ser um efeito robótico exagerado. Deve transmitir inteligência, confiança, simpatia, domínio do produto, tecnologia, praticidade, leve descontração, identidade única de personagem.
+Português brasileiro (pt-BR). Voz masculina brasileira com timbre de **personagem/assistente de IA**, e não uma voz humana genérica de locutor. Leve textura tecnológica/sintética perceptível, sem ser um efeito robótico exagerado. Deve transmitir inteligência, confiança, simpatia, domínio do produto, tecnologia, praticidade, leve descontração, identidade única de personagem.
 
-Ritmo de fala **pausado e claro**, nunca apressado — não acelerar a locução para caber mais conteúdo.
+Ritmo de fala **pausado e claro**, nunca apressado, não acelerar a locução para caber mais conteúdo.
 
 **Não usar:** voz humana genérica de narrador, voz infantil, voz de desenho animado, voz excessivamente fofa, voz robótica caricata, sotaque estrangeiro, pronúncia inglesa, entusiasmo exagerado, fala apressada.
 
 ### Trilha
 
-Instrumental tecnológica, moderna, minimalista, sofisticada, discreta — nunca competindo com a voz. Não usar música épica, infantil, trilha de videogame, sons futuristas exagerados, cyberpunk ou efeitos excessivos.
+Instrumental tecnológica, moderna, minimalista, sofisticada, discreta, nunca competindo com a voz. Não usar música épica, infantil, trilha de videogame, sons futuristas exagerados, cyberpunk ou efeitos excessivos.
 
 ---
 

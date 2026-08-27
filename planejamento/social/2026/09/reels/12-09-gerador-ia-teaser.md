@@ -1,4 +1,4 @@
-# Reel — 12/09 — "5 jeitos diferentes de montar um jogo"
+# Reel 12/09: "5 jeitos diferentes de montar um jogo"
 
 | Campo | Valor |
 |---|---|
@@ -15,17 +15,17 @@
 
 ## Roteiro
 
-**Cena 1 — 0–4s**
+**Cena 1: 0–4s**
 Tela do gerador com o seletor de estratégia em destaque, mostrando as 5 opções em lista.
 
-**Cena 2 — 4–14s**
+**Cena 2: 4–14s**
 Texto rápido, uma estratégia por 2 segundos, com ícone simples pra cada uma: "Aleatório Equilibrado. Equilíbrio Estatístico. Repetição Equilibrada. Tendência Histórica. Similaridade Histórica."
 
-**Cena 3 — 14–18s**
-Texto: "Cada uma organiza o jogo com uma lógica diferente. Nenhuma prevê o resultado — isso ninguém consegue."
+**Cena 3: 14–18s**
+Texto: "Cada uma organiza o jogo com uma lógica diferente. Nenhuma prevê o resultado, isso ninguém consegue."
 
-**Cena 4 — 18–20s**
-CTA: "Testa as 5 — link na bio."
+**Cena 4: 18–20s**
+CTA: "Testa as 5, link na bio."
 
 ## Direção visual
 
@@ -33,7 +33,7 @@ Ritmo de "menu"/catálogo, cortes secos e uniformes (mesma duração pra cada es
 
 ## Legenda
 
-"5 estratégias, 5 jeitos diferentes de organizar um jogo — nenhuma delas promete acerto, todas te dão um critério em vez de escolher número no chute. Essa semana eu explico cada uma aqui no feed."
+"5 estratégias, 5 jeitos diferentes de organizar um jogo. Nenhuma delas promete acerto, todas te dão um critério em vez de escolher número no chute. Essa semana eu explico cada uma aqui no feed."
 
 **CTA:** Testar o gerador.
 

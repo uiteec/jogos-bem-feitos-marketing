@@ -1,8 +1,8 @@
-# CRIAR 1 SLIDE DE CARROSSEL — JOGOS BEM FEITOS
+# CRIAR 1 SLIDE DE CARROSSEL: JOGOS BEM FEITOS
 
 Crie **somente UM slide** de um carrossel para Instagram.
 
-**Formato:** vertical 4:5 — 1080 × 1350 px
+**Formato:** vertical 4:5, 1080 × 1350 px
 **Slide:** {{NUMERO_SLIDE}} de 6
 
 IMPORTANTE: isto é um **carrossel editorial para Instagram**, NÃO é banner publicitário, landing page, infográfico, dashboard ou apresentação comercial.

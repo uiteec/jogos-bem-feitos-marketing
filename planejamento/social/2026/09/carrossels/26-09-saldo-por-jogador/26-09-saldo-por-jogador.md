@@ -1,4 +1,4 @@
-# Carrossel — 26/09 — "Quem já pagou. Quem ainda deve."
+# Carrossel de 26/09: "Quem já pagou. Quem ainda deve."
 
 | Campo | Valor |
 |---|---|
@@ -27,11 +27,11 @@ Print: tela de "Jogadores" com a lista de participantes do bolão, cada um com s
 
 **Slide 5**
 "O bolão sai da cabeça de uma pessoa só e vai pro lugar certo."
-CTA: "Criar um bolão — link na bio."
+CTA: "Criar um bolão, link na bio."
 
 ## Direção visual
 
-Print real da tela de jogadores é o elemento central — mostrar nomes fictícios genéricos (não usar dados reais de usuário) e valores de exemplo simples, sem parecer promessa de ganho (usar valores de contribuição, não de prêmio).
+Print real da tela de jogadores é o elemento central: mostrar nomes fictícios genéricos (não usar dados reais de usuário) e valores de exemplo simples, sem parecer promessa de ganho (usar valores de contribuição, não de prêmio).
 
 ## Legenda
 
@@ -43,4 +43,4 @@ Print real da tela de jogadores é o elemento central — mostrar nomes fictíci
 
 ## Cuidado editorial
 
-Usar valores de exemplo como contribuição/rateio do bolão (ex.: cota de cada jogador), nunca como estimativa de prêmio — evita qualquer leitura de promessa financeira.
+Usar valores de exemplo como contribuição/rateio do bolão (ex.: cota de cada jogador), nunca como estimativa de prêmio, evitando qualquer leitura de promessa financeira.

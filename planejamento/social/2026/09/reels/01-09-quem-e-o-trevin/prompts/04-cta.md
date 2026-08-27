@@ -1,6 +1,6 @@
-# PROMPT VEO — CLIPE 7/7 — "CHAMADA PARA AÇÃO"
+# PROMPT VEO: CLIPE 7/7: "CHAMADA PARA AÇÃO"
 
-Reel "Eu sou o Trevin" (01/09). Este é o **clipe 7 de 7**, o último do vídeo final — gerar sozinho, sem depender de nenhum outro prompt, e depois cortar/editar junto com os outros 6 em CapCut/Premiere. Corresponde à **Parte 4 (24–30s)** do roteiro.
+Reel "Eu sou o Trevin" (01/09). Este é o **clipe 7 de 7**, o último do vídeo final. Gerar sozinho, sem depender de nenhum outro prompt, e depois cortar/editar junto com os outros 6 em CapCut/Premiere. Corresponde à **Parte 4 (24–30s)** do roteiro.
 
 Vídeo publicitário vertical (9:16) para Instagram Reels/TikTok, apresentando **Trevin**, o assistente inteligente da plataforma **Jogos Bem Feitos**. Este é o encerramento: depois de explicar o que ele faz, Trevin convida a seguir o perfil para acompanhar os próximos capítulos.
 
@@ -8,13 +8,13 @@ Vídeo publicitário vertical (9:16) para Instagram Reels/TikTok, apresentando *
 
 ## GERAÇÃO SEM IMAGEM DE REFERÊNCIA DO PERSONAGEM
 
-**Nenhuma foto do Trevin será anexada nesta geração.** A consistência do personagem vem inteiramente da descrição textual do CHARACTER LOCK abaixo — incluir esse bloco **literalmente, por completo**, no prompt enviado ao Veo.
+**Nenhuma foto do Trevin será anexada nesta geração.** A consistência do personagem vem inteiramente da descrição textual do CHARACTER LOCK abaixo: incluir esse bloco **literalmente, por completo**, no prompt enviado ao Veo.
 
 Cada geração do Veo 3 sai com ~8 segundos fixos. Gerar o clipe inteiro e, na edição, usar os ~6 segundos finais necessários.
 
 ---
 
-## CHARACTER LOCK — TREVIN
+## CHARACTER LOCK: TREVIN
 
 O personagem principal é **Trevin**, mascote e assistente virtual de inteligência artificial da marca Jogos Bem Feitos.
 
@@ -80,9 +80,9 @@ Animação permitida apenas como microanimação compatível com essa descriçã
 
 Composição extremamente clean, com Trevin e a identidade visual oficial do Jogos Bem Feitos. As funcionalidades apresentadas nos clipes anteriores podem aparecer discretamente ao fundo ou em pequenos recortes visuais, sem poluir a composição. Entrada elegante do logotipo do Jogos Bem Feitos ao final, perfeitamente legível.
 
-**Não incluir nenhum ícone/logo de rede social** (Instagram, TikTok ou qualquer outra) na composição — o convite para seguir é comunicado só pela fala.
+**Não incluir nenhum ícone/logo de rede social** (Instagram, TikTok ou qualquer outra) na composição: o convite para seguir é comunicado só pela fala.
 
-**Não gerar nenhuma tela de produto nova** além do que já foi fornecido como referência — se aparecer algo ao fundo, usar apenas imagens de referência já existentes.
+**Não gerar nenhuma tela de produto nova** além do que já foi fornecido como referência: se aparecer algo ao fundo, usar apenas imagens de referência já existentes.
 
 ---
 
@@ -92,25 +92,25 @@ Trevin fala:
 
 **"Esse mês eu vou te mostrar cada uma dessas coisas de perto, uma por semana. Segue aqui pra não perder."**
 
-Tom confiante e convidativo, sem pressa — a frase é longa, então precisa de tempo pra caber com folga dentro do clipe. Transmitir claramente: "isso foi só a introdução, o resto vem por aí."
+Tom confiante e convidativo, sem pressa: a frase é longa, então precisa de tempo pra caber com folga dentro do clipe. Transmitir claramente: "isso foi só a introdução, o resto vem por aí."
 
 ### Voz do Trevin
 
-Português brasileiro (pt-BR). Voz masculina brasileira com timbre de **personagem/assistente de IA** — não uma voz humana genérica de locutor. Leve textura tecnológica/sintética perceptível. Deve transmitir inteligência, confiança, simpatia, domínio do produto, tecnologia, praticidade, leve descontração.
+Português brasileiro (pt-BR). Voz masculina brasileira com timbre de **personagem/assistente de IA**, e não uma voz humana genérica de locutor. Leve textura tecnológica/sintética perceptível. Deve transmitir inteligência, confiança, simpatia, domínio do produto, tecnologia, praticidade, leve descontração.
 
-Ritmo de fala **pausado e claro**, nunca apressado — não acelerar a locução para caber a frase toda; se necessário, priorizar clareza sobre completar rápido.
+Ritmo de fala **pausado e claro**, nunca apressado: não acelerar a locução para caber a frase toda; se necessário, priorizar clareza sobre completar rápido.
 
 **Não usar:** voz humana genérica de narrador, voz infantil, voz de desenho animado, voz excessivamente fofa, voz robótica caricata, sotaque estrangeiro, pronúncia inglesa, entusiasmo exagerado, fala apressada.
 
 ### Trilha
 
-Instrumental tecnológica, moderna, minimalista, sofisticada. Pode ganhar um pouco mais de energia aqui no encerramento, mas sem virar uma "batida" que atropele o fim da fala — a voz do Trevin precisa permanecer perfeitamente clara. Não usar música épica, infantil, trilha de videogame, cyberpunk ou efeitos excessivos.
+Instrumental tecnológica, moderna, minimalista, sofisticada. Pode ganhar um pouco mais de energia aqui no encerramento, mas sem virar uma "batida" que atropele o fim da fala; a voz do Trevin precisa permanecer perfeitamente clara. Não usar música épica, infantil, trilha de videogame, cyberpunk ou efeitos excessivos.
 
 ---
 
 ## TEXTOS NA TELA
 
-**Nenhum.** Sem texto, título, legenda ou closed caption em nenhum momento — o convite para seguir é comunicado só pela voz, sem nenhum texto tipo "Segue pra acompanhar" sobreposto na tela.
+**Nenhum.** Sem texto, título, legenda ou closed caption em nenhum momento: o convite para seguir é comunicado só pela voz, sem nenhum texto tipo "Segue pra acompanhar" sobreposto na tela.
 
 ---
 
