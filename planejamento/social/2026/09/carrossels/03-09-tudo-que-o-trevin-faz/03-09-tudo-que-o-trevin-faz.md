@@ -26,7 +26,7 @@ Organizo, filtro e preparo suas apostas do seu jeito — sozinho ou em bolão."
 
 **Slide 4**
 "Insiro na Caixa.
-Levo suas apostas até o site da Caixa automaticamente, hoje na Lotofácil."
+Levo suas apostas até o site da Caixa automaticamente, em qualquer loteria."
 
 **Slide 5**
 "Analiso resultados.

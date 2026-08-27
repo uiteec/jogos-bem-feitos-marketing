@@ -27,7 +27,7 @@ o caminho do Trevin é o mais ágil:
 | Tarefa                  | Caminho manual                          | Caminho com o Trevin                          |
 |--------------------------|------------------------------------------|------------------------------------------------|
 | Gerar jogos              | Escolher estratégia/modalidade manualmente | Pedir ao Trevin no chat e ele gera             |
-| Preencher aposta na Caixa | Digitar/copiar os números manualmente no site da Caixa | Extensão do Trevin preenche automaticamente (hoje: Lotofácil) |
+| Preencher aposta na Caixa | Digitar/copiar os números manualmente no site da Caixa | Extensão do Trevin preenche automaticamente (todas as loterias) |
 | Analisar desempenho      | Usuário compara resultados sozinho        | Trevin analisa e aponta padrões                |
 
 Esse contraste (manual vs. automatizado pelo Trevin) é um ótimo gancho recorrente
@@ -46,8 +46,9 @@ cuidando do processo.
 
 ## Limitações atuais a respeitar na comunicação
 
-- A extensão que insere apostas automaticamente na Caixa hoje cobre **apenas
-  Lotofácil** — não prometer isso para todas as modalidades ainda.
+- A extensão que insere apostas automaticamente na Caixa já cobre **todas as
+  loterias da Caixa** (atualizado em 26/08/2026 — deixou de ser restrita à
+  Lotofácil).
 - O Chat Inteligente do Trevin (tool-calling com confirmação, fallback entre
   provedores de IA, streaming) ainda está em desenvolvimento segundo o roadmap em
   [contexto/produto.md](produto.md) — comunicar funcionalidades já ativas vs. "em

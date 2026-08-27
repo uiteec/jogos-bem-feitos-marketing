@@ -2,7 +2,7 @@
 
 > Base: `contexto/trevin.md`, `contexto/produto.md`, `contexto/site.md`, `contexto/pesquisa-mercado/analise-estrategica.md`.
 > **Formato do mês:** tour de funcionalidades guiado pelo Trevin, na sequência definida: (1) quem é o Trevin, (2) extensão, (3) gerador de IA + estratégias, (4) agrupamento, (5) bolões/jogadores/saldo. Cada bloco é um "capítulo" do mês, sempre narrado em 1ª pessoa pelo Trevin.
-> **Restrições que valem para todo o mês:** extensão hoje só insere/resgata automaticamente na **Lotofácil** — não prometer outras modalidades; nenhuma estratégia é apresentada como forma de aumentar chance de ganhar ou prever resultado; o Trevin narra o fluxo das telas do produto — não encenar um chat conversacional livre, já que o Chat Inteligente com tool-calling ainda está em testes internos.
+> **Restrições que valem para todo o mês:** a extensão já insere/resgata automaticamente em **todas as loterias da Caixa** (atualizado em 26/08/2026 — não é mais restrita à Lotofácil); nenhuma estratégia é apresentada como forma de aumentar chance de ganhar ou prever resultado; o Trevin narra o fluxo das telas do produto — não encenar um chat conversacional livre, já que o Chat Inteligente com tool-calling ainda está em testes internos.
 
 ## Estrutura das pautas
 

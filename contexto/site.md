@@ -36,8 +36,9 @@ funcionalidades em primeira pessoa:
 - Preenche apostas automaticamente no site da Caixa.
 - Acompanha jogos realizados e identifica premiações.
 - Automatiza resgate de valores.
-- **Disponível atualmente apenas para Lotofácil** (demais modalidades ainda não
-  cobertas pela extensão — atenção para não prometer isso em campanhas amplas).
+- **Disponível para todas as modalidades suportadas pela plataforma** (não é mais
+  restrita à Lotofácil — atualizado em 2026-08-26; conteúdo antigo que falava em
+  "hoje só Lotofácil" está desatualizado).
 
 ## Modalidades suportadas
 

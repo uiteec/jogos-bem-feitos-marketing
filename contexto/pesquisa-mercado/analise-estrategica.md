@@ -6,6 +6,8 @@
 > - [tam-sam-som.md](tam-sam-som.md) — TAM/SAM/SOM, SEO, riscos regulatórios
 >
 > Este documento é a **síntese estratégica** construída em cima dessas três pesquisas.
+>
+> **Atualização (26/08/2026):** no momento da pesquisa (20/08/2026), a extensão cobria apenas a Lotofácil — isso mudou, e hoje ela já cobre todas as loterias da Caixa (ver `contexto/site.md`). Os trechos abaixo que tratavam "cobertura só Lotofácil" como fraqueza/prioridade de expansão estão desatualizados; marcados inline onde aparecem.
 
 ---
 
@@ -55,7 +57,7 @@ Comparação entre Jogos Bem Feitos e os concorrentes mais relevantes de cada ar
 | Gestão de jogadores/participantes | ✅ (Basic+) | ❌ | 🟡 | ❌ | ❓ | ❓ | ✅ | ❌ |
 | Controle de saldo | ❓ (roadmap) | ❌ | ❌ | ❌ | ❓ | ❌ | ✅ | ❌ |
 | Conferência automática | 🟡 (roadmap) | ❓ | ✅ | ❓ | ✅ | ✅ | ✅ | ❌ |
-| **Extensão de automação com a Caixa** | ✅ (hoje: Lotofácil) | ❌ | ❌ | ❌ | ✅ (fora da loja) | ❌ | ❌ | ✅ (função única) |
+| **Extensão de automação com a Caixa** | ✅ (todas as modalidades — atualizado 26/08/2026; era só Lotofácil na data da pesquisa) | ❌ | ❌ | ❌ | ✅ (fora da loja) | ❌ | ❌ | ✅ (função única) |
 | **Assistente de IA conversacional** | ✅ (Trevin, roadmap) | ❌ | ❌ | 🟡 (chat simples) | ❌ | ❌ | 🟡 (bot Telegram) | ❌ |
 | App mobile nativo | 🟡 (roadmap) | ❓ | ❓ | ❓ | ❌ | ❓ | ❓ | ❌ (n/a) |
 | Plano gratuito | ✅ | ✅ | ❌ | ✅ | ❓ | 🟡 (trial 7d) | ❓ | ✅ |
@@ -209,7 +211,7 @@ Com base na pesquisa (comportamento do consumidor, canais onde concorrentes têm
 - Cobertura das 9 modalidades desde o início (só iaSorte e LotoCarva têm cobertura equivalente).
 
 ### Weaknesses (Fraquezas)
-- Extensão hoje cobre só Lotofácil — a funcionalidade mais diferenciadora do produto ainda é parcial.
+- ~~Extensão hoje cobre só Lotofácil — a funcionalidade mais diferenciadora do produto ainda é parcial.~~ **Resolvido em 26/08/2026:** a extensão já cobre todas as modalidades.
 - Fechamento/desdobramento (recurso forte de LotoCarva e JLP, e citado pela pesquisa de consumidor como relevante para custo de aposta) não aparece no roadmap atual do produto.
 - Conferência automática de resultados — mercado já maduro e gratuito — ainda está no roadmap, não implementada.
 - Nenhuma evidência (nesta pesquisa) de tração/usuários atuais do JBF para calibrar se o produto já validou product-market fit.
@@ -270,7 +272,7 @@ Evitar centrar a comunicação no posicionamento 2 ("minha IA gera melhores núm
 ### PRIORIDADE 2 — Diferenciação (o que fará alguém escolher o JBF)
 - **Trevin como copiloto que executa ações** (não só responde) — gerar, organizar, montar aposta e inserir na Caixa via linguagem natural. É o espaço competitivo mais livre encontrado na pesquisa.
 - **Gestão de bolão com confiança/comprovação** — atacar diretamente a dor mais validada e menos resolvida (JTBD 4), com um ângulo que nenhum concorrente com IA de geração oferece.
-- **Extensão de automação, tratada como diferencial gerenciado** — expandir cobertura além de Lotofácil, mas com plano de contingência de distribuição desde o início (ver seção 18).
+- **Extensão de automação, tratada como diferencial gerenciado** — cobertura já expandida para todas as modalidades (26/08/2026), com plano de contingência de distribuição desde o início (ver seção 18).
 
 ### PRIORIDADE 3 — Crescimento (aquisição, retenção, monetização)
 - SEO em clusters pouco disputados: "IA e loteria" (honesto), "extensão/automação", "bolão".
@@ -338,7 +340,7 @@ O que **não é moat**: número de estratégias de geração (iaSorte já tem 19
 
 8. **Público a atacar primeiro:** apostadores recorrentes que já jogam em grupo/bolão (dor mais validada, com disposição a pagar demonstrada por concorrentes como BolãoBR) — não o apostador ocasional de Mega da Virada, que é volume alto mas baixíssima recorrência/LTV.
 
-9. **Modalidade a atacar primeiro:** Lotofácil — já é onde a extensão atua hoje, é a segunda maior em arrecadação (28,3%), tem o maior volume de conteúdo/comunidade de fechamento/desdobramento identificado na pesquisa, e é a modalidade mais citada nas buscas de "gerador"/"fechamento". Expandir a extensão para outras modalidades depois de validar esse núcleo.
+9. **Modalidade a atacar primeiro (conteúdo/SEO):** Lotofácil — é a segunda maior em arrecadação (28,3%), tem o maior volume de conteúdo/comunidade de fechamento/desdobramento identificado na pesquisa, e é a modalidade mais citada nas buscas de "gerador"/"fechamento". **Nota (26/08/2026):** a extensão já cobre todas as modalidades, então essa priorização vale para foco de conteúdo/SEO, não mais como sequência de expansão de cobertura técnica.
 
 10. **Canal de aquisição a atacar primeiro:** SEO + conteúdo com o Trevin como narrador, por ter menor dependência de aprovação de terceiros (diferente de Ads pago) e existirem clusters pouco disputados ("IA e loteria" honesta, "bolão", "extensão").
 

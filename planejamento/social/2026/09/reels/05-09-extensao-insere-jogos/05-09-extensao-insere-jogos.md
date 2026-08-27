@@ -25,7 +25,7 @@ Texto: "Isso, 30 vezes."
 Corte para a extensão do Jogos Bem Feitos preenchendo automaticamente — velocidade real, mostrando que é rápido de verdade. Texto: "Eu insiro os seus jogos direto no site da Caixa."
 
 **Cena 4 — 14–18s**
-Texto: "Hoje, isso funciona pra Lotofácil."
+Texto: "E já funciona pra todas as loterias da Caixa."
 
 **Cena 5 — 18–20s**
 CTA: "Extensão gratuita — link na bio."
@@ -36,12 +36,12 @@ Tela real de navegador, sem edição que pareça exagero — a credibilidade vem
 
 ## Legenda
 
-"Hoje a extensão cobre a Lotofácil — é onde mais gente monta jogo em grupo, e onde esse tempo economizado mais pesa. Testa e comenta quanto tempo isso te poupou."
+"A extensão já cobre todas as loterias da Caixa — testa e comenta quanto tempo isso te poupou."
 
 **CTA:** Instalar a extensão.
 
-**Hashtags:** #Extensão #Lotofácil
+**Hashtags:** #Extensão #LoteriasCaixa
 
 ## Cuidado editorial
 
-Não sugerir cobertura de outras modalidades. Enquadrar sempre como preenchimento assistido — a confirmação final da aposta continua no site oficial da Caixa, sob controle do usuário (linguagem alinhada ao risco de política de extensões da Chrome Web Store, ver `contexto/pesquisa-mercado/analise-estrategica.md`).
+A extensão já cobre todas as modalidades (atualizado em 26/08/2026 — não usar mais falas/legendas que restrinjam a Lotofácil). Enquadrar sempre como preenchimento assistido — a confirmação final da aposta continua no site oficial da Caixa, sob controle do usuário (linguagem alinhada ao risco de política de extensões da Chrome Web Store, ver `contexto/pesquisa-mercado/analise-estrategica.md`).

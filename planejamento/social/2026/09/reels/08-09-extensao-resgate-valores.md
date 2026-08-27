@@ -36,12 +36,12 @@ Cena 2 é o momento de humor/identificação — o resto é demonstração diret
 
 ## Legenda
 
-"Prêmio esquecido é dinheiro que já era. A extensão acompanha seus jogos de Lotofácil e cuida disso pra você — inclusive os prêmios pequenos que a gente costuma nem checar."
+"Prêmio esquecido é dinheiro que já era. A extensão acompanha seus jogos em todas as loterias da Caixa e cuida disso pra você — inclusive os prêmios pequenos que a gente costuma nem checar."
 
 **CTA:** Instalar a extensão.
 
-**Hashtags:** #Extensão #Lotofácil
+**Hashtags:** #Extensão #LoteriasCaixa
 
 ## Cuidado editorial
 
-Usar a formulação oficial do site ("automatiza resgate de valores") sem sugerir que dinheiro é movimentado sem o usuário perceber ou confirmar — o resgate de prêmio na Caixa sempre passa por confirmação/canal oficial; a extensão identifica e conduz o processo, não substitui a confirmação do usuário. Válido hoje só para Lotofácil.
+Usar a formulação oficial do site ("automatiza resgate de valores") sem sugerir que dinheiro é movimentado sem o usuário perceber ou confirmar — o resgate de prêmio na Caixa sempre passa por confirmação/canal oficial; a extensão identifica e conduz o processo, não substitui a confirmação do usuário. A extensão já cobre todas as loterias da Caixa (atualizado em 26/08/2026 — não é mais restrita à Lotofácil).

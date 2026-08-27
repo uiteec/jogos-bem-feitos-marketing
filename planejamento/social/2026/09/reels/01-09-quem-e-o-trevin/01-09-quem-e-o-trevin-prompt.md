@@ -1,8 +1,12 @@
-# REEL — "EU SOU O TREVIN"
+# REEL — "EU SOU O TREVIN" (STORYBOARD COMPLETO)
+
+> **Este arquivo é a referência/storyboard completo, para leitura.** Para gerar no Veo, use os 7 prompts prontos e independentes na pasta [prompts/](prompts/) (um arquivo por clipe: `01-gancho`, `02-introducao`, `03a-gerador`, `03b-extensao-caixa`, `03c-meus-jogos`, `03d-bolao`, `04-cta`) — cada um já contém todas as regras necessárias (identidade do Trevin, telas do produto, pronúncia, voz etc.) porque o Veo não guarda contexto entre gerações.
+>
+> **Mudança importante:** os prompts em `prompts/` não anexam mais foto do Trevin. Em vez disso, incluem o bloco **CHARACTER LOCK — TREVIN** (descrição textual completa do personagem, definida em `prompts-base/prompt-trevin-atavatar.md`) diretamente no texto do prompt, em toda geração onde ele aparece. As instruções de "imagem como frame inicial" deste arquivo abaixo (seção 0.2 e regra 2) valem só para as screenshots reais do produto — não mais para o personagem.
 
 Crie um vídeo publicitário vertical, moderno e profissional para Instagram Reels e TikTok apresentando **Trevin**, o assistente inteligente da plataforma **Jogos Bem Feitos**.
 
-O vídeo funciona como um **teaser/trailer de abertura de uma série de conteúdos**, apresentando rapidamente tudo que o Trevin consegue fazer e criando curiosidade para os próximos vídeos.
+O vídeo funciona como o **"episódio piloto" de uma série de conteúdos**: apresenta o Trevin com calma, explica pra quem é o produto e o que ele faz, e cria expectativa para os próximos vídeos. Ritmo pausado e didático — não é mais um trailer picotado, é uma apresentação que alguém que nunca ouviu falar do Trevin consegue acompanhar e entender.
 
 ---
 
@@ -12,7 +16,7 @@ O vídeo funciona como um **teaser/trailer de abertura de uma série de conteúd
 
 ## 0.1 Não gerar o vídeo inteiro de uma vez
 
-Gerar **cena por cena** (ver instruções em cada cena abaixo sobre qual imagem anexar), depois editar os pedaços juntos em CapCut/Premiere para montar o corte final — não esperar que o Veo entregue o vídeo inteiro pronto num prompt só.
+Gerar **parte por parte** (ver instruções em cada parte abaixo sobre qual imagem anexar), depois editar os pedaços juntos em CapCut/Premiere para montar o corte final — não esperar que o Veo entregue o vídeo inteiro pronto num prompt só.
 
 ## 0.2 "Anexar imagem de referência" ≠ "usar como primeiro frame" — use a segunda opção
 
@@ -27,11 +31,12 @@ Se a cena exigir um enquadramento que a imagem de referência ainda não tem (ex
 
 ## 0.3 Cada geração do Veo 3 sai com ~8 segundos, sem exceção
 
-Não dá para pedir uma cena de 3s ou de 0,5s diretamente — cada geração vai sair com a duração fixa do modelo (por volta de 8s). O jeito de usar isso:
+Não dá para pedir um trecho de 3s diretamente — cada geração vai sair com a duração fixa do modelo (por volta de 8s). O jeito de usar isso:
 
 * Gerar cada trecho como um clipe cheio de ~8s (com a imagem certa como frame inicial e o movimento de câmera descrito).
-* No editor, **cortar apenas o pedaço necessário** daquele clipe (ex: da Cena 1, usar só os 3 primeiros segundos; do Flash 1, usar só ~0,5–1s onde o gerador aparece funcionando).
-* Isso significa gerar bem mais clipes do que cenas no roteiro — cada trecho com imagem de referência diferente (Cena 1, cada parte da Cena 2, cada flash da Cena 3, Cena 4, Cena 5) é uma geração de ~8s própria, depois cortada no tamanho certo.
+* No editor, **cortar apenas o pedaço necessário** daquele clipe (ex: da Parte 1, usar só os 3 primeiros segundos; de cada tela da Parte 3, usar os ~2–3s em que ela aparece estável antes de cortar pra próxima).
+* Isso significa gerar bem mais clipes do que partes no roteiro — cada trecho com imagem de referência diferente (Parte 1, Parte 2, cada uma das 4 telas da Parte 3, Parte 4) é uma geração de ~8s própria, depois cortada no tamanho certo.
+* **Importante nesta versão:** diferente da v1, aqui cada tela precisa ficar tempo suficiente pra ser lida e entendida (mínimo 2–3s), nunca um flash de 0,5–1s. Prefira cortar o clipe de 8s pegando o trecho mais estável (sem muito movimento de câmera) em vez de um recorte curtíssimo.
 
 ## 0.4 "Jogos" = apostas de loteria, nunca video game
 
@@ -43,8 +48,8 @@ Toda vez que o prompt disser "jogos", "gerador de jogos" ou similar, isso signif
 
 * Formato vertical **9:16**
 * Instagram Reels / TikTok
-* Duração aproximada: **20 segundos**
-* Ritmo normal
+* Duração aproximada: **30 segundos** (mais longo que a v1 anterior, de propósito — dar tempo de entender)
+* Ritmo **pausado e didático**, não acelerado
 * Edição moderna
 * Estética de campanha profissional de startup/SaaS
 * Motion design clean
@@ -53,7 +58,7 @@ Toda vez que o prompt disser "jogos", "gerador de jogos" ou similar, isso signif
 * Nenhum texto ou legenda na tela
 * Visual tecnológico sem exageros
 
-O resultado deve parecer uma peça produzida profissionalmente para lançamento de um produto digital brasileiro.
+O resultado deve parecer uma peça produzida profissionalmente para lançamento de um produto digital brasileiro, com um narrador que explica com calma — não um teaser picotado.
 
 NÃO deve parecer um vídeo genérico produzido por inteligência artificial.
 
@@ -146,7 +151,7 @@ Não inventar:
 * painel da extensão;
 * qualquer outra tela do Jogos Bem Feitos que não tenha sido explicitamente enviada como referência visual.
 
-Se uma cena descrever uma funcionalidade (gerador, extensão, Meus Jogos, bolão etc.) e a tela correspondente **não** tiver sido fornecida como imagem, não criar uma versão fictícia dessa interface.
+Se uma parte descrever uma funcionalidade (gerador, extensão, Meus Jogos, bolão etc.) e a tela correspondente **não** tiver sido fornecida como imagem, não criar uma versão fictícia dessa interface.
 
 Nesse caso, resolver a cena sem mostrar tela de produto: usar Trevin, elementos gráficos simples ou composição abstrata — nunca uma interface inventada.
 
@@ -237,6 +242,8 @@ A voz deve transmitir:
 
 Trevin deve soar como um **assistente inteligente que sabe o que está fazendo**, com um timbre que remeta à sua natureza de IA/mascote da marca.
 
+**Nesta versão, o ritmo da fala precisa ser mais devagar e mais claro que numa peça de teaser rápido** — com pausas perceptíveis entre frases, como alguém explicando algo com calma para uma pessoa que está ouvindo pela primeira vez. Não apressar a locução para caber mais conteúdo; se uma frase não couber com folga no tempo da parte, é preferível encurtar a frase a acelerar a fala.
+
 A voz deve ser natural e conversacional dentro dessa identidade — não robotizada ao ponto de soar sintetizada de forma grotesca, mas também não uma voz humana comum de locutor.
 
 Evitar interpretação excessivamente publicitária.
@@ -251,7 +258,8 @@ Evitar interpretação excessivamente publicitária.
 * voz caricata;
 * sotaque estrangeiro;
 * pronúncia inglesa;
-* entusiasmo exagerado.
+* entusiasmo exagerado;
+* fala apressada/corrida (regra nova desta versão — a v1 saiu rápida demais e ficou difícil de entender).
 
 ---
 
@@ -263,20 +271,18 @@ Utilizar uma trilha instrumental:
 * moderna;
 * minimalista;
 * sofisticada;
-* dinâmica;
+* dinâmica, mas discreta;
 * jovem.
 
 A música deve transmitir:
 
-**tecnologia + inteligência + agilidade + expectativa.**
+**tecnologia + inteligência + clareza + confiança.**
 
-Começar discretamente.
+Começar discretamente e permanecer discreta durante toda a narração — o volume da trilha nunca pode competir com a voz do Trevin, especialmente porque agora ele fala mais devagar e em frases mais longas.
 
-Ganhar um pouco mais de energia durante a apresentação rápida das funcionalidades.
+Pode ganhar um pouco mais de energia na Parte 4 (chamada para ação), mas sem virar uma "batida" que atropele o fim da fala.
 
-Utilizar pequenos efeitos sonoros de interface nas transições quando fizer sentido.
-
-A voz do Trevin deve permanecer perfeitamente clara.
+Utilizar pequenos efeitos sonoros de interface nas transições entre telas, quando fizer sentido.
 
 ## NÃO UTILIZAR:
 
@@ -289,13 +295,13 @@ A voz do Trevin deve permanecer perfeitamente clara.
 
 ---
 
-# 6. CENA 1 — "EU SOU O TREVIN"
+# 6. PARTE 1 — GANCHO
 
 ## Duração: 0–3 segundos
 
 **IMAGEM A USAR COMO FRAME INICIAL NESTA GERAÇÃO: foto do Trevin** (ver 0.2 — image-to-video, não só "referência"; não redescrever a aparência do personagem no texto).
 
-Começar imediatamente com uma composição visual forte.
+Começar imediatamente com uma composição visual forte, sem enrolação.
 
 Mostrar a interface do **Jogos Bem Feitos** em um enquadramento elegante.
 
@@ -319,170 +325,55 @@ Grande espaço visual.
 
 Trevin fala:
 
-**"Eu sou o Trevin."**
+**"Se você joga na loteria da Caixa, isso aqui vai te poupar um tempão."**
 
-Pronúncia obrigatória:
+Tom direto, sem pressa — mesmo sendo o gancho, a frase não deve soar apressada.
 
-**tre-VIN**
+Essa frase precisa segurar quem está passando o dedo, avisando de cara pra quem o vídeo é.
 
-A frase deve soar:
-
-**"Eu sou o tre-VIN."**
-
-Dar uma pequena pausa depois da apresentação.
-
-Os primeiros segundos precisam funcionar como um hook.
+Dar uma pequena pausa no final antes de cortar para a Parte 2.
 
 ---
 
-# 7. CENA 2 — O QUE EU FAÇO
+# 7. PARTE 2 — INTRODUÇÃO (PRA QUEM É)
 
-## Duração: 3–9 segundos
+## Duração: 3–12 segundos
 
-Esta cena mistura falas de Trevin com telas do produto — gerar em partes separadas (uma geração por trecho abaixo), cada uma com a imagem de referência indicada.
+Trevin ainda não foi nomeado na Parte 1 — aqui ele se apresenta e contextualiza o problema, em ritmo calmo, uma ideia de cada vez.
 
-**"Eu gero seus jogos" → usar a screenshot real da tela do Gerador como frame inicial (ver 0.2). São combinações numéricas de loteria (grades de números), nunca video game (ver 0.4).**
+**IMAGEM A USAR COMO FRAME INICIAL NESTA GERAÇÃO: foto do Trevin** (ver 0.2). Se fizer sentido visualmente, pode-se compor Trevin com um fundo simples sugerindo "bagunça de apostador" (bilhetes, anotações), mas sem inventar tela de produto aqui — essa parte é sobre o problema, não sobre a solução.
 
-**"insiro na Caixa" → sem screenshot real do site da Caixa fornecida; não usar imagem de site de terceiro, resolver de forma abstrata (ver regra 2.1).**
-
-**"organizo tudo em grupos" → usar a screenshot real da tela de Meus Jogos como frame inicial (ver 0.2).**
-
-**"tocar o bolão com seus amigos" → usar a screenshot real da tela de Jogadores/Apostas como frame inicial (ver 0.2).**
-
-Começar uma sequência fluida mostrando diferentes funcionalidades do produto.
-
-Trevin continua sendo o narrador.
-
-Ele NÃO está conversando com o usuário.
-
-Ele NÃO está respondendo perguntas.
-
-Ele está simplesmente apresentando o que consegue fazer.
+Trevin é o narrador. Ele NÃO está conversando com o usuário nem respondendo perguntas — está explicando, olhando "para a câmera".
 
 ### ÁUDIO EXATO:
 
-**"Eu gero seus jogos, insiro na Caixa, organizo tudo em grupos e ainda ajudo você a tocar o bolão com seus amigos."**
+**"Eu sou o Trevin. Se você aposta na Mega-Sena, na Lotofácil ou em qualquer jogo da Caixa, sabe como é chato ficar montando jogo, conferindo número por número e organizando tudo na mão."**
 
-Sincronizar visualmente a interface com a narração.
+Pronúncia obrigatória de "Trevin": **tre-VIN** (ver seção 3).
 
-### Quando disser:
-
-**"Eu gero seus jogos"**
-
-Mostrar o gerador do Jogos Bem Feitos funcionando.
-
-Combinações sendo geradas dentro da interface.
+Falar em ritmo pausado, com uma pequena pausa depois de "Eu sou o tre-VIN" antes de continuar a frase — dar tempo da apresentação "grudar" antes de emendar o resto.
 
 ---
 
-### Quando disser:
+# 8. PARTE 3 — O QUE É O TREVIN / O PROJETO
 
-**"insiro na Caixa"**
+## Duração: 12–24 segundos
 
-Mostrar a extensão do Jogos Bem Feitos em ação, preenchendo/inserindo jogos.
+Esta é a parte mais longa: Trevin explica o que ele é e o que faz, uma função por vez, cada uma acompanhada da tela correspondente do produto **parada tempo suficiente para ser lida** (mínimo 2–3 segundos por tela — nunca um flash rápido como na v1 anterior). Gerar em 4 trechos separados (um por função), cada um com a imagem de referência indicada, e no corte final encadear os 4 na ordem abaixo.
 
-Mostrar visualmente jogos sendo inseridos/preenchidos.
+**Trecho A — "Eu sou a inteligência artificial do Jogos Bem Feitos" / "Eu gero seus jogos"** → usar a screenshot real da tela do Gerador como frame inicial (ver 0.2). São combinações numéricas de loteria (grades de números), nunca video game (ver 0.4). Mostrar o gerador funcionando, combinações sendo geradas dentro da interface, câmera parada ou com movimento mínimo para não distrair de entender a tela.
 
-IMPORTANTE:
+**Trecho B — "insiro direto na Caixa"** → sem screenshot real do site da Caixa fornecida; não usar imagem de site de terceiro, resolver de forma abstrata (ver regra 2.1). Mostrar a extensão do Jogos Bem Feitos em ação, preenchendo/inserindo jogos, aparecendo **dentro de um site genérico** como um painel/extensão lateral — nunca como aplicativo de celular.
 
-A extensão aparece **dentro de um site**, como uma extensão/painel lateral.
+**Trecho C — "organizo tudo separado por grupos"** → usar a screenshot real da tela de Meus Jogos como frame inicial (ver 0.2). Jogos aparecem organizados visualmente, com tempo suficiente na tela pra dar pra ler o agrupamento.
 
-**Só recriar a aparência real do site das Loterias Caixa se uma imagem de referência dele tiver sido fornecida** (ver regra 2.1). Sem essa referência, representar o site de forma genérica/abstrata, sem replicar layout, cores ou marca reais da Caixa.
+**Trecho D — "e ainda ajudo você a tocar bolão com os seus amigos"** → usar a screenshot real da tela de Jogadores/Apostas como frame inicial (ver 0.2). Mostrar jogadores, participações e saldos organizados, transmitindo controle simples do bolão.
 
-Não representar como aplicativo de celular.
+### ÁUDIO EXATO (dividido nos 4 trechos, mas falado como uma sequência contínua e pausada, sem pressa):
 
----
+**"Eu sou a inteligência artificial do Jogos Bem Feitos. Eu gero seus jogos, insiro direto na Caixa, organizo tudo separado por grupos e ainda ajudo você a tocar bolão com os seus amigos."**
 
-### Quando disser:
-
-**"organizo tudo em grupos"**
-
-Mostrar a área **Meus Jogos**.
-
-Jogos aparecem organizados visualmente.
-
-A interface deve transmitir organização e facilidade.
-
----
-
-### Quando disser:
-
-**"tocar o bolão com seus amigos"**
-
-Mostrar rapidamente:
-
-* jogadores;
-* participações;
-* jogos;
-* valores ou saldos organizados.
-
-Transmitir visualmente a ideia de administração simples do bolão.
-
----
-
-# 8. CENA 3 — FLASH DAS FUNCIONALIDADES
-
-## Duração: 9–14 segundos
-
-A trilha ganha um pouco mais de energia.
-
-Criar uma montagem publicitária rápida.
-
-Mostrar quatro funcionalidades em sequência.
-
-Cada uma deve aparecer por aproximadamente **0,5 a 1 segundo**.
-
-As transições devem ser rápidas, mas permitir compreender o que está acontecendo.
-
----
-
-## FLASH 1 — GERADOR COM IA
-
-**IMAGEM A USAR COMO FRAME INICIAL: screenshot real da tela do Gerador (ver 0.2).** São combinações numéricas de loteria, nunca video game (ver 0.4).
-
-Mostrar o gerador funcionando.
-
-Jogos aparecem sendo gerados.
-
-A interface deve parecer rápida, inteligente e simples.
-
----
-
-## FLASH 2 — EXTENSÃO / CAIXA
-
-Mostrar o painel lateral da extensão do Jogos Bem Feitos em ação.
-
-Só recriar a aparência real do site das Loterias Caixa se uma imagem de referência dele tiver sido fornecida (ver regra 2.1); sem essa referência, usar um site genérico/abstrato ao fundo.
-
-Mostrar a extensão realizando a inserção dos jogos.
-
-Não representar como celular.
-
-Não criar um aplicativo separado.
-
----
-
-## FLASH 3 — MEUS JOGOS
-
-**IMAGEM A USAR COMO FRAME INICIAL: screenshot real da tela de Meus Jogos (ver 0.2).**
-
-Mostrar a tela **Meus Jogos**.
-
-Vários jogos organizados visualmente.
-
-Mostrar agrupamento de forma clara.
-
----
-
-## FLASH 4 — JOGADORES / BOLÃO
-
-**IMAGEM A USAR COMO FRAME INICIAL: screenshot real da tela de Apostas/Jogadores (ver 0.2).**
-
-Mostrar jogadores e informações financeiras/saldos relacionados ao bolão.
-
-Transmitir:
-
-**organização + controle + simplicidade.**
+Sincronizar visualmente cada tela com o trecho de fala correspondente. Cada troca de tela deve coincidir com uma pausa natural da fala, não cortar no meio de uma palavra.
 
 ---
 
@@ -490,7 +381,7 @@ Transmitir:
 
 Caso sejam fornecidas imagens ou vídeos das telas reais do **Jogos Bem Feitos**, essas referências devem ser utilizadas como **fonte visual principal**.
 
-**Nenhuma tela sem imagem de referência fornecida pode ser gerada** (ver regra 2.1). Se uma cena pede uma tela que não foi enviada, resolver a cena sem mostrar interface do produto.
+**Nenhuma tela sem imagem de referência fornecida pode ser gerada** (ver regra 2.1). Se uma parte pede uma tela que não foi enviada, resolver a cena sem mostrar interface do produto.
 
 Não reinterpretar completamente a interface.
 
@@ -517,77 +408,41 @@ As telas devem parecer o **produto real em funcionamento**.
 
 ---
 
-# 10. CENA 4 — TEASER DO MÊS
+# 10. PARTE 4 — CHAMADA PARA AÇÃO
 
-## Duração: 14–18 segundos
+## Duração: 24–30 segundos
 
 **IMAGEM A USAR COMO FRAME INICIAL NESTA GERAÇÃO: foto do Trevin (ver 0.2).**
 
-Depois da sequência rápida, diminuir ligeiramente o ritmo.
+Depois da explicação das funcionalidades, diminuir o ritmo e voltar para uma composição clean, focada só em Trevin e na identidade visual do Jogos Bem Feitos.
 
-Voltar para uma composição clean.
+Usar exatamente o mesmo Trevin apresentado anteriormente. Nenhuma mudança no personagem.
 
-Trevin aparece novamente integrado ao universo visual do Jogos Bem Feitos.
+As funcionalidades apresentadas na Parte 3 podem aparecer discretamente ao fundo ou em pequenos recortes visuais, sem poluir a composição.
 
-Usar exatamente o mesmo Trevin apresentado anteriormente.
+Entrada elegante do logotipo do Jogos Bem Feitos ao final.
 
-Nenhuma mudança no personagem.
-
-As funcionalidades apresentadas anteriormente podem aparecer discretamente ao fundo ou em pequenos recortes visuais.
-
-Não poluir a composição.
+**Não incluir nenhum ícone/logo de rede social (Instagram, TikTok ou qualquer outra) na composição.** O CTA deve ser comunicado somente pela fala, sem ícones de plataforma ou qualquer texto na tela.
 
 ### ÁUDIO:
 
 Trevin fala:
 
-**"Esse mês eu vou te mostrar cada uma dessas coisas de perto."**
+**"Esse mês eu vou te mostrar cada uma dessas coisas de perto, uma por semana. Segue aqui pra não perder."**
 
-Tom confiante e convidativo.
+Tom confiante e convidativo, sem pressa — a frase é mais longa que o CTA da v1 anterior, então precisa de tempo pra caber com folga dentro dos ~6 segundos da parte.
 
-Essa cena deve transmitir claramente:
-
-**"isso é apenas o começo."**
-
----
-
-# 11. CENA 5 — ENCERRAMENTO
-
-## Duração: 18–20 segundos
-
-**IMAGEM A USAR COMO FRAME INICIAL NESTA GERAÇÃO: foto do Trevin (ver 0.2).** (Foi a única cena em que o Veo acertou o personagem — provavelmente por já ter "convergido" ao longo da geração longa. Anexar a imagem aqui também garante o acerto de forma consistente, sem depender de sorte.)
-
-Finalizar com uma composição extremamente limpa.
-
-Usar a identidade visual oficial do **Jogos Bem Feitos**.
-
-Mostrar:
-
-**Trevin + logo Jogos Bem Feitos**
-
-Trevin permanece exatamente com a identidade visual da imagem de referência.
-
-Entrada elegante do logotipo.
-
-**Não incluir nenhum ícone/logo de rede social (Instagram, TikTok ou qualquer outra) na composição.** O CTA "Segue aqui pra acompanhar" deve ser comunicado somente pela fala, sem ícones de plataforma ou qualquer texto na tela.
-
-### ÁUDIO:
-
-Trevin fala:
-
-**"Segue aqui pra acompanhar."**
-
-Adicionar apenas uma animação extremamente sutil relacionada à ação de seguir.
+Essa parte deve transmitir claramente: **"isso foi só a introdução, o resto vem por aí."**
 
 Finalizar com o logotipo perfeitamente legível.
 
 ---
 
-# 12. DIREÇÃO VISUAL
+# 11. DIREÇÃO VISUAL
 
 O vídeo deve parecer um:
 
-**TRAILER DE PRODUTO DIGITAL.**
+**TRAILER/APRESENTAÇÃO DE PRODUTO DIGITAL, EM RITMO DIDÁTICO.**
 
 Não um comercial tradicional de loteria.
 
@@ -597,18 +452,20 @@ Não um vídeo infantil.
 
 Não um vídeo genérico de IA.
 
+Não um teaser picotado tipo "flash de features" (isso já foi tentado na v1 e ficou rápido demais para entender).
+
 Referências conceituais:
 
 * campanha moderna de SaaS;
-* lançamento de aplicativo;
-* trailer de produto digital;
+* lançamento de aplicativo, com tempo de explicar;
+* vídeo explicativo/onboarding de produto digital;
 * motion design de startup;
 * publicidade tecnológica minimalista;
-* edição dinâmica de lançamento.
+* edição calma, mas ainda dinâmica nas transições de tela.
 
 A estética deve transmitir:
 
-**inteligência + organização + tecnologia + praticidade + confiança.**
+**inteligência + organização + tecnologia + praticidade + confiança + clareza.**
 
 Trevin é o fio condutor.
 
@@ -616,20 +473,20 @@ Mas:
 
 # O PRODUTO É O PROTAGONISTA.
 
-Trevin apresenta.
+Trevin apresenta, explicando com calma.
 
-As telas demonstram.
+As telas demonstram, com tempo suficiente para serem entendidas.
 
 ---
 
-# 13. MOVIMENTAÇÃO
+# 12. MOVIMENTAÇÃO
 
 Utilizar movimentos discretos e profissionais:
 
 * zoom suave;
 * aproximação de câmera;
 * pequenas mudanças de enquadramento;
-* transições rápidas;
+* transições suaves entre telas (não cortes ultrarrápidos como na v1);
 * movimentos de interface;
 * microanimações;
 * pequenos efeitos de profundidade.
@@ -638,17 +495,17 @@ Evitar movimentação excessiva.
 
 A câmera não deve ficar constantemente se movimentando.
 
-O vídeo precisa respirar.
+O vídeo precisa respirar — cada tela fica tempo suficiente para ser lida antes do próximo corte.
 
 ---
 
-# 14. TEXTOS NA TELA
+# 13. TEXTOS NA TELA
 
-**Nenhum.** O vídeo não deve conter nenhum texto, título, legenda ou closed caption em momento algum — nem mesmo o nome do personagem. Toda a comunicação acontece por imagem, música e pela voz do Trevin.
+**Nenhum.** O vídeo não deve conter nenhum texto, título, legenda ou closed caption em momento algum — nem mesmo o nome do personagem. Toda a comunicação acontece por imagem, música e pela voz (mais devagar) do Trevin.
 
 ---
 
-# 15. EVITAR ABSOLUTAMENTE
+# 14. EVITAR ABSOLUTAMENTE
 
 Não criar outro Trevin.
 
@@ -710,7 +567,9 @@ Não encher a tela de informações.
 
 Não utilizar textos pequenos.
 
-Não utilizar transições exageradas.
+Não utilizar transições exageradas ou cortes ultrarrápidos (regra nova — nesta versão cada tela precisa de tempo pra ser entendida).
+
+Não acelerar a fala do Trevin para caber mais conteúdo no tempo (regra nova — preferir encurtar o texto a acelerar a locução).
 
 Não fazer promessas de ganhos.
 
@@ -722,41 +581,33 @@ Não adicionar nenhum texto, título, legenda ou closed caption na tela.
 
 ---
 
-# 16. FALAS EXATAS
+# 15. FALAS EXATAS
 
 Não alterar, resumir, traduzir ou acrescentar palavras às falas.
 
 Todo o áudio deve ser em **português brasileiro**.
 
-### CENA 1
+### PARTE 1 — GANCHO (0–3s)
 
-**"Eu sou o Trevin."**
+**"Se você joga na loteria da Caixa, isso aqui vai te poupar um tempão."**
 
-Pronúncia:
+### PARTE 2 — INTRODUÇÃO (3–12s)
 
-**tre-VIN**
+**"Eu sou o Trevin. Se você aposta na Mega-Sena, na Lotofácil ou em qualquer jogo da Caixa, sabe como é chato ficar montando jogo, conferindo número por número e organizando tudo na mão."**
 
----
+Pronúncia de "Trevin": **tre-VIN**
 
-### CENA 2
+### PARTE 3 — O QUE É O TREVIN / O PROJETO (12–24s)
 
-**"Eu gero seus jogos, insiro na Caixa, organizo tudo em grupos e ainda ajudo você a tocar o bolão com seus amigos."**
+**"Eu sou a inteligência artificial do Jogos Bem Feitos. Eu gero seus jogos, insiro direto na Caixa, organizo tudo separado por grupos e ainda ajudo você a tocar bolão com os seus amigos."**
 
----
+### PARTE 4 — CHAMADA PARA AÇÃO (24–30s)
 
-### CENA 4
-
-**"Esse mês eu vou te mostrar cada uma dessas coisas de perto."**
+**"Esse mês eu vou te mostrar cada uma dessas coisas de perto, uma por semana. Segue aqui pra não perder."**
 
 ---
 
-### CENA 5
-
-**"Segue aqui pra acompanhar."**
-
----
-
-# 17. VERIFICAÇÃO FINAL OBRIGATÓRIA
+# 16. VERIFICAÇÃO FINAL OBRIGATÓRIA
 
 Antes de gerar o resultado, garantir:
 
@@ -766,15 +617,18 @@ Antes de gerar o resultado, garantir:
 4. O nome Trevin é pronunciado **tre-VIN**, com força na última sílaba.
 5. Todo o áudio está em português brasileiro.
 6. Trevin possui voz com timbre de personagem/assistente de IA — não uma voz humana genérica de locutor (ver seção 4).
-7. O produto aparece mais do que o mascote.
-8. A extensão aparece como extensão dentro do site, e não como celular.
-9. Não existe conversa de chatbot.
-10. O vídeo possui aparência profissional de campanha de SaaS.
-11. O vídeo permanece clean e não fica visualmente poluído.
-12. As interfaces fornecidas como referência são preservadas.
-13. O vídeo termina com Trevin, Jogos Bem Feitos e o CTA para seguir.
-14. Nenhum ícone ou logotipo de rede social aparece em qualquer cena.
-15. Nenhum site ou marca de terceiros (incluindo Caixa) foi recriado sem imagem de referência fornecida.
-16. Não existe absolutamente nenhum texto, título, legenda ou closed caption na tela em nenhum momento do vídeo.
-17. Cada cena/trecho foi gerado usando a imagem certa (Trevin ou screenshot) como frame inicial (ver 0.2), nunca só como referência de estilo.
-18. Nenhuma tela mostra jogos eletrônicos, consoles, controles ou pixel art — "jogos" aparece sempre como combinações numéricas de loteria (ver 0.4).
+7. A fala está em ritmo pausado e claro em todas as 4 partes, sem trechos apressados (regra nova desta versão).
+8. Cada tela do produto na Parte 3 permanece visível tempo suficiente para ser lida (mínimo 2–3s), sem flashes rápidos.
+9. O produto aparece mais do que o mascote.
+10. A extensão aparece como extensão dentro do site, e não como celular.
+11. Não existe conversa de chatbot.
+12. O vídeo possui aparência profissional de campanha de SaaS, agora em tom explicativo/didático.
+13. O vídeo permanece clean e não fica visualmente poluído.
+14. As interfaces fornecidas como referência são preservadas.
+15. O vídeo termina com Trevin, Jogos Bem Feitos e o CTA para seguir.
+16. Nenhum ícone ou logotipo de rede social aparece em qualquer cena.
+17. Nenhum site ou marca de terceiros (incluindo Caixa) foi recriado sem imagem de referência fornecida.
+18. Não existe absolutamente nenhum texto, título, legenda ou closed caption na tela em nenhum momento do vídeo.
+19. Cada parte/trecho foi gerado usando a imagem certa (Trevin ou screenshot) como frame inicial (ver 0.2), nunca só como referência de estilo.
+20. Nenhuma tela mostra jogos eletrônicos, consoles, controles ou pixel art — "jogos" aparece sempre como combinações numéricas de loteria (ver 0.4).
+21. A duração total fica em torno de 30 segundos, distribuída nas 4 partes (0–3s, 3–12s, 12–24s, 24–30s).

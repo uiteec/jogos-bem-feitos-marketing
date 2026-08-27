@@ -544,7 +544,7 @@ Educação e salvamentos. Consolidar as 4 funções centrais do Trevin como um "
 
 ## Papel deste slide dentro da narrativa
 
-Apresentar a 3ª função do Trevin: a inserção automática das apostas no site da Caixa (hoje, na Lotofácil).
+Apresentar a 3ª função do Trevin: a inserção automática das apostas no site da Caixa (já cobre todas as loterias da Caixa).
 
 ---
 
@@ -556,7 +556,7 @@ Insiro na Caixa.
 
 ## Texto complementar
 
-Levo suas apostas até o site da Caixa automaticamente, hoje na Lotofácil.
+Levo suas apostas até o site da Caixa automaticamente, em qualquer loteria.
 
 Utilizar exatamente essas informações.
 

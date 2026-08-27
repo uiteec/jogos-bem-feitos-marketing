@@ -26,7 +26,7 @@ Print: abas da extensão — Apostas, Jogos, Jogadores, Chat — mostrando que e
 "E quando o jogo tá pronto, é a mesma extensão que insere ele na Caixa."
 
 **Slide 5**
-"Extensão gratuita, disponível hoje pra Lotofácil."
+"Extensão gratuita, disponível hoje pra todas as loterias da Caixa."
 CTA: "Instalar a extensão — link na bio."
 
 ## Direção visual
@@ -39,8 +39,8 @@ Prints reais da extensão (não mockup), com destaque nas abas de navegação in
 
 **CTA:** Instalar a extensão.
 
-**Hashtags:** #Extensão #Lotofácil
+**Hashtags:** #Extensão #LoteriasCaixa
 
 ## Cuidado editorial
 
-Deixar claro que a criação de jogos/apostas pela extensão é hoje voltada à Lotofácil, mesmo escopo das demais funções da extensão.
+A extensão já cobre todas as loterias da Caixa (atualizado em 26/08/2026 — não é mais restrita à Lotofácil).
