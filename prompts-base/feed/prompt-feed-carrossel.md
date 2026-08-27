@@ -1,271 +1,61 @@
 # CRIAR 1 SLIDE DE CARROSSEL: JOGOS BEM FEITOS
 
-Crie **somente UM slide** de um carrossel para Instagram.
+Gere UMA ÚNICA imagem, 1080 × 1350 px (formato 4:5), fundo preto profundo (#050505). Slide {{NUMERO_SLIDE}} de 6.
 
-**Formato:** vertical 4:5, 1080 × 1350 px
-**Slide:** {{NUMERO_SLIDE}} de 6
-
-IMPORTANTE: isto é um **carrossel editorial para Instagram**, NÃO é banner publicitário, landing page, infográfico, dashboard ou apresentação comercial.
-
-A arte deve ser **simples, limpa e com bastante espaço vazio**.
+Use a imagem anexada do Trevin como referência exata de identidade (cabeça em formato de trevo, circuitos, olhos simples, iluminação azul de um lado e verde do outro, corpo preto). Use o logotipo anexado como referência exata, sem redesenhar. Não altere nenhum dos dois.
 
 ---
 
-# CONTEÚDO DESTE SLIDE
+## SE ESTE FOR O SLIDE 1 (capa do carrossel)
 
-Escreva SOMENTE o seguinte:
+A imagem tem estes elementos, e só estes:
 
-**Título:**
+1. Título: {{TITULO}}
+2. Texto secundário curto (se fornecido, menor que o título): {{TEXTO}}
+3. O Trevin, centralizado ou ao lado, em destaque (pode ocupar até metade da imagem).
+4. Logotipo pequeno, num canto.
+5. Indicador de página discreto: "{{NUMERO_SLIDE}} / 6".
+
+---
+
+## SE ESTE FOR O SLIDE 2 EM DIANTE
+
+A imagem tem SOMENTE estes elementos, e nada além disso:
+
+1. **Uma frase**, em branco, tamanho único (nunca título grande + texto pequeno separados; é sempre uma frase só), podendo destacar uma palavra em verde (#6DDE00) ou azul (#009DFF):
+
 {{TITULO}}
 
-**Texto secundário:**
-{{TEXTO}}
+2. **O Trevin**, pequeno (ocupando no máximo 1/4 da imagem, num dos lados), com uma pose simples e sutil relacionada à frase: {{USO_TREVIN}}. Ele não segura nada, não interage com nenhum objeto, não tem nenhum elemento ao redor dele.
 
-{{CTA}}
+3. **Indicador de página discreto**, pequeno, num canto: "{{NUMERO_SLIDE}} / 6".
 
-Não escrever nenhuma outra frase.
+4. {{CTA}} (se houver, com hierarquia visual menor que a frase; se vazio, não incluir CTA nenhum).
 
-Não inventar benefícios.
+Cena/ideia por trás da frase (não literalizar, é só contexto): {{IDEIA_VISUAL}}
 
-Não criar listas.
+### Proibido incluir no slide 2 em diante, mesmo que pareça combinar com a marca
 
-Não adicionar funcionalidades.
+Revise a imagem final e remova qualquer um destes itens, se aparecerem:
 
-Não adicionar cards com textos.
+* logotipo ou nome da marca escrito
+* lista de recursos, cards, ícones ou badges (ex.: "organização", "inteligência", "praticidade", "segurança", "estratégia")
+* prancheta, celular, tela, checklist ou qualquer objeto na mão do Trevin
+* selo ou banner extra além do CTA de texto simples, se pedido
+* subtítulo, segundo bloco de texto, ou qualquer texto além da frase, do CTA (se houver) e do indicador de página
+* circuitos como forma decorativa, linhas luminosas, dezenas, números, gráficos, indicadores
+* Trevin grande ocupando mais da metade da imagem
 
-Não adicionar subtítulos.
-
-Não adicionar informações sobre a plataforma.
-
-Não transformar o conteúdo em infográfico.
-
-O texto fornecido acima deve ser respeitado.
-
----
-
-# IDEIA VISUAL
-
-Este slide comunica:
-
-{{IDEIA_VISUAL}}
-
-Representar essa ideia com **UMA única cena principal**.
-
-Não tentar mostrar todas as funcionalidades do Jogos Bem Feitos nesta página.
-
-Este slide fala somente sobre a mensagem acima.
+A imagem final deve parecer quase vazia, com muito espaço preto ao redor da frase e do Trevin pequeno. Simplicidade é mais importante que preencher espaço.
 
 ---
 
-# COMPOSIÇÃO
+## Regras gerais (todos os slides)
 
-Utilize no máximo:
+Paleta: fundo #050505 / #0D1412, azul #009DFF / #006DDA, verde #6DDE00 / #2FBF1A, branco #FFFFFF. Gradiente de destaque quando usar: #009DFF → #6DDE00.
 
-1. título principal;
-2. pequeno texto secundário, se fornecido;
-3. Trevin OU um elemento visual principal;
-4. logotipo pequeno;
-5. indicador discreto "{{NUMERO_SLIDE}} de 6".
+Não transmitir promessa de prêmio, enriquecimento ou garantia de resultado.
 
-Nada além disso.
+Estilo: moderno, tecnológico, premium, limpo, com bastante espaço negativo. Não deve parecer template genérico de Instagram nem ter aparência típica de imagem gerada por IA.
 
-Aproximadamente **40% da composição deve permanecer visualmente livre**, criando bastante respiro.
-
-Não preencher espaços vazios.
-
----
-
-# HIERARQUIA
-
-O primeiro elemento que deve chamar atenção é:
-
-**{{DESTAQUE}}**
-
-O segundo é a representação visual da ideia.
-
-O texto secundário é apenas apoio.
-
-O usuário deve conseguir entender o slide em aproximadamente 2 segundos.
-
----
-
-# TREVIN
-
-Utilize a imagem fornecida como referência oficial do Trevin.
-
-Preserve fielmente sua aparência.
-
-Não redesenhar o personagem.
-
-Não alterar:
-
-* rosto;
-* estrutura em formato de trevo;
-* circuitos;
-* proporções;
-* acabamento;
-* identidade azul e verde.
-
-O Trevin pode mudar de pose para comunicar a ação deste slide.
-
-**Não adicionar notebook, celular, dashboards ou telas ao lado dele, a menos que eu solicite explicitamente neste slide.**
-
-Não colocar Trevin apenas fazendo joinha em todas as páginas.
-
-Sua pose deve estar relacionada à mensagem específica.
-
----
-
-# IDENTIDADE VISUAL
-
-Utilize as referências fornecidas do Jogos Bem Feitos.
-
-Paleta principal:
-
-* Fundo: **#050505**
-* Fundo secundário: **#0D1412**
-* Azul: **#009DFF**
-* Azul escuro: **#006DDA**
-* Verde: **#6DDE00**
-* Verde secundário: **#2FBF1A**
-* Branco: **#FFFFFF**
-
-Gradiente de destaque:
-
-**#009DFF → #6DDE00**
-
-O fundo deve permanecer predominantemente preto.
-
-Azul e verde são cores de destaque, não precisam preencher a composição.
-
----
-
-# ESTILO
-
-Design editorial moderno para Instagram.
-
-Visual:
-
-* minimalista;
-* premium;
-* tecnológico;
-* limpo;
-* forte;
-* elegante;
-* bastante espaço negativo;
-* poucos elementos;
-* tipografia grande.
-
-A tecnologia deve aparecer de maneira sutil.
-
-Pode existir **um pequeno detalhe de circuito** ou uma linha tecnológica discreta no fundo.
-
-Não transformar o fundo em uma placa de circuito.
-
----
-
-# TIPOGRAFIA
-
-Título grande e dominante.
-
-Tipografia sans-serif moderna e forte.
-
-Texto secundário significativamente menor que o título, porém perfeitamente legível no celular.
-
-Pode destacar **uma única palavra ou pequeno trecho** do título utilizando verde, azul ou gradiente azul → verde.
-
-Não colorir várias palavras aleatoriamente.
-
----
-
-# LOGOTIPO
-
-Utilizar o logotipo oficial fornecido.
-
-Pequeno e discreto.
-
-Preferencialmente sempre na mesma posição em todos os slides.
-
-O logotipo é apenas assinatura.
-
-**Nunca permitir que o logotipo tenha tamanho próximo ao título.**
-
----
-
-# CONSISTÊNCIA DO CARROSSEL
-
-Este slide pertence ao carrossel:
-
-**"As 4 coisas que o Trevin faz por você."**
-
-As seis páginas devem compartilhar:
-
-* mesmo fundo;
-* mesma tipografia;
-* mesma posição do logotipo;
-* mesmo indicador de página;
-* mesma linguagem visual;
-* mesmas margens;
-* mesma iluminação azul/verde.
-
-Porém cada página apresenta **uma única ideia**.
-
-Não tentar resumir o carrossel inteiro em cada slide.
-
----
-
-# NÃO FAZER
-
-Muito importante:
-
-❌ Não criar lista de funcionalidades.
-❌ Não criar 4 ou 5 cards.
-❌ Não criar dashboard.
-❌ Não criar notebook.
-❌ Não criar celular.
-❌ Não criar interface do sistema.
-❌ Não criar infográfico.
-❌ Não encher o fundo de circuitos.
-❌ Não adicionar vários ícones.
-❌ Não criar textos extras.
-❌ Não adicionar slogans.
-❌ Não criar CTA que não foi solicitado.
-❌ Não tentar explicar toda a plataforma neste slide.
-❌ Não criar composição de landing page.
-❌ Não preencher todos os espaços vazios.
-
-A regra principal é:
-
-**UMA mensagem + UMA ideia visual + MUITO respiro.**
-
----
-
-# DIREÇÃO ESPECÍFICA DESTA PÁGINA
-
-**Slide:** {{NUMERO_SLIDE}} de 6
-
-**Título exato:**
-{{TITULO}}
-
-**Texto exato:**
-{{TEXTO}}
-
-**CTA exato:**
-{{CTA}}
-
-**Trevin:**
-{{USO_TREVIN}}
-
-**Cena/elemento visual:**
-{{IDEIA_VISUAL}}
-
-**Principal destaque visual:**
-{{DESTAQUE}}
-
----
-
-Antes de gerar, simplifique mentalmente a composição.
-
-Se algum elemento não for necessário para comunicar a mensagem deste slide, **não o coloque**.
-
-O resultado deve parecer uma campanha de marca bem diagramada, não uma demonstração de tudo que a plataforma consegue fazer.
+Todos os slides de um mesmo carrossel devem compartilhar fundo, tipografia, posição do indicador de página e tratamento de iluminação, mas cada um apresenta uma frase e uma cena diferentes.
