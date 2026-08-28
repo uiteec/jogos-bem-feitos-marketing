@@ -13,22 +13,24 @@
 
 **Hook:** "Por que repetir dezenas do concurso anterior não é chute."
 
-## Roteiro
+**Formato:** áudio primeiro, vídeo depois. O Trevin narra o vídeo inteiro em 1ª pessoa (ver `19-09-audio-fala.md` e `19-09-audio-narracao.md`). Gerar a narração, medir a duração real de cada fala e só então cortar os clipes de cada cena já ajustados a esse tempo.
 
-**Cena 1: 0–4s**
-Texto: "Repetição Equilibrada reproduz uma técnica de fechamento real."
+## Roteiro (cenas mapeadas às falas)
 
-**Cena 2: 4–10s**
-Tela do app: dezenas do concurso anterior em destaque, sendo reaproveitadas em parte no novo jogo gerado (visual de "de 7 a 11 números do último concurso").
+**Cena 1 (0–4s)**
+Fala 1 (hook).
 
-**Cena 3: 10–15s**
-Texto: "Cobertura de dezenas e soma dentro de faixas testadas estatisticamente, não é escolher os números que 'parecem certos'."
+**Cena 2 (4–10s)**
+Tela do app: dezenas do concurso anterior em destaque, sendo reaproveitadas em parte no novo jogo gerado (visual de "de 7 a 11 números do último concurso"), enquanto o Trevin narra a Fala 2.
 
-**Cena 4: 15–19s**
-Texto: "Isso não aumenta a chance de ganhar. Sorteio continua sendo aleatório."
+**Cena 3 (10–15s)**
+Fala 3, explicando a cobertura de dezenas e a soma dentro de faixas testadas estatisticamente.
 
-**Cena 5: 19–20s**
-CTA: "Testa essa estratégia, link na bio."
+**Cena 4 (15–19s)**
+Fala 4, reforço de que isso não aumenta a chance de ganhar.
+
+**Cena 5 (19–20s)**
+CTA final, Fala 5.
 
 ## Direção visual
 

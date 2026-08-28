@@ -13,23 +13,25 @@
 
 **Hook:** "Todo gerador de jogo é igual? Não é bem assim."
 
-## Roteiro
+**Formato:** áudio primeiro, vídeo depois. O Trevin narra o vídeo inteiro em 1ª pessoa (ver `12-09-audio-fala.md` e `12-09-audio-narracao.md`). Gerar a narração, medir a duração real de cada fala e só então cortar os clipes de cada cena já ajustados a esse tempo.
 
-**Cena 1: 0–4s**
-Tela do gerador com o seletor de estratégia em destaque, mostrando as 5 opções em lista.
+## Roteiro (cenas mapeadas às falas)
 
-**Cena 2: 4–14s**
-Texto rápido, uma estratégia por 2 segundos, com ícone simples pra cada uma: "Aleatório Equilibrado. Equilíbrio Estatístico. Repetição Equilibrada. Tendência Histórica. Similaridade Histórica."
+**Cena 1 (0–4s)**
+Tela do gerador com o seletor de estratégia em destaque, as 5 opções em lista, enquanto o Trevin narra a Fala 1.
 
-**Cena 3: 14–18s**
-Texto: "Cada uma organiza o jogo com uma lógica diferente. Nenhuma prevê o resultado, isso ninguém consegue."
+**Cena 2 (4–14s)**
+Corte rápido, uma estratégia por 2 segundos, com ícone simples pra cada uma, sincronizado com a Fala 2, que nomeia as cinco.
 
-**Cena 4: 18–20s**
-CTA: "Testa as 5, link na bio."
+**Cena 3 (14–18s)**
+Fala 3, reforçando que nenhuma estratégia prevê o resultado.
+
+**Cena 4 (18–20s)**
+CTA final, Fala 4.
 
 ## Direção visual
 
-Ritmo de "menu"/catálogo, cortes secos e uniformes (mesma duração pra cada estratégia, reforçando que são 5 opções equivalentes). Deixar claro visualmente que o carrossel da semana vai explicar cada uma.
+Ritmo de menu/catálogo, cortes secos e uniformes (mesma duração pra cada estratégia, reforçando que são 5 opções equivalentes). Deixar claro visualmente que o carrossel da semana vai explicar cada uma.
 
 ## Legenda
 

@@ -13,22 +13,24 @@
 
 **Hook:** "Quem organiza o bolão do seu grupo hoje? Ainda é você, no braço?"
 
-## Roteiro
+**Formato:** áudio primeiro, vídeo depois. O Trevin narra o vídeo inteiro em 1ª pessoa (ver `24-09-audio-fala.md` e `24-09-audio-narracao.md`). Gerar a narração, medir a duração real de cada fala e só então cortar os clipes de cada cena já ajustados a esse tempo.
 
-**Cena 1: 0–5s**
-Print estilizado de um grupo de WhatsApp caótico: mensagens tipo "já paguei", "quem falta", "bora fechar os números" espalhadas sem ordem.
+## Roteiro (cenas mapeadas às falas)
 
-**Cena 2: 5–9s**
-Texto: "Organizar bolão em grupo de WhatsApp funciona até dar errado uma vez."
+**Cena 1 (0–5s)**
+Print estilizado de um grupo de WhatsApp caótico: mensagens tipo "já paguei", "quem falta", "bora fechar os números" espalhadas sem ordem, enquanto o Trevin narra a Fala 1 (hook).
 
-**Cena 3: 9–15s**
-Corte pra tela de "Jogadores" do app: participantes cadastrados, jogos vinculados a cada aposta, tudo num só lugar.
+**Cena 2 (5–9s)**
+Fala 2, nomeando o problema.
 
-**Cena 4: 15–19s**
-Texto: "Eu organizo os jogadores, os jogos e as apostas do seu bolão num lugar só."
+**Cena 3 (9–15s)**
+Corte pra tela de "Jogadores" do app: participantes cadastrados, jogos vinculados a cada aposta, tudo num só lugar, enquanto o Trevin narra a Fala 3.
 
-**Cena 5: 19–20s**
-CTA: "Cria seu bolão, link na bio."
+**Cena 4 (15–19s)**
+Fala 4, reforço.
+
+**Cena 5 (19–20s)**
+CTA final, Fala 5.
 
 ## Direção visual
 

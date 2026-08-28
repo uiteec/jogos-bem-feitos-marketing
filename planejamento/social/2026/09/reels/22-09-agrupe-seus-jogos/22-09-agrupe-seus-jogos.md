@@ -13,22 +13,24 @@
 
 **Hook:** "80 jogos salvos não é organização. É bagunça com nome bonito."
 
-## Roteiro
+**Formato:** áudio primeiro, vídeo depois. O Trevin narra o vídeo inteiro em 1ª pessoa (ver `22-09-audio-fala.md` e `22-09-audio-narracao.md`). Gerar a narração, medir a duração real de cada fala e só então cortar os clipes de cada cena já ajustados a esse tempo.
 
-**Cena 1: 0–4s**
-Tela de celular rolando uma lista longa de jogos sem nenhuma separação visível.
+## Roteiro (cenas mapeadas às falas)
 
-**Cena 2: 4–8s**
-Texto: "Ter muitos jogos não é o problema. Não ter como separar o que é o quê, é."
+**Cena 1 (0–4s)**
+Tela de celular rolando uma lista longa de jogos sem nenhuma separação visível, enquanto o Trevin narra a Fala 1 (hook).
 
-**Cena 3: 8–15s**
-Corte para a tela "Meus Jogos" com agrupamento: grupos nomeados pelo usuário (ex.: "Jogos da sorte", "Fechamento do mês", "Bolão do trabalho"), jogos organizados dentro de cada um.
+**Cena 2 (4–8s)**
+Fala 2, apontando que o problema não é a quantidade de jogos.
 
-**Cena 4: 15–19s**
-Texto: "Eu agrupo do jeito que fizer sentido pra você. Por campanha, por estratégia, por time."
+**Cena 3 (8–15s)**
+Corte para a tela "Meus Jogos" com agrupamento: grupos nomeados pelo usuário (ex.: "Jogos da sorte", "Fechamento do mês", "Bolão do trabalho"), jogos organizados dentro de cada um, enquanto o Trevin narra a Fala 3.
 
-**Cena 5: 19–20s**
-CTA: "Organiza os seus, link na bio."
+**Cena 4 (15–19s)**
+Fala 4, reforço de que a extensão organiza os grupos.
+
+**Cena 5 (19–20s)**
+CTA final, Fala 5.
 
 ## Direção visual
 
