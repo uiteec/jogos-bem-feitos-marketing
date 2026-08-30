@@ -1,6 +1,6 @@
 # ÁUDIO: NARRAÇÃO COMPLETA: "Você lembra de resgatar todos os seus prêmios?"
 
-Reel 08/09, mesmo formato do reel 05/09: **o Trevin narra o vídeo inteiro**, em 1ª pessoa. Gerar este áudio primeiro (TTS/dublagem), medir a duração real de cada fala, e só depois gerar os clipes de vídeo de cada cena já ajustados para caber nesse tempo, não o contrário.
+Reel 08/09, mesmo formato do reel 27/08: **o Trevin narra o vídeo inteiro**, em 1ª pessoa. Gerar este áudio primeiro (TTS/dublagem), medir a duração real de cada fala, e só depois gerar os clipes de vídeo de cada cena já ajustados para caber nesse tempo, não o contrário.
 
 ---
 
@@ -26,25 +26,25 @@ Ler como um áudio único e contínuo (não 5 arquivos separados): as pausas nat
 | 4. "E já funciona para todas..." | Cena 4 (reforço de cobertura) | ~3s |
 | 5. "Extensão gratuita. Link na bio." | Cena 5 (CTA final) | ~2–3s |
 
-*Não apressar a fala para caber em 20 segundos. Se o áudio real sair mais longo que os ~20 segundos do roteiro original, é preferível esticar a duração total do vídeo, e os cortes de cada clipe, a acelerar a locução, mesma lição já aplicada no reel de 05/09.
+*Não apressar a fala para caber em 20 segundos. Se o áudio real sair mais longo que os ~20 segundos do roteiro original, é preferível esticar a duração total do vídeo, e os cortes de cada clipe, a acelerar a locução, mesma lição já aplicada no reel de 27/08.
 
 ---
 
 ## PRONÚNCIA OBRIGATÓRIA: "TREVIN" (se o nome for falado em alguma versão)
 
-Esta narração não cita o nome "Trevin" em nenhuma fala: ele fala em 1ª pessoa sem se apresentar de novo (isso já foi feito no reel de 01/09). Caso alguma versão futura inclua o nome, a pronúncia correta é **tre-VIN** (força na última sílaba, nunca "TRÉ-vin" ou pronúncia em inglês).
+Esta narração não cita o nome "Trevin" em nenhuma fala: ele fala em 1ª pessoa sem se apresentar de novo (isso já foi feito no reel de 24/08). Caso alguma versão futura inclua o nome, a pronúncia correta é **tre-VIN** (força na última sílaba, nunca "TRÉ-vin" ou pronúncia em inglês).
 
 ---
 
 ## VOZ DO TREVIN
 
-Português brasileiro (pt-BR). Voz masculina brasileira com timbre de personagem/assistente de IA, não uma voz humana genérica de locutor. Leve textura tecnológica/sintética perceptível no timbre, sem efeito robótico exagerado. Mesma identidade de voz já estabelecida no reel de 01/09 ("Eu sou o Trevin") e usada no reel de 05/09.
+Português brasileiro (pt-BR). Voz masculina brasileira com timbre de personagem/assistente de IA, não uma voz humana genérica de locutor. Leve textura tecnológica/sintética perceptível no timbre, sem efeito robótico exagerado. Mesma identidade de voz já estabelecida no reel de 24/08 ("Eu sou o Trevin") e usada no reel de 27/08.
 
 ### Ritmo por fala
 
 * **Fala 1 (hook):** tom direto e sério, quase um aviso. É a frase que precisa gerar o desconforto inicial ("isso pode estar acontecendo comigo agora").
 * **Fala 2:** tom de identificação, quase confessional, como quem lembra de algo que também já esqueceu de checar.
-* **Fala 3:** tom explicativo, confiante, ritmo pausado, mesma cadência usada nas falas de produto do reel de 01/09 e 05/09.
+* **Fala 3:** tom explicativo, confiante, ritmo pausado, mesma cadência usada nas falas de produto do reel de 24/08 e 27/08.
 * **Fala 4:** tom de boa notícia, reforça que a cobertura é completa, não uma ressalva.
 * **Fala 5 (CTA):** tom confiante e convidativo, sem pressa, mesmo sendo curta.
 

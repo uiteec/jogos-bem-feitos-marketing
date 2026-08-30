@@ -1,6 +1,6 @@
 # ÁUDIO: NARRAÇÃO COMPLETA: "5 jeitos diferentes de montar um jogo"
 
-Reel 12/09, mesmo formato do reel 05/09 e do reel 08/09: **o Trevin narra o vídeo inteiro**, em 1ª pessoa. Gerar este áudio primeiro (TTS/dublagem), medir a duração real de cada fala, e só depois gerar os clipes de vídeo de cada cena já ajustados para caber nesse tempo, não o contrário.
+Reel 12/09, mesmo formato do reel 27/08 e do reel 08/09: **o Trevin narra o vídeo inteiro**, em 1ª pessoa. Gerar este áudio primeiro (TTS/dublagem), medir a duração real de cada fala, e só depois gerar os clipes de vídeo de cada cena já ajustados para caber nesse tempo, não o contrário.
 
 ---
 
@@ -26,7 +26,7 @@ Ler como um áudio único e contínuo (não 5 arquivos separados): as pausas nat
 | 4. "Cada uma organiza o jogo..." | Cena 3 (reforço) | ~4s |
 | 5. "Testa as cinco. Link na bio." | Cena 4 (CTA) | ~2–3s |
 
-*Não apressar a fala para caber em 20 segundos. Se o áudio real sair mais longo, é preferível esticar a duração total do vídeo a acelerar a locução, mesma lição já aplicada nos reels de 05/09 e 08/09.
+*Não apressar a fala para caber em 20 segundos. Se o áudio real sair mais longo, é preferível esticar a duração total do vídeo a acelerar a locução, mesma lição já aplicada nos reels de 27/08 e 08/09.
 
 ---
 
@@ -38,7 +38,7 @@ Esta narração não cita o nome "Trevin" em nenhuma fala. Caso alguma versão f
 
 ## VOZ DO TREVIN
 
-Português brasileiro (pt-BR). Voz masculina brasileira com timbre de personagem/assistente de IA, não uma voz humana genérica de locutor. Leve textura tecnológica/sintética perceptível no timbre, sem efeito robótico exagerado. Mesma identidade de voz já estabelecida nos reels de 01/09, 05/09 e 08/09.
+Português brasileiro (pt-BR). Voz masculina brasileira com timbre de personagem/assistente de IA, não uma voz humana genérica de locutor. Leve textura tecnológica/sintética perceptível no timbre, sem efeito robótico exagerado. Mesma identidade de voz já estabelecida nos reels de 24/08, 27/08 e 08/09.
 
 ### Ritmo por fala
 

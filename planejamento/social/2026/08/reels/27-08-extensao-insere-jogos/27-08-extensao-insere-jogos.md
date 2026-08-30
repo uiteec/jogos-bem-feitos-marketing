@@ -1,8 +1,8 @@
-# Reel 05/09: "30 jogos. Um por um. Ou não."
+# Reel 27/08: "30 jogos. Um por um. Ou não."
 
 | Campo | Valor |
 |---|---|
-| Data | Sáb 05/09 |
+| Data | Qui 27/08 |
 | Rede | Instagram / TikTok |
 | Funil | Fundo |
 | Capítulo | 2 – Extensão |

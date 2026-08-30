@@ -1,6 +1,6 @@
 # PROMPT VEO: CENA 4/5: "JÁ FUNCIONA PRA TODAS"
 
-Reel "30 jogos. Cada um com 15 números." (05/09). Esta é a **cena 4 de 5** que formam o vídeo final, gerar sozinha, sem depender de nenhum outro prompt, e depois cortar/editar junto com as outras 4 em CapCut/Premiere. Corresponde à **Cena 4 (14–18s)** do roteiro.
+Reel "30 jogos. Cada um com 15 números." (27/08). Esta é a **cena 4 de 5** que formam o vídeo final, gerar sozinha, sem depender de nenhum outro prompt, e depois cortar/editar junto com as outras 4 em CapCut/Premiere. Corresponde à **Cena 4 (14–18s)** do roteiro.
 
 Vídeo publicitário vertical (9:16) para Instagram Reels/TikTok da extensão **Jogos Bem Feitos**. Esta cena existe para reforçar que a extensão **já cobre todas as loterias da Caixa** (atualizado em 26/08/2026: a extensão deixou de ser restrita à Lotofácil; ver `contexto/site.md`).
 

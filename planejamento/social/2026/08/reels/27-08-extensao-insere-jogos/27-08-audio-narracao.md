@@ -1,6 +1,6 @@
 # ÁUDIO: NARRAÇÃO COMPLETA: "30 jogos. Cada um com 15 números."
 
-Reel 05/09, mudança de formato: em vez de legendas na tela sem voz, **o Trevin narra o vídeo inteiro**, em 1ª pessoa. Gerar este áudio primeiro (TTS/dublagem), medir a duração real de cada fala, e só depois gerar os clipes de vídeo de cada cena já ajustados para caber nesse tempo, não o contrário.
+Reel 27/08, mudança de formato: em vez de legendas na tela sem voz, **o Trevin narra o vídeo inteiro**, em 1ª pessoa. Gerar este áudio primeiro (TTS/dublagem), medir a duração real de cada fala, e só depois gerar os clipes de vídeo de cada cena já ajustados para caber nesse tempo, não o contrário.
 
 As falas abaixo substituem os antigos "Texto: ..." do roteiro (que eram legendas mudas). O texto que aparecia como legenda vira fala do Trevin; nenhuma legenda precisa ser escrita na tela.
 
@@ -30,25 +30,25 @@ Ler como um áudio único e contínuo (não 5 arquivos separados de áudio): as 
 | 4. "E já funciona pra todas as loterias da Caixa." | Cena 4 (reforço de cobertura) | ~3s |
 | 5. "Extensão gratuita. Link na bio." | Cena 5 (CTA final) | ~2–3s |
 
-*Duração aproximada considerando o ritmo pausado abaixo: **não apressar a fala para caber em 20 segundos**. Se o áudio real sair mais longo que os ~18–22s do roteiro original, é preferível **esticar a duração total do vídeo** (e os cortes de cada clipe de vídeo) a acelerar a locução, essa foi exatamente a lição aprendida no reel do Trevin de 01/09, que saiu rápido demais na primeira versão. Depois de gerar o áudio, atualizar as durações das cenas nos prompts de vídeo (`cenas/01-clique-manual.md` a `cenas/05-cta.md`) para bater com os tempos reais de cada fala.
+*Duração aproximada considerando o ritmo pausado abaixo: **não apressar a fala para caber em 20 segundos**. Se o áudio real sair mais longo que os ~18–22s do roteiro original, é preferível **esticar a duração total do vídeo** (e os cortes de cada clipe de vídeo) a acelerar a locução, essa foi exatamente a lição aprendida no reel do Trevin de 24/08, que saiu rápido demais na primeira versão. Depois de gerar o áudio, atualizar as durações das cenas nos prompts de vídeo (`cenas/01-clique-manual.md` a `cenas/05-cta.md`) para bater com os tempos reais de cada fala.
 
 ---
 
 ## PRONÚNCIA OBRIGATÓRIA: "TREVIN" (se o nome for falado em alguma versão)
 
-Esta narração específica não cita o nome "Trevin" em nenhuma fala: ele fala em 1ª pessoa sem se apresentar de novo (isso já foi feito no reel de 01/09). Caso alguma versão futura inclua o nome, a pronúncia correta é **tre-VIN** (força na última sílaba, nunca "TRÉ-vin" ou pronúncia em inglês).
+Esta narração específica não cita o nome "Trevin" em nenhuma fala: ele fala em 1ª pessoa sem se apresentar de novo (isso já foi feito no reel de 24/08). Caso alguma versão futura inclua o nome, a pronúncia correta é **tre-VIN** (força na última sílaba, nunca "TRÉ-vin" ou pronúncia em inglês).
 
 ---
 
 ## VOZ DO TREVIN
 
-Português brasileiro (pt-BR). Voz masculina brasileira com timbre de **personagem/assistente de IA**, não uma voz humana genérica de locutor. Leve textura tecnológica/sintética perceptível no timbre, sem ser um efeito robótico exagerado. Deve transmitir inteligência, confiança, simpatia, domínio do produto, tecnologia, praticidade e leve descontração, a mesma identidade de voz já estabelecida no reel de 01/09 ("Eu sou o Trevin").
+Português brasileiro (pt-BR). Voz masculina brasileira com timbre de **personagem/assistente de IA**, não uma voz humana genérica de locutor. Leve textura tecnológica/sintética perceptível no timbre, sem ser um efeito robótico exagerado. Deve transmitir inteligência, confiança, simpatia, domínio do produto, tecnologia, praticidade e leve descontração, a mesma identidade de voz já estabelecida no reel de 24/08 ("Eu sou o Trevin").
 
 ### Ritmo por fala
 
 * **Fala 1 (hook):** tom direto e um pouco mais enérgico que as demais, pois é a única fala que pode soar levemente mais rápida, porque a ideia é simular a sensação de "lista cansativa" (trinta jogos, quinze números cada). Ainda assim, cada palavra precisa sair clara e compreensível.
 * **Fala 2:** curta e seca, quase uma conclusão suspirada, com pequena pausa antes e depois dela.
-* **Fala 3:** tom explicativo, confiante, ritmo pausado, mesma cadência usada nas falas de produto do reel de 01/09.
+* **Fala 3:** tom explicativo, confiante, ritmo pausado, mesma cadência usada nas falas de produto do reel de 24/08.
 * **Fala 4:** tom confiante, quase uma "boa notícia": reforça que a cobertura é completa, não uma ressalva.
 * **Fala 5 (CTA):** tom confiante e convidativo, sem pressa, mesmo sendo curta.
 

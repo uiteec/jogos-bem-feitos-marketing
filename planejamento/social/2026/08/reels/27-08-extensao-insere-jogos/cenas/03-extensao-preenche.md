@@ -1,6 +1,6 @@
 # PROMPT VEO: CENA 3/5: "A EXTENSÃO PREENCHE"
 
-Reel "30 jogos. Cada um com 15 números." (05/09). Esta é a **cena 3 de 5** que formam o vídeo final, gerar sozinha, sem depender de nenhum outro prompt, e depois cortar/editar junto com as outras 4 em CapCut/Premiere. Corresponde à **Cena 3 (8–14s)** do roteiro: o clímax do vídeo, o contraste de velocidade entre manual (Cena 1) e automático (esta cena).
+Reel "30 jogos. Cada um com 15 números." (27/08). Esta é a **cena 3 de 5** que formam o vídeo final, gerar sozinha, sem depender de nenhum outro prompt, e depois cortar/editar junto com as outras 4 em CapCut/Premiere. Corresponde à **Cena 3 (8–14s)** do roteiro: o clímax do vídeo, o contraste de velocidade entre manual (Cena 1) e automático (esta cena).
 
 Vídeo publicitário vertical (9:16) para Instagram Reels/TikTok da extensão **Jogos Bem Feitos**.
 

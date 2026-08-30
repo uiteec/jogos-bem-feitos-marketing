@@ -1,8 +1,8 @@
-# Reel, 01/09, "Eu sou o Trevin"
+# Reel, 24/08, "Eu sou o Trevin"
 
 | Campo | Valor |
 |---|---|
-| Data | Ter 01/09 |
+| Data | Seg 24/08 |
 | Rede | Instagram / TikTok |
 | Funil | Topo |
 | Capítulo | 1 – Trevin |

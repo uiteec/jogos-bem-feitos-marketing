@@ -1,6 +1,6 @@
 # PROMPT VEO: CLIPE 5/7: "O QUE É O TREVIN: MEUS JOGOS"
 
-Reel "Eu sou o Trevin" (01/09). Este é o **clipe 5 de 7** que formam o vídeo final. Gerar sozinho, sem depender de nenhum outro prompt, e depois cortar/editar junto com os outros 6 em CapCut/Premiere. Corresponde ao **terceiro trecho da Parte 3 (12–24s)** do roteiro.
+Reel "Eu sou o Trevin" (24/08). Este é o **clipe 5 de 7** que formam o vídeo final. Gerar sozinho, sem depender de nenhum outro prompt, e depois cortar/editar junto com os outros 6 em CapCut/Premiere. Corresponde ao **terceiro trecho da Parte 3 (12–24s)** do roteiro.
 
 Vídeo publicitário vertical (9:16) para Instagram Reels/TikTok, apresentando **Trevin**, o assistente inteligente da plataforma **Jogos Bem Feitos**.
 

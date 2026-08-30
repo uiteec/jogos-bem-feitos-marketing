@@ -1,6 +1,6 @@
 # PROMPT VEO: CLIPE 3/7: "O QUE É O TREVIN: GERADOR"
 
-Reel "Eu sou o Trevin" (01/09). Este é o **clipe 3 de 7** que formam o vídeo final. Gerar sozinho, sem depender de nenhum outro prompt, e depois cortar/editar junto com os outros 6 em CapCut/Premiere. Corresponde ao **primeiro trecho da Parte 3 (12–24s)** do roteiro, onde Trevin explica o que é e começa a listar o que faz.
+Reel "Eu sou o Trevin" (24/08). Este é o **clipe 3 de 7** que formam o vídeo final. Gerar sozinho, sem depender de nenhum outro prompt, e depois cortar/editar junto com os outros 6 em CapCut/Premiere. Corresponde ao **primeiro trecho da Parte 3 (12–24s)** do roteiro, onde Trevin explica o que é e começa a listar o que faz.
 
 Vídeo publicitário vertical (9:16) para Instagram Reels/TikTok, apresentando **Trevin**, o assistente inteligente da plataforma **Jogos Bem Feitos**.
 

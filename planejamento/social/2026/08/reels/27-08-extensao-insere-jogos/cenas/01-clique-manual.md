@@ -1,6 +1,6 @@
 # PROMPT VEO: CENA 1/5: "CLIQUE MANUAL"
 
-Reel "30 jogos. Cada um com 15 números." (05/09). Esta é a **cena 1 de 5** que formam o vídeo final, gerar sozinha, sem depender de nenhum outro prompt, e depois cortar/editar junto com as outras 4 em CapCut/Premiere. Corresponde à **Cena 1 (0-5s)** do roteiro.
+Reel "30 jogos. Cada um com 15 números." (27/08). Esta é a **cena 1 de 5** que formam o vídeo final, gerar sozinha, sem depender de nenhum outro prompt, e depois cortar/editar junto com as outras 4 em CapCut/Premiere. Corresponde à **Cena 1 (0-5s)** do roteiro.
 
 Vídeo publicitário vertical (9:16) para Instagram Reels/TikTok da extensão **Jogos Bem Feitos**. Esta cena abre mostrando o tédio de preencher jogos manualmente no site da Caixa, sem a extensão fazendo o trabalho ainda.
 

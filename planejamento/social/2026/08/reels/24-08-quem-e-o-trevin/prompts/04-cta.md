@@ -1,6 +1,6 @@
 # PROMPT VEO: CLIPE 7/7: "CHAMADA PARA AÇÃO"
 
-Reel "Eu sou o Trevin" (01/09). Este é o **clipe 7 de 7**, o último do vídeo final. Gerar sozinho, sem depender de nenhum outro prompt, e depois cortar/editar junto com os outros 6 em CapCut/Premiere. Corresponde à **Parte 4 (24–30s)** do roteiro.
+Reel "Eu sou o Trevin" (24/08). Este é o **clipe 7 de 7**, o último do vídeo final. Gerar sozinho, sem depender de nenhum outro prompt, e depois cortar/editar junto com os outros 6 em CapCut/Premiere. Corresponde à **Parte 4 (24–30s)** do roteiro.
 
 Vídeo publicitário vertical (9:16) para Instagram Reels/TikTok, apresentando **Trevin**, o assistente inteligente da plataforma **Jogos Bem Feitos**. Este é o encerramento: depois de explicar o que ele faz, Trevin convida a seguir o perfil para acompanhar os próximos capítulos.
 

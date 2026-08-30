@@ -1,8 +1,8 @@
-# Carrossel de 03/09: "As 4 coisas que o Trevin faz por você"
+# Carrossel de 28/08: "As 4 coisas que o Trevin faz por você"
 
 | Campo | Valor |
 |---|---|
-| Data | Qui 03/09 |
+| Data | Sex 28/08 |
 | Rede | Instagram |
 | Funil | Meio |
 | Capítulo | 1 – Trevin |
@@ -38,7 +38,7 @@ CTA: "Salva esse post pra acompanhar."
 
 ## Direção visual
 
-Um ícone simples e consistente por função (gerar / montar / inserir / analisar), mesma família de template do reel de 01/09 pra reforçar que fazem parte da mesma abertura de mês.
+Um ícone simples e consistente por função (gerar / montar / inserir / analisar), mesma família de template do reel de 24/08 pra reforçar que fazem parte da mesma abertura de mês.
 
 ## Legenda
 

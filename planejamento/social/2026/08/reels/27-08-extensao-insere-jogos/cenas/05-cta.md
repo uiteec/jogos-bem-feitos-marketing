@@ -1,6 +1,6 @@
 # PROMPT VEO: CENA 5/5: "CTA: EXTENSÃO GRATUITA"
 
-Reel "30 jogos. Cada um com 15 números." (05/09). Esta é a **cena 5 de 5**, o encerramento do vídeo final, gerar sozinha, sem depender de nenhum outro prompt, e depois cortar/editar junto com as outras 4 em CapCut/Premiere. Corresponde à **Cena 5 (18–20s)** do roteiro.
+Reel "30 jogos. Cada um com 15 números." (27/08). Esta é a **cena 5 de 5**, o encerramento do vídeo final, gerar sozinha, sem depender de nenhum outro prompt, e depois cortar/editar junto com as outras 4 em CapCut/Premiere. Corresponde à **Cena 5 (18–20s)** do roteiro.
 
 Vídeo publicitário vertical (9:16) para Instagram Reels/TikTok da extensão **Jogos Bem Feitos**. Esta é a chamada para ação final: instalar a extensão gratuita.
 

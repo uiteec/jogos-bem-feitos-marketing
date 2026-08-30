@@ -31,7 +31,7 @@ Logo + CTA forte, Fala 3.
 
 ## Direção visual
 
-Funciona como um recap/trailer de encerramento: reaproveitar literalmente os clipes gravados ao longo do mês (05/09, 08/09, 12-19/09, 22/09, 24-26/09) em vez de gravar cenas novas, reforçando que é o fechamento de uma série, não um post avulso.
+Funciona como um recap/trailer de encerramento: reaproveitar literalmente os clipes gravados ao longo do mês (27/08, 08/09, 12-19/09, 22/09, 24-26/09) em vez de gravar cenas novas, reforçando que é o fechamento de uma série, não um post avulso.
 
 ## Legenda
 

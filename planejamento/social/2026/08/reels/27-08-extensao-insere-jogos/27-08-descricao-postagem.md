@@ -1,4 +1,4 @@
-# Descrição da postagem: Reel 05/09, "30 jogos. Um por um. Ou não."
+# Descrição da postagem: Reel 27/08, "30 jogos. Um por um. Ou não."
 
 ## Texto pronto (copiar tudo de uma vez)
 

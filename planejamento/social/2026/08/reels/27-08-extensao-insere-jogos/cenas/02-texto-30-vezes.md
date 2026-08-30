@@ -1,6 +1,6 @@
 # PROMPT VEO: CENA 2/5: "ISSO, 30 VEZES"
 
-Reel "30 jogos. Cada um com 15 números." (05/09). Esta é a **cena 2 de 5** que formam o vídeo final, gerar sozinha, sem depender de nenhum outro prompt, e depois cortar/editar junto com as outras 4 em CapCut/Premiere. Corresponde à **Cena 2 (5–8s)** do roteiro.
+Reel "30 jogos. Cada um com 15 números." (27/08). Esta é a **cena 2 de 5** que formam o vídeo final, gerar sozinha, sem depender de nenhum outro prompt, e depois cortar/editar junto com as outras 4 em CapCut/Premiere. Corresponde à **Cena 2 (5–8s)** do roteiro.
 
 Vídeo publicitário vertical (9:16) para Instagram Reels/TikTok da extensão **Jogos Bem Feitos**. Esta cena é curta e funciona como uma pausa/respiro depois do clique manual da Cena 1, e o texto "Isso, 30 vezes." é adicionado por cima em pós-produção, então o vídeo em si só precisa sustentar visualmente a ideia de repetição.
 

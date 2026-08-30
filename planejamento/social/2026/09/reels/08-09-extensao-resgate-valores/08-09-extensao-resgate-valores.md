@@ -34,7 +34,7 @@ CTA final, Fala 5.
 
 ## Direção visual
 
-Cena 2 é o momento de humor e identificação com o espectador. O resto é demonstração direta de tela real, sem dramatização exagerada. Manter o mesmo estilo visual do reel de 05/09 para reforçar que são capítulos da mesma série.
+Cena 2 é o momento de humor e identificação com o espectador. O resto é demonstração direta de tela real, sem dramatização exagerada. Manter o mesmo estilo visual do reel de 27/08 para reforçar que são capítulos da mesma série.
 
 ## Legenda
 

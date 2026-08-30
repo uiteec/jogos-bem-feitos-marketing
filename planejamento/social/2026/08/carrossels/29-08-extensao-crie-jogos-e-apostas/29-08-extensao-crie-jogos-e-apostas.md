@@ -1,8 +1,8 @@
-# Carrossel de 10/09: "Você nem precisa sair da extensão pra montar um jogo novo"
+# Carrossel de 29/08: "Você nem precisa sair da extensão pra montar um jogo novo"
 
 | Campo | Valor |
 |---|---|
-| Data | Qui 10/09 |
+| Data | Sáb 29/08 |
 | Rede | Instagram |
 | Funil | Fundo |
 | Capítulo | 2 – Extensão |
