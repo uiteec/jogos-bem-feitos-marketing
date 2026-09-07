@@ -1,4 +1,4 @@
-# ÁUDIO: NARRAÇÃO COMPLETA: "5 jeitos diferentes de montar um jogo"
+# ÁUDIO: NARRAÇÃO COMPLETA: "aleatório não é variedade"
 
 Reel 12/09, mesmo formato do reel 27/08 e do reel 08/09: **o Trevin narra o vídeo inteiro**, em 1ª pessoa. Gerar este áudio primeiro (TTS/dublagem), medir a duração real de cada fala, e só depois gerar os clipes de vídeo de cada cena já ajustados para caber nesse tempo, não o contrário.
 
@@ -6,13 +6,17 @@ Reel 12/09, mesmo formato do reel 27/08 e do reel 08/09: **o Trevin narra o víd
 
 ## ROTEIRO DE FALA (ordem de leitura, para gravar como um áudio contínuo)
 
-1. **"Todo gerador de jogo é igual? Não é bem assim."**
-2. **"Eu tenho cinco estratégias diferentes pra montar seus jogos."**
-3. **"Aleatório equilibrado. Equilíbrio estatístico. Repetição equilibrada. Tendência histórica. Similaridade histórica."**
-4. **"Cada uma organiza o jogo com uma lógica diferente. Nenhuma prevê o resultado, isso ninguém consegue."**
-5. **"Testa as cinco. Link na bio."**
+1. **"Se você gera vários jogos e deixa tudo no aleatório, pode estar cometendo um erro."**
+2. **"Porque aleatório não significa variedade."**
+3. **"Você pode gerar 10, 20, 30 jogos e acabar repetindo características muito parecidas entre eles."**
+4. **"É por isso que eu não trabalho de um jeito só."**
+5. **"Eu tenho cinco estratégias diferentes para montar seus jogos."**
+6. **"Posso buscar equilíbrio estatístico, controlar a repetição de números do último concurso, analisar tendências recentes ou até procurar padrões semelhantes aos que já apareceram em sorteios anteriores."**
+7. **"Cada estratégia olha para os números de um jeito diferente."**
+8. **"Porque se você vai fazer vários jogos, faz muito mais sentido dar uma lógica ao conjunto do que simplesmente jogar números aleatórios."**
+9. **"Eu sou o Trevin. Me segue pra mais dicas."**
 
-Ler como um áudio único e contínuo (não 5 arquivos separados): as pausas naturais entre as falas marcam o corte entre as cenas do vídeo depois. A Fala 3 (nomes das estratégias) precisa de uma pausa curta e igual entre cada nome, pois é ela que vai marcar os cortes uniformes da Cena 2 no vídeo.
+Ler como um áudio único e contínuo (não 9 arquivos separados): as pausas naturais entre as falas marcam o corte entre as cenas do vídeo depois. A Fala 6 (as quatro estratégias citadas em sequência) precisa de uma pausa curta e igual entre cada uma, pois é ela que vai marcar os cortes uniformes da Cena 3 no vídeo.
 
 ---
 
@@ -20,19 +24,23 @@ Ler como um áudio único e contínuo (não 5 arquivos separados): as pausas nat
 
 | Fala | Cena correspondente | Duração estimada* |
 |---|---|---|
-| 1. "Todo gerador de jogo é igual?..." | Cena 1 (seletor de estratégia) | ~4s |
-| 2. "Eu tenho cinco estratégias..." | Cena 2, início | ~2–3s |
-| 3. "Aleatório equilibrado. Equilíbrio..." | Cena 2, sequência das 5 | ~8–10s |
-| 4. "Cada uma organiza o jogo..." | Cena 3 (reforço) | ~4s |
-| 5. "Testa as cinco. Link na bio." | Cena 4 (CTA) | ~2–3s |
+| 1. "Se você gera vários jogos..." | Cena 1 (jogos aleatórios parecidos) | ~5–6s |
+| 2. "Porque aleatório não significa..." | Cena 1, sequência | ~2s |
+| 3. "Você pode gerar 10, 20, 30..." | Cena 1, fecho | ~5–6s |
+| 4. "É por isso que eu não trabalho..." | Cena 2, início (seletor de estratégia) | ~3s |
+| 5. "Eu tenho cinco estratégias..." | Cena 2, fecho | ~3s |
+| 6. "Posso buscar equilíbrio..." | Cena 3 (corte rápido das estratégias) | ~9–10s |
+| 7. "Cada estratégia olha..." | Cena 4 (jogos lado a lado) | ~3–4s |
+| 8. "Porque se você vai fazer..." | Cena 5 (geração em lote organizada) | ~7–8s |
+| 9. "Eu sou o Trevin. Me segue..." | Cena 6 (CTA) | ~3s |
 
-*Não apressar a fala para caber em 20 segundos. Se o áudio real sair mais longo, é preferível esticar a duração total do vídeo a acelerar a locução, mesma lição já aplicada nos reels de 27/08 e 08/09.
+*Não apressar a fala pra caber num tempo fixo. Se o áudio real sair mais longo (o total estimado aqui já passa de 40 segundos), é preferível esticar a duração total do vídeo a acelerar a locução, mesma lição já aplicada nos reels de 27/08 e 08/09.
 
 ---
 
-## PRONÚNCIA OBRIGATÓRIA: "TREVIN" (se o nome for falado em alguma versão)
+## PRONÚNCIA OBRIGATÓRIA: "TREVIN"
 
-Esta narração não cita o nome "Trevin" em nenhuma fala. Caso alguma versão futura inclua o nome, a pronúncia correta é **tre-VIN** (força na última sílaba, nunca "TRÉ-vin" ou pronúncia em inglês).
+A Fala 9 cita o nome "Trevin". A pronúncia correta é **tre-VIN** (força na última sílaba, nunca "TRÉ-vin" ou pronúncia em inglês).
 
 ---
 
@@ -42,11 +50,12 @@ Português brasileiro (pt-BR). Voz masculina brasileira com timbre de personagem
 
 ### Ritmo por fala
 
-* **Fala 1 (hook):** tom de pergunta genuína, levemente provocador, não sarcástico.
-* **Fala 2:** tom confiante, introduzindo o assunto.
-* **Fala 3 (as 5 estratégias):** ritmo de lista, pausa curta e igual entre cada nome, sem acelerar no final.
-* **Fala 4:** tom explicativo e honesto, reforço claro sem soar como aviso legal engessado.
-* **Fala 5 (CTA):** tom confiante e convidativo, sem pressa.
+* **Falas 1 a 3 (hook e problema):** tom direto, quase de alerta amigável, sem soar dramático.
+* **Falas 4 e 5:** tom confiante, virada de "eis o problema" pra "eis a solução".
+* **Fala 6 (as estratégias em sequência):** ritmo de lista, pausa curta e igual entre cada uma, sem acelerar no final.
+* **Fala 7:** tom explicativo, reforço claro sem soar como aviso legal engessado.
+* **Fala 8:** tom conclusivo, fechando o raciocínio.
+* **Fala 9 (nome + CTA):** tom confiante e convidativo, sem pressa.
 
 **Não usar:** voz humana genérica de narrador, voz infantil, voz de desenho animado, voz robótica caricata, sotaque estrangeiro, pronúncia inglesa, entusiasmo exagerado, fala apressada.
 
