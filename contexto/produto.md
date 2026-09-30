@@ -1,6 +1,6 @@
 # Jogos Bem Feitos: Visão Geral do Produto
 
-> Última atualização: 2026-08-20
+> Última atualização: 2026-09-29
 
 ## O que é
 
@@ -68,6 +68,95 @@ inteligente):
 ## 3. Autenticação e segurança
 
 Login seguro via JWT, com controle de acesso por plano contratado.
+
+## 4. Funcionalidades da plataforma (descrição oficial, 2026-09)
+
+O Jogos Bem Feitos reúne ferramentas para consultar resultados, gerar e organizar
+jogos, cadastrar apostas e gerenciar participantes e créditos. A plataforma facilita
+o acompanhamento das apostas e o compartilhamento das informações com os jogadores.
+
+> Parte do que aparece no roadmap abaixo (apostas, jogadores e saldos, grupos de
+> jogos, resultados, extensão) já está descrito aqui como funcionalidade disponível.
+> Em caso de conflito, vale esta seção.
+
+### Resultados de todas as modalidades
+
+Consulte os resultados dos concursos das modalidades disponíveis na plataforma em um
+único lugar. Visualize os números sorteados e as informações do sorteio para
+acompanhar os concursos e conferir seus jogos.
+
+### Extensão para o Chrome
+
+Acesse recursos do Jogos Bem Feitos diretamente pelo navegador, por meio de uma
+extensão com painel lateral e acesso mediante login. A extensão auxilia na inserção
+dos jogos no ambiente de apostas, com controle dos jogos já inseridos e dos que ainda
+estão pendentes.
+
+### Cadastro e gerenciamento de apostas
+
+Cadastre e organize suas apostas, reunindo os jogos, os participantes, as cotas e as
+informações do concurso. Acompanhe os dados de cada aposta desde sua preparação até a
+conferência do resultado.
+
+#### Link público da aposta
+
+Compartilhe uma página de consulta com todas as informações da aposta. Quem receber o
+link poderá visualizar os jogos, os participantes, as quantidades, os dados do sorteio
+e a aba de resultado.
+
+A página apresenta as informações em modo de visualização, sem opções de edição,
+facilitando o acompanhamento pelos participantes.
+
+#### Textos para compartilhar no WhatsApp
+
+Gere textos prontos para copiar e enviar pelo WhatsApp, facilitando a comunicação com
+os jogadores:
+
+- **Resumo completo da aposta:** apresenta os detalhes para acompanhamento do grupo.
+- **Resumo resumido:** reúne as principais informações em uma mensagem mais curta.
+- **Lista de jogadores e saldos:** informa os participantes e seus créditos atuais.
+- **Resultado da aposta:** apresenta a quantidade de jogos premiados, o valor recebido
+  e o valor por cota.
+
+#### Cálculo automático do resultado
+
+Confira os jogos cadastrados a partir do resultado do concurso. A plataforma calcula
+os acertos e consolida as informações de premiação da aposta, permitindo acompanhar os
+jogos premiados, o total recebido e a distribuição por cota.
+
+### Cadastro de jogadores
+
+Cadastre os jogadores para organizar os participantes das apostas e acompanhar suas
+participações. Mantenha os registros centralizados, facilitando a identificação de
+quem participa de cada aposta.
+
+#### Gerenciamento de créditos
+
+Controle os créditos de cada jogador, acompanhe os saldos disponíveis e registre as
+movimentações. Esse recurso facilita a organização dos valores utilizados nas
+participações e a consulta do saldo individual.
+
+### Cadastro de jogos
+
+Cadastre e mantenha seus jogos organizados na plataforma. Consulte as combinações
+registradas e vincule os jogos às apostas, facilitando a preparação e a conferência
+dos concursos.
+
+### Grupos de jogos
+
+Organize conjuntos de jogos em grupos para facilitar sua identificação e utilização.
+Separe as combinações conforme seus próprios critérios, como estratégia ou finalidade,
+mantendo uma estrutura mais prática para consultar e selecionar os jogos.
+
+### Gerador de jogos com IA
+
+Gere combinações com o auxílio de inteligência artificial e das estratégias
+disponíveis na plataforma, como geração aleatória, repetição equilibrada,
+probabilidade, tendência histórica e perfis de combinações.
+
+O recurso facilita a criação e a organização dos jogos conforme a estratégia
+escolhida. As análises e os padrões históricos não garantem premiação nem permitem
+prever os números dos próximos sorteios.
 
 ## Roadmap em desenvolvimento
 
